@@ -1,0 +1,36 @@
+{
+  "folder": "Zr9K1uVNEI8SJMLf",
+  "name": "Corporate Meal Plan",
+  "type": "Requisition",
+  "img": "systems/triangleagency/assets/icons/requisition-icon.png",
+  "system": {
+    "reference": "",
+    "cost": 15,
+    "description": "<p>When you order food for yourself from any restaurant, you may use an Agency company card as long as you order only from this approved list of foods:</p><p>Samosas; Crepes (served folded); Onigiri. Sandwiches (cut into triangles). Pizza or pie (by the slice). Hamentaschen; Arrow Crab; Swiss Triangular Chocolates.</p><p>Additional options must be approved by your General Manager.</p>",
+    "totalUses": 1,
+    "missionUses": 1,
+    "used": 0,
+    "notes": "",
+    "unlimited": true
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "1.0.13",
+    "createdTime": 1725214962609,
+    "modifiedTime": 1725214998258,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "_id": "6sjvfiWYCKcTqVAA",
+  "sort": 125000,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!6sjvfiWYCKcTqVAA"
+}

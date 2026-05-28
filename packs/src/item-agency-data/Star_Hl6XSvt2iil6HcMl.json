@@ -1,0 +1,51 @@
+{
+  "folder": "GFOz4uUhD2fAbKL7",
+  "name": "Star",
+  "type": "Reality",
+  "_id": "Hl6XSvt2iil6HcMl",
+  "img": "systems/triangleagency/assets/icons/reality-icon.png",
+  "system": {
+    "description": "<p>Through their talent, abilities, or innate charisma, Star Agents effortlessly command affection and adoration wherever they go. Their global reach and instant recognition open doors and attract favors. Whether they are a pop artist, a political firebrand, or famous-for-being-famous, bearing witness to the Star&rsquo;s once-in-a-generation talent is reward in and of itself. This, of course, is a massive liability. In a career dedicated to discretion, secrecy, and the avoidance of Loose Ends, legions of noisy, insatiable fans serve as perpetual snarls. Friends these Agents make tend to have only their own self-interest in mind. The press is watching constantly for unusual behavior. And all of this is compounded by the sizable ego required to maintain such a position in the world. But no Star is immune to fading or falling, and the desperate need for approval present in all rising public figures keeps these Agents focused on success. Nothing is more embarrassing than a job half-done!</p>",
+    "burnoutRelease": {
+      "blurb": "Eat It Up",
+      "description": "When you're doing something that'll assert your superiority or prove your worth, ignore all Burnout."
+    },
+    "realityTrigger": {
+      "blurb": "Your Biggest Fan",
+      "description": "You have fans everywhere, and all of them want a piece of you. Someone recognizes you and is demands your attention. If you ignore them, they make a scene now and complain online later, causing the Relationship that would lose the most if\nyou fell from fame to lose one Connection. If you damage your reputation, mark the track. When it's full, your rise to stardom is finished.",
+      "track": {
+        "id": "",
+        "name": "Fallen",
+        "description": "",
+        "size": 5,
+        "milestones": {
+          "5": "<b>X</b>"
+        }
+      }
+    },
+    "relationships": {
+      "question1": "Who is your manager?",
+      "question2": "Who remains from your former life?",
+      "question3": "Who is your biggest rival?"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801382651,
+    "modifiedTime": 1722801382651,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!Hl6XSvt2iil6HcMl"
+}

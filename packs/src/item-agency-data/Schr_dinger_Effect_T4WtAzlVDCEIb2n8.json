@@ -1,0 +1,80 @@
+{
+  "folder": "47B4BLgc3ZXiBRb2",
+  "name": "Schrödinger Effect",
+  "type": "AnomalyAbility",
+  "_id": "T4WtAzlVDCEIb2n8",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>If you are not being observed directly, you do not exist to anything else. Cameras, recording devices, mirrors, and other indirect forms of observation do not count as being observed. You may affect the world however you’d like during this time - you are still physical and present. But nothing can trace you, you make no sound, and you cannot be Harmed, held, stopped, or tracked by any physical means.</p><p>In addition, when you succeed using <strong>Unbound</strong>, you may become invisible without spending any 3s.</p>",
+    "chat": "",
+    "synopsis": "Become conceptually invisible",
+    "anomaly": "eS7KC5SIpaSgrhpn",
+    "reference": "S3",
+    "quality": "attentiveness",
+    "outcomes": {},
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!T4WtAzlVDCEIb2n8"
+}

@@ -1,0 +1,84 @@
+{
+  "folder": "47B4BLgc3ZXiBRb2",
+  "name": "Ran Into My Knife",
+  "type": "AnomalyAbility",
+  "_id": "SZbmLGUTrZ6auVQp",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>When someone isn’t paying attention to either you or their surroundings, you can say <em>“Wait! Stop!”</em> and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "",
+    "anomaly": "eS7KC5SIpaSgrhpn",
+    "reference": "R1",
+    "quality": "initiative",
+    "outcomes": {
+      "success": "describe how the target stepped into danger (a knife, an open set of jaws, a moving train) that was already there. It may deal up to 1 Harm to the target.\n<p>If the target dies due to this effect, the loss empowers you. Mark one box on the Playwall <b>R1</b> track. At any time, you can erase a mark to add 1 Harm to the damage you deal with this Ability. Erase a full 10 marks to activate <b>UNL3ASH</b>.</p>",
+      "every3rd3": "you may describe how the danger also causes a non-Harm-related catastrophe to the target or their surroundings.",
+      "failure": "your confidence sets you up. The target was prepared for what you were attempting and Harms you instead."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!SZbmLGUTrZ6auVQp"
+}

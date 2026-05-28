@@ -1,0 +1,36 @@
+{
+  "folder": "qbhkM4exggvPcUMP",
+  "name": "Inherited Nametag",
+  "type": "Requisition",
+  "_id": "ucIRKK2zYHKmKvyb",
+  "img": "systems/triangleagency/assets/icons/requisition-icon.png",
+  "system": {
+    "reference": "",
+    "cost": 0,
+    "description": "<p>All Interns are given an endless packet of blank nametags. Once per Mission, you may write the name of someone you met today on a nametag and apply it somewhere on your person. Everyone except other Agents will treat you as the named person for as long as you keep the nametag on.</p>",
+    "totalUses": 1,
+    "missionUses": 1,
+    "used": 0,
+    "notes": "",
+    "unlimited": false
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801408523,
+    "modifiedTime": 1725215175286,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!ucIRKK2zYHKmKvyb"
+}

@@ -1,0 +1,30 @@
+{
+  "folder": "yO4nEJ41LORK5Bca",
+  "name": "Growth",
+  "type": "Anomaly",
+  "_id": "QeG4FEIg0thHuwYW",
+  "img": "systems/triangleagency/assets/icons/anomaly-icon.png",
+  "system": {
+    "description": "<p>Invulnerable heroes. Monsters galloping on a thousand arms. Burglars spotting their prize through walls, and in the dark. Growth mutates the flesh to change the future. Equally comfortable in human society and untamed nature, Growths hide in plain sight. They fit in alongside the planet&rsquo;s natural cycles, tweaking small things to great consequence. Imagine a sympathetic mole is given great size to protect its territory, or a CFO has a sudden boost of intuition, or a butterfly&rsquo;s wings are slightly larger. Soon earthquakes, earnings, and hurricanes are picking up and the Growth gains power in their wake.</p>",
+    "abilities": []
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!QeG4FEIg0thHuwYW"
+}

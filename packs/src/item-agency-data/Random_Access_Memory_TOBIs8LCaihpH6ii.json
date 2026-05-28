@@ -1,0 +1,85 @@
+{
+  "folder": "kE8ZnYG6BZpNJHMx",
+  "name": "Random Access Memory",
+  "type": "AnomalyAbility",
+  "_id": "TOBIs8LCaihpH6ii",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>When someone describes a memory, save it to a folder. Touch them with any kind of technology that stores information (camera, phone, CD, etc.) and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Store a memory",
+    "anomaly": "pERhmmz8N0cKYUe3",
+    "reference": "R2",
+    "quality": "empathy",
+    "outcomes": {
+      "success": "the target loses the entire memory, and you receive it as a file on that device. By tapping the device on someone else (including yourself), that person receives the memory, intact, as if they were the target. Their mind smooths over inconsistencies in detail. When used in this way, the file disappears and cannot be reused.",
+      "triscendence": "you may replace the target’s lost memory with one of your choosing.",
+      "every3rd3": "choose one:<ul>\n<li>Save an additional copy of the same memory, dispensable before the drive disappears.</li>\n<li>Remove an additional memory connected emotionally to the first one, one the target did not describe.</li>\n<li>Make a backup copy that can be returned only to the\noriginal target, at any time.</li>\n</ul>",
+      "failure": "the copy you create instead contains a memory of your own that describes a dire vulnerability or difficult truth. The target also loses their memory, but that copy is created somewhere else; someone has it, somewhere…but it’s not the target, and it’s not you."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!TOBIs8LCaihpH6ii"
+}

@@ -1,0 +1,84 @@
+{
+  "folder": "EUXv71E1Ef8t6s11",
+  "name": "Daydream",
+  "type": "AnomalyAbility",
+  "_id": "cn2oPiOQzkVeIU4M",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Connect big emotions to stray thoughts. Ask any target to interpret something (<em>“What does that cloud look like to you?”, “What do you think this song means?”, “What happens in the third act of that play?”</em> etc.) Listen to their answer and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Imprint a target's interpretation onto their psyche",
+    "anomaly": "CDsjaFFWPiSydrw2",
+    "reference": "D1",
+    "quality": "subtlety",
+    "outcomes": {
+      "success": "you may make the target’s answer into the target’s worst fear, greatest goal, or most secret desire (Their worst fear\nbecomes “a cat eating a palm tree,” their greatest goal becomes “one too many breakups,” their most secret desire becomes “like, a BUNCH of murders,” etc.) This effect lasts until the next time they sleep.",
+      "triscendence": "you may permanently replace any facet of the target’s personality with their answer.",
+      "failure": "they can immediately learn the true answer to the next question they ask you, and they become aware of this fact."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "I think being a good friend means...",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "Teaching them to help themselves.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "Y3"
+        },
+        "answer2": {
+          "text": "Becoming whoever they need.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "D2"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!cn2oPiOQzkVeIU4M"
+}

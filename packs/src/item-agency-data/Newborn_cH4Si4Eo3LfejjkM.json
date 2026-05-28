@@ -1,0 +1,51 @@
+{
+  "folder": "GFOz4uUhD2fAbKL7",
+  "name": "Newborn",
+  "type": "Reality",
+  "_id": "cH4Si4Eo3LfejjkM",
+  "img": "systems/triangleagency/assets/icons/reality-icon.png",
+  "system": {
+    "description": "<p>Whether freshly hatched, recently booted up, or simply new to our world, Newborn Agents are unfamiliar with modern life. Most Newborns can&rsquo;t read, so we assume that a trusted guardian is interpreting this page&rsquo;s contents for them. Guardian: once you have helped this Agent assemble their ARC, please report to Human Resources for processing and decontamination.</p>",
+    "burnoutRelease": {
+      "blurb": "Just Like Home",
+      "description": "When you're doing something that'll make the world more like you, ignore all Burnout."
+    },
+    "realityTrigger": {
+      "blurb": "Still Learning",
+      "description": "You forget - or have never known - how to do something common (open a door, operate a toaster, fire a gun, etc.). You can't do it right now, and need assistance or an alternative. If you don't take the time to find either, you're embarrassed and the Relationship whose opinion you value most loses one Connection. If you change something about yourself to fit into the world, mark the track.",
+      "track": {
+        "id": "",
+        "name": "Self-Made",
+        "description": "",
+        "size": 5,
+        "milestones": {
+          "5": "<b>X</b>"
+        }
+      }
+    },
+    "relationships": {
+      "question1": "Who is your favorite teacher?",
+      "question2": "Who relies on your unusual perspective?",
+      "question3": "Who loves to take advantage of your naivete?"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801382651,
+    "modifiedTime": 1722801382651,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!cH4Si4Eo3LfejjkM"
+}

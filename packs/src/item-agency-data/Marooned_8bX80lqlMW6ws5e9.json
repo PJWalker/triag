@@ -1,0 +1,84 @@
+{
+  "folder": "EUXv71E1Ef8t6s11",
+  "name": "Marooned",
+  "type": "AnomalyAbility",
+  "_id": "8bX80lqlMW6ws5e9",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Art is a prison, and you are its newest warden. Point out a work of art to someone and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Imprison someone in art",
+    "anomaly": "CDsjaFFWPiSydrw2",
+    "reference": "M4",
+    "quality": "subtlety",
+    "outcomes": {
+      "success": "you send the target into the artwork, and they become a part of it: a second figure in an oil portrait, a new character in a film, a vocalist on a song, etc.\n<p>You contort them to conform to the format of the artwork: they remain still in their image, they stick to their script in the movie, they give the same performance every time. They experience time normally while trapped in this way, but do not age. This effect ends when you choose to end it, or when you use this ability again on a different target.</p>\n<p>The history of the piece is still intact: anyone familiar with the art can see that something is different.</p>",
+      "every3rd3": "you may send an additional nearby target into the same piece of art.",
+      "failure": "they are banished to the artwork forever, and cannot return."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "I believe people should make art...",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "To connect with others.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "T8"
+        },
+        "answer2": {
+          "text": "To work through their own issues.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "R3"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!8bX80lqlMW6ws5e9"
+}

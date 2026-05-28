@@ -1,0 +1,84 @@
+{
+  "folder": "16yAQdlvCXM40LTi",
+  "name": "Where We All Go",
+  "type": "AnomalyAbility",
+  "_id": "EkJAtitWg9UTzlf0",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Load your soul into your Gun. Enter the space where the Eliminated are kept and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Reconnect with the Eliminated",
+    "anomaly": "CVBKoAdfkebKDAtW",
+    "reference": "W4",
+    "quality": "professionalism",
+    "outcomes": {
+      "success": "you may seek someone or something Eliminated and communicate with them. In your path are 5 other things you have Eliminated, each with a grievance. You must trade them a 3, take 1 Harm, or make a promise related to their grievance to continue past them. These promises are powerful, and binding: if you do not fulfill a promise or miss an opportunity to do so, you die as if targeted by the <b>Overwhelm</b> Chaos Effect.",
+      "failure": "one of the targets you’ve Eliminated returns to your body and takes it for themselves. You die, and now this other self with another Gun is at large.",
+      "triscendence": "you may take the Eliminated target you seek back from this space with you into Reality. They will always carry a physical mark of their Elimination. It doesn’t always look like a bullet wound."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "Only you can answer this question. Be prepared for serious consequences if you do. Do you regret it?",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "Yes.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 1,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "W2"
+        },
+        "answer2": {
+          "text": "No.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 0,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!EkJAtitWg9UTzlf0"
+}

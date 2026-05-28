@@ -1,0 +1,30 @@
+{
+  "folder": "yO4nEJ41LORK5Bca",
+  "name": "Whisper",
+  "type": "Anomaly",
+  "_id": "qMpjg1WXwmnUly8O",
+  "img": "systems/triangleagency/assets/icons/anomaly-icon.png",
+  "system": {
+    "description": "<p>Beautiful sentiments turned sour in the telling. Casual conversations escalated to great fights. Final goodbyes drowned out by noise. Whispers edit their own story as it&rsquo;s told.</p>\n<p>Whispers are masters of the moment when sound becomes information. They're careless and manipulative; no need for caution when they can always get a do-over, no fear of getting caught when their actions seem so subtle. Could a single conversation really become a year of misery? Could one missed word create a decade of despair? When a Whisper is around, absolutely.</p>",
+    "abilities": []
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!qMpjg1WXwmnUly8O"
+}

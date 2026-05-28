@@ -1,0 +1,84 @@
+{
+  "folder": "8vkjXfpy8MxHBcCF",
+  "name": "Meld",
+  "type": "AnomalyAbility",
+  "_id": "BrtyUSPLVmGfYuJr",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>All flesh is compatible with yours. Combine with another willing person and roll [quality].</p><p>If the target is a Resonant, they also roll <strong>Empathy</strong> and add their 3s (and Chaos) to your total. Any amount of 3s is still a success.</p>",
+    "chat": "",
+    "synopsis": "Merge completely with another person",
+    "anomaly": "QeG4FEIg0thHuwYW",
+    "reference": "M6",
+    "quality": "empathy",
+    "outcomes": {
+      "success": "The two of you combine. You may have a number of limbs and features (such as eyes) equal to the total of the combined people, or you may combine features to create larger ones. The combination is controlled through\nnegotiation between the original players of the lifeforms, and any serious disagreement ends the effect. The effect can also end at any time either party decides it should. If both lifeforms are Resonants, they may use each other’s QAs and abilities freely.",
+      "triscendence": "Meld can combine with another target to create a combination of 3 people. If three Agents combine and all experience Triscendence, you gain <b>Perfect Narrative Control</b>. Describe what you accomplish when there is nothing holding any of you back. Then, the Meld ends.",
+      "failure": "the meld happens, but the combination is inextricable and\nyour individual personalities disappear into a new being with an unpredictable personality and goals. You are both considered dead, but the combination lives on. The GM controls it."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!BrtyUSPLVmGfYuJr"
+}

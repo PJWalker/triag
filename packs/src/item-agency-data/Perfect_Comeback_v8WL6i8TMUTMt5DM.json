@@ -1,0 +1,84 @@
+{
+  "folder": "fzChvOHarZUydEJB",
+  "name": "Perfect Comeback",
+  "type": "AnomalyAbility",
+  "_id": "v8WL6i8TMUTMt5DM",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>When someone or something targets you with something intended to Harm you, tries to hurt your feelings, or starts doing something you want to stop, you know just the right thing to say. Say it and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Avert danger with a few well-placed words",
+    "anomaly": "qMpjg1WXwmnUly8O",
+    "reference": "P4",
+    "quality": "professionalism",
+    "outcomes": {
+      "success": "your words are convincing enough to make them second-guess themself. Choose an Effect:<ul>\n<li><b>Embarrass</b>: They fumble, lose their balance, and/or drop whatever they’re holding</li>\n<li><b>Call Out</b>: They pause to reflect on what brought them to this point, temporarily ignoring their surroundings</li>\n<li><b>Taunt</b>: You stoke their rage; whatever they were just doing, they double down, doing it bluntly and indiscriminately</li>\n<li><b>Flirt</b>: You turn it around on them, and their disdain begins to move into adoration</li>\n</ul>",
+      "triscendence": "you know just how to string them along. The next 3 sentences you say to them can have a powerful suggested subtext, which they will be inclined to follow. You can choose new targets for their ire, activate additional Effects above, or distract them into doing something else entirely.",
+      "failure": "they’ve successfully learned to tune you out. They are no longer susceptible to your Whisper powers, ever."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "I'm more worried about...",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "Saying something wrong.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "R11"
+        },
+        "answer2": {
+          "text": "Missing something important.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "C5"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!v8WL6i8TMUTMt5DM"
+}

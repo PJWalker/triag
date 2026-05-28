@@ -1,0 +1,84 @@
+{
+  "folder": "nMw5TZVUUcixbUMm",
+  "name": "Borrow",
+  "type": "AnomalyAbility",
+  "_id": "qvrYMgWw0SIxh2gE",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>You may choose a feature of a mundane target and roll [quality] to take it for yourself. Their face, their voice, their love, their fingerprints - now you have it, and they do not.</p>",
+    "chat": "",
+    "synopsis": "",
+    "anomaly": "olkslTZqenoaKhbD",
+    "reference": "",
+    "quality": "duplicity",
+    "outcomes": {
+      "success": "this effect lasts for up to one hour.",
+      "eachplus3": "choose one:<ul>\n<li>The target keeps a flawed version of what’s borrowed.</li>\n<li>The effect lasts an additional hour.</li>\n<li>You may share what’s borrowed with one other target.</li>\n</ul>",
+      "failure": "the target loses what you’ve taken permanently, and no one gets it. They remember what they have lost."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "People love me because...",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "If they don't, I find new people",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "R9"
+        },
+        "answer2": {
+          "text": "I make sure I'm flawless.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "S15"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!qvrYMgWw0SIxh2gE"
+}

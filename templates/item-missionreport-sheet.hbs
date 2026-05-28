@@ -1,0 +1,359 @@
+<form class="{{cssClass}}" style="background: white" autocomplete="off">
+  <div>
+    <header class="flexrow" style="justify-content: space-between">
+      <h2><strong>{{localize "TA.Mission.MissionReport"}}</strong> – {{localize "TA.Mission.Incident"}} #{{incidentCode}}</h2>
+      <div class="pad" style="flex-grow: 0">
+        {{#if isGM}}
+        <div>
+          <label for="missionResolved">{{localize "TA.Mission.StatusResolved"}}</label>
+          <label class="switch">
+            <input id="missionResolved" type="checkbox" {{checked system.resolved}} />
+            <span class="slider round"></span>
+          </label>
+        </div>
+        {{else}}
+        <strong class="{{#if system.resolved}}color-green{{else}}color-red blink{{/if}}">
+          {{#if system.resolved}}
+          {{localize "TA.Mission.StatusResolved"}}
+          {{else}}
+          {{localize "TA.Mission.StatusOngoing"}}
+          {{/if}}
+        </strong>
+        {{/if}}
+      </div>
+    </header>
+
+    <div class="flexrow pad">
+      <div class="card">
+        <header>Field Notes</header>
+        {{editor system.otherstatus target="system.otherstatus" engine="prosemirror" button=false editable=true collaborate=true }}
+      </div>
+      <div class="card" style="flex-grow: 0; min-width: max-content">
+        <header
+          style="
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+          "
+        >
+          {{localize "TA.Mission.IncidentTeam"}}
+          {{#if isGM}}
+          <i
+            id="importTeam"
+            class="fa-solid fa-file-import"
+            title="{{localize "TA.Mission.ImportTeam"}}"
+            style="margin-left: 4px; cursor: pointer; vertical-align: middle"
+          ></i>
+          {{/if}}
+        </header>
+        <div class="pad">
+          {{#each extra.team}}
+          <div data-id="{{this.id}}" style="margin-bottom: 5px">{{this.name}}</div>
+          {{/each}}
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="flexrow pad">
+        <div class="card anomaly" style="flex-grow: 0; min-width: max-content">
+          <header>{{localize "TA.Mission.AnomalyStatus"}}</header>
+          <div class="pad" id="anomalyStatus">
+            <div data-status="neutralized">
+              <img
+                src="systems/triangleagency/assets/icons/ripplegun.png"
+                style="border: none; height: 24px; width: 24px; display: inline"
+                data-status="neutralized"
+              />
+              <span
+                class="articulat-bold statusLegend {{#if (eq system.status "neutralized")}}statusBackground{{/if}}"
+                data-status="neutralized"
+              >
+                {{localize "TA.Mission.Neutralized"}}
+              </span>
+            </div>
+            <div data-status="captured">
+              <img
+                src="systems/triangleagency/assets/icons/briefcase.png"
+                style="border: none; height: 24px; width: 24px; display: inline"
+                data-status="captured"
+              />
+              <span
+                class="articulat-bold statusLegend {{#if (eq system.status "captured")}}statusBackground{{/if}}"
+                data-status="captured"
+              >
+                {{localize "TA.Mission.Captured"}}
+              </span>
+            </div>
+            <div data-status="escaped">
+              <img
+                src="systems/triangleagency/assets/icons/escaped.png"
+                style="border: none; height: 24px; width: 24px; display: inline"
+                data-status="escaped"
+              />
+              <span
+                class="articulat-bold statusLegend {{#if (eq system.status "escaped")}}statusBackground{{/if}}"
+                data-status="escaped"
+              >
+                {{localize "TA.Mission.Escaped"}}
+              </span>
+            </div>
+            <div data-status="other">
+              <img
+                src="systems/triangleagency/assets/icons/interrobang.png"
+                style="border: none; height: 24px; width: 24px; display: inline"
+                data-status="other"
+              />
+              <span
+                class="articulat-bold statusLegend {{#if (eq system.status "other")}}statusBackground{{/if}}"
+                data-status="other"
+              >
+                {{localize "TA.Mission.OtherOutcome"}}
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="card anomaly">
+          <header>{{localize "TA.Mission.AnomalyAnalysis"}}</header>
+          <div class="pad">
+            <label for="name"
+              >{{localize "TA.Mission.AnomalyAlias"}}
+              <input
+                name="name"
+                type="text"
+                value="{{item.name}}"
+                style="font-weight: bold; font-size: 1.1em"
+                placeholder="Anomaly alias"
+            /></label>
+            <label for="system.behavior" style="display: block; margin-top: 1lh"
+              >{{localize "TA.Mission.AnomalyBehavior"}}</label
+            >
+            <textarea name="system.behavior">{{system.behavior}}</textarea>
+            <label for="system.focus" style="display: block; margin-top: 1lh"
+              >{{localize "TA.AnomalyFocus"}}</label
+            >
+            <textarea name="system.focus">{{system.focus}}</textarea>
+            <label for="system.domain" style="display: block; margin-top: 1lh"
+              >{{localize "TA.AnomalyDomain"}}</label
+            >
+            <textarea name="system.domain">{{system.domain}}</textarea>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="flexrow pad">
+      <fieldset>
+        <legend class="competency">{{localize "TA.Mission.FinalGrade"}}</legend>
+        <div
+          class="articulat-bold color-red"
+          style="font-size: 1.4em; text-align: center"
+        >
+          {{#if isGM}}
+          <input
+            name="system.finalgrade"
+            type="text"
+            value="{{system.finalgrade}}"
+            style="text-transform: uppercase"
+            maxlength="3"
+          />
+          {{else}}
+          &nbsp;{{system.finalgrade}}&nbsp;
+          {{/if}}
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend class="competency">{{localize "TA.Mission.Paperwork"}}</legend>
+        <div style="text-align: center">
+          {{#if isGM}}
+          <select name="system.paperwork">
+            {{selectOptions extra.paperworkStatus selected=system.paperwork valueAttr="id" labelAttr="name" localize=true}}
+          </select>
+          {{else}}
+          {{extra.paperwork}}
+          {{/if}}
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend class="competency">{{localize "TA.Mission.MVP"}}</legend>
+        <div>
+          {{#if isGM}}
+          <select name="system.mvp">
+            {{selectOptions extra.awardTeam selected=system.mvp valueAttr="id" labelAttr="name" localize=false}}
+          </select>
+          {{else}}
+          {{extra.mvpName}}
+          {{/if}}
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>{{localize "TA.Mission.Probation"}}</legend>
+        <div>
+          {{#if isGM}}
+          <select name="system.probation">
+            {{selectOptions extra.awardTeam selected=system.probation valueAttr="id" labelAttr="name" localize=false}}
+          </select>
+          {{else}}
+          {{extra.probationName}}
+          {{/if}}
+        </div>
+      </fieldset>
+    </div>
+
+    <div
+      style="
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: var(--gap);
+        padding: var(--gap);
+      "
+    >
+      <div class="card">
+        <header class="competency">
+          {{localize "TA.Agent.MissionObjectives"}}
+          {{#if isGM}}
+          <i
+            id="addObjective"
+            class="fa-solid fa-square-plus"
+            title="{{localize "TA.Mission.AddObjective"}}"
+            style="margin-left: 4px; cursor: pointer; vertical-align: middle"
+          ></i>
+          {{/if}}
+        </header>
+        <div class="cardBody">
+          {{#if isGM}}
+          <div
+            style="
+              display: grid;
+              grid-template-columns: auto 18px 2fr;
+              gap: 10px 2px;
+            "
+          >
+            {{#each extra.objectives}}
+            <div>
+              <i
+                class="deleteObjective fa-solid fa-trash fa-sm color-grey-light"
+                data-id="{{this.id}}"
+                style="cursor: pointer"
+              ></i>
+              <input
+                name="system.objectives.{{this.id}}.value"
+                type="number"
+                value="{{this.value}}"
+                min="1"
+                max="20"
+                maxlength="2"
+                oninput="this.value = this.value.slice(0, this.maxLength)"
+                style="
+                  width: 25px;
+                  margin-left: 2px;
+                  height: 16px;
+                  text-align: center;
+                "
+              />
+            </div>
+            <div class="objectiveType" data-id="{{this.id}}">
+              <img
+                src="systems/triangleagency/assets/icons/{{this.type}}-icon.png"
+                style="width: 18px; border: none"
+              />
+            </div>
+            <div>
+              <span
+                class="objectiveDesc"
+                data-id="{{this.id}}"
+                class="textarea"
+                role="textbox"
+                style="display: block; padding: 2px"
+                contenteditable
+                >{{this.description}}</span
+              >
+            </div>
+            {{/each}}
+          </div>
+          {{else}}
+          <ul style="margin: 0">
+            {{#each extra.objectives}}
+            <li style="margin-bottom: 6px">{{{this.display}}}</li>
+            {{/each}}
+          </ul>
+          {{/if}}
+        </div>
+      </div>
+
+      <div class="card">
+        <header class="competency">
+          {{localize "TA.looseends"}}
+          {{#unless system.resolved}}
+          <i
+            id="addLooseEnd"
+            class="fa-solid fa-square-plus"
+            title="{{localize "TA.Mission.AddLooseEnd"}}"
+            style="margin-left: 4px; cursor: pointer; vertical-align: middle"
+          ></i>
+          {{/unless}}
+        </header>
+        <div class="cardBody">
+          <div
+            style="
+              display: grid;
+              grid-template-columns: {{#if isGM}}14px{{/if}} 150px 20px auto;
+              gap: 6px 0;
+            "
+          >
+            {{#each extra.looseends}}
+            {{#if ../isGM}}
+            <div>
+              <i
+                class="deleteLooseEnd fa-solid fa-trash fa-sm color-grey-light"
+                data-id="{{this.id}}"
+                style="margin-top: 2px; vertical-align: middle; cursor: pointer"
+              ></i>
+            </div>
+            {{/if}}
+            <div>
+              <input
+                name="system.looseends.{{this.id}}.name"
+                type="text"
+                value="{{this.name}}"
+                style="height: 16px; margin: 2px 0 0 2px"
+              />
+            </div>
+            <div>
+              <input
+                name="system.looseends.{{this.id}}.value"
+                type="number"
+                value="{{this.value}}"
+                min="1"
+                max="9"
+                maxlength="1"
+                oninput="this.value = this.value.slice(0, this.maxLength)"
+                style="
+                  width: 20px;
+                  margin: 2px 0 0 2px;
+                  height: 16px;
+                  text-align: center;
+                "
+              />
+            </div>
+            <div>
+              <span
+                class="looseEndDesc"
+                data-id="{{this.id}}"
+                class="textarea"
+                role="textbox"
+                style="display: block; padding: 2px"
+                contenteditable
+                >{{this.description}}</span
+              >
+            </div>
+            {{/each}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>

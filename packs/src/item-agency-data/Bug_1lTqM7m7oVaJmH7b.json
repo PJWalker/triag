@@ -1,0 +1,84 @@
+{
+  "folder": "fzChvOHarZUydEJB",
+  "name": "Bug",
+  "type": "AnomalyAbility",
+  "_id": "1lTqM7m7oVaJmH7b",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Accept a promise from someone and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Keep tabs on someone",
+    "anomaly": "qMpjg1WXwmnUly8O",
+    "reference": "B9",
+    "quality": "subtlety",
+    "outcomes": {
+      "success": "you place a <b>Bug</b>: until the target has fulfilled the promise they made to you (or until they are no longer able to complete it) they are a perfect microphone. At any time, you can tune into their frequency to hear anything they’re saying or that is being said to them. You can have up to 3 instances of this effect active at a time",
+      "every3rd3": "the Bug can be passed once. When the target speaks to someone, you can choose to move the Bug to them. This effect still ends when the initial target fulfills their promise or is no longer able to complete it.",
+      "failure": "you are Bugged by the target. They'll hear your voice and those speaking to you in a way they cannot control for at least a day. Create at least one Loose End."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "I convince others to do what I want with...",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "Dramatic ultimatums.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "B5"
+        },
+        "answer2": {
+          "text": "Subtle hints.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "P9"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!1lTqM7m7oVaJmH7b"
+}

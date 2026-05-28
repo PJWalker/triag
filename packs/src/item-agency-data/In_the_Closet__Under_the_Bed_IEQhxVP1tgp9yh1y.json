@@ -1,0 +1,85 @@
+{
+  "folder": "EUXv71E1Ef8t6s11",
+  "name": "In the Closet, Under the Bed",
+  "type": "AnomalyAbility",
+  "_id": "IEQhxVP1tgp9yh1y",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Monsters are everywhere, hiding in plain sight. Tempt them into the light: dangle your feet over the edge of a bed, reach your hand into the back of a closet, or snuff out a candle, and then whisper a target’s name. Roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Make something appear monstrous",
+    "anomaly": "CDsjaFFWPiSydrw2",
+    "reference": "I6",
+    "quality": "duplicity",
+    "outcomes": {
+      "success": "whenever that target is looking directly at an inanimate object, that object becomes monstrous (a chair opens its toothy maw, a carpet reveals its impossible depth, a celebrity reaches out of a billboard to strangle them with giant hands, etc.) Singularly evil, objects animated this way will seek to cause the target maximum fear:  consuming, intimidating, destroying and otherwise menacing indiscriminately. When the target is no longer looking directly at an object, the object reverts to its original form, inert and nonthreatening. This effect lasts until the next sunrise.\n<p>If the target does not use sight to sense their surroundings, or if they keep their eyes closed, objects do not animate.</p>",
+      "every3rd3": "choose one:<ul>\n<li>This effect also applies to non-Anomalous creatures the target looks at.</li>\n<li>Objects animated this way can communicate a single simple idea to the target (“run away,” “don’t go downstairs,” “share your password,” etc.)</li>\n<li>Objects animated this way revert to their original form if anyone other than the target looks at them.</li>\n</ul>",
+      "triscendence": "you may instead haunt them with one persistent animate object that only stops pursuing them when it has been dealt 5 Harm or you have dismissed it. This object remains animate even if it is not perceived with sight.",
+      "failure": "every object around you becomes monstrous, and singularly focused on causing you as much terror as possible."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!IEQhxVP1tgp9yh1y"
+}

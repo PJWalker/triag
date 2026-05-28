@@ -1,0 +1,84 @@
+{
+  "folder": "EUXv71E1Ef8t6s11",
+  "name": "Sandstorm",
+  "type": "AnomalyAbility",
+  "_id": "vsxaNpstnE2Dqp1J",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>If your pouch of sand isn’t on hand, ask someone else for theirs. Whenever somebody nearby is about to open a container of any size, roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Use sand from other containers",
+    "anomaly": "CDsjaFFWPiSydrw2",
+    "reference": "S1",
+    "quality": "initiative",
+    "outcomes": {
+      "success": "the container is also full of sleeping sand, which explodes out in an airborne cloud. Anyone who inhales this dust while it is airborne falls asleep.",
+      "failure": "you become filled with the sand instead. Your limbs become rigid, your vision blurry, your mouth dry. Even slight damage to your newly paper-thin skin will cause you to burst, releasing a pile of sand that puts anyone nearby to sleep.",
+      "eachplus3": "secretly select something that closes and place your sealed selections in a place all players can see. Make sure your selections are written separately. Examples may include a vial, book, briefcase, jacket, guitar case, mouth, etc.\n<p>For the rest of the Mission, when something matching your selections opens, you may reveal it, discard it, and choose to replicate the effect of a success without rolling. You can only use any given selection once per Mission.</p>"
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "Which do I need more?",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "To relax.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "W9"
+        },
+        "answer2": {
+          "text": "Deadly weapons.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "G1"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!vsxaNpstnE2Dqp1J"
+}

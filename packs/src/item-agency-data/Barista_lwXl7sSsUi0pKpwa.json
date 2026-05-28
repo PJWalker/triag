@@ -1,0 +1,37 @@
+{
+  "folder": "UL3HWyofCJWKnNuT",
+  "name": "Barista",
+  "type": "Competency",
+  "_id": "lwXl7sSsUi0pKpwa",
+  "img": "systems/triangleagency/assets/icons/competency-icon.png",
+  "system": {
+    "description": "<p>Baristas know that everyone&rsquo;s day starts better with a smile, and that when smiles are in short supply caffeine is an ample substitute. They prime society&rsquo;s pump, ensuring ideas, energy, and blood are all flowing in time for the opening bell. Not merely confined to work behind an espresso machine, Agency Baristas are embedded wherever energy reserves are most depleted: as cheerleaders, substitute teachers, and prank video artists, to name a few.</p>",
+    "primeDirectiveBlurb": "Keep the Mood Fresh",
+    "primeDirective": "Each time you say someone's name correctly, receive 1 Demerit.",
+    "sanctionedBehaviors": {
+      "act1": "Make someone feel welcome.",
+      "act2": "Show off your specialized knowledge.",
+      "act3": "Get some blood flowing."
+    },
+    "initialRequisition": "2y3MZNwefeJ6R9d9"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801394109,
+    "modifiedTime": 1722801394109,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!lwXl7sSsUi0pKpwa"
+}

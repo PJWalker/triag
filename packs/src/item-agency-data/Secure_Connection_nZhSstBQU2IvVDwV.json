@@ -1,0 +1,84 @@
+{
+  "folder": "FbWHYEaYHPS7AP9Y",
+  "name": "Secure Connection",
+  "type": "AnomalyAbility",
+  "_id": "nZhSstBQU2IvVDwV",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Choose two targets with minds (you can be one of them). Clap and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Link two targets' minds",
+    "anomaly": "QFZ908dwWMLydS1m",
+    "reference": "S4",
+    "quality": "empathy",
+    "outcomes": {
+      "success": "you remove the distance between the targets’ thoughts. They both know exactly what the other is thinking with complete immediacy. This can be used for high levels of cooperation, to share information, or to create a standoff.\n<p>Resisting thinking about specific things when they are brought up verbally or visually requires a successful <b>Professionalism</b> roll - mundane targets cannot resist without specific and extensive training.</p>\n<p>Many Anomalous targets do not have minds you are able to connect completely, or easily. This effect ends when you fall unconscious; you may choose to end it at any time before then.<p>",
+      "triscendence": "you can make this connection one-way in either direction.",
+      "failure": "the two targets’ minds swap, permanently."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!nZhSstBQU2IvVDwV"
+}

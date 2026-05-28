@@ -1,0 +1,85 @@
+{
+  "folder": "fzChvOHarZUydEJB",
+  "name": "Hush",
+  "type": "AnomalyAbility",
+  "_id": "4GTKNR56vZXfEPa8",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Quiet hours have begun. Put your finger to your lips and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "",
+    "anomaly": "qMpjg1WXwmnUly8O",
+    "reference": "H2",
+    "quality": "presence",
+    "outcomes": {
+      "success": "for the next hour, everything within 100 meters of you becomes your <b>Library</b>. Everyone in your Library immediately and subconsciously understands that they should be quiet, and that excessive noise will be punished.  This does not immediately generate Loose Ends: any affected people who are unaware of your power will treat this as a sudden superstition.\n<p>Any time somebody in your Library makes or causes a noise louder than a human whisper (33db), you hear it and know exactly where they are.</p>",
+      "triscendence": "you may force everything within your Library, living or otherwise, to arrange themselves in alphabetical order.",
+      "failure": "the energy concentrates on you instead of enveloping the area. You become a beacon of Anomalous energy, and function as a Domain for Major Anomalies: any Chaos spent to affect you or anything within 3 meters of you spends at 3x its value.",
+      "eachplus3": "you may choose an additional affect to apply to any target that makes noise within your Library:<ul>\n<li>You become physically insubstantial and untouchable to the target.</li>\n<li>You can target them with Anomaly Abilities while they are in your Library, whether they fulfill the standard target requirements or not, and receive one free Quality Assurance to do so.</li>\n<li>They receive a Warning. After two Warnings, on the next use of this option they die.</li>\n<li>You may force them to recite an informative monologue related to one of the following subjects: Computer Science, Information, and General Works; Philosophy and Psychology; Religion; Social Sciences; Language; Biology; Arts and Recreation; Literature; History and Geography.</li>\n</ul>"
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!4GTKNR56vZXfEPa8"
+}

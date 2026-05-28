@@ -1,0 +1,85 @@
+{
+  "folder": "kE8ZnYG6BZpNJHMx",
+  "name": "Little Hand",
+  "type": "AnomalyAbility",
+  "_id": "SSIP1nzlwmDxtBec",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>You create and can now wield a powerful artifact: <strong>Little Hand</strong>. Little Hand is a short, dagger-like weapon that deals no Harm. When you would like to wield Little Hand, strike a target or tap a clock with it and roll [quality].</p><p>When you have <strong>B4</strong>, <strong>L5</strong>, and <strong>C8</strong>, receive <strong>R15</strong>.</p>",
+    "chat": "",
+    "synopsis": "Gain a tool to manipulate time",
+    "anomaly": "pERhmmz8N0cKYUe3",
+    "reference": "L5",
+    "quality": "subtlety",
+    "outcomes": {
+      "success": "the target is hit with Little Hand. The most recent Harm or destruction caused by the target is undone. Anyone or anything previously Harmed is physically unscathed, although they remember what happened.\n<p>If the target has never caused any Harm or destruction, tiny springs fly out in every direction like sparks from the point of contact. When this happens, Little Hand breaks and cannot be used for the remainder of this mission.</p>\n<p>Tapped clocks ignore this effect.</p>",
+      "every3rd3": "choose one:<ul>\n<li>Time advances by one hour.</li>\n<li>Time rewinds by one hour.</li>\n<li>A loud gong sound reverberates from the point of your attack that can be heard up to 100 meters away and shatters any nearby glass.</li>\n<li>A person or package that someone nearby is anticipating arrives, regardless of how long it would normally take.</li>\n</ul>",
+      "triscendence": "you may experience the next 60 seconds as if they are 60 minutes, the rest of the world moving slowly around you. You may bring any objects or people you can hold with you as you experience time in this way.",
+      "failure": "the GM will undo the most significant instance of Harm dealt by you or one of your allies within the last 3 Missions."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!SSIP1nzlwmDxtBec"
+}

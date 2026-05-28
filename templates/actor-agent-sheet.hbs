@@ -1,0 +1,944 @@
+<form class="{{cssClass}}" autocomplete="off">
+  <nav class="flexrow tabbed" data-group="primary" id="agent-tabs">
+    <ul>
+      <li data-tab="profile">{{localize "TYPES.Actor.Agent"}}</li>
+      {{#if system.anomaly.type}}
+      <li data-tab="anomaly">{{localize "TA.AnomalyAbilities"}}</li>
+      {{/if}}
+      {{#if system.reality.type}}
+      <li data-tab="reality">{{localize "TA.Agent.Relationships"}}</li>
+      {{/if}}
+      {{#if system.competency.type}}
+      <li data-tab="competency">Requisitions</li>
+      {{/if}}
+      <li data-tab="workLife">Time</li>
+      {{#if isGM}}
+      <li data-tab="agency">GM</li>
+      {{/if}}
+      <li data-tab="notes">{{localize "TA.Notes"}}</li>
+    </ul>
+  </nav>
+
+  <div class="tab-content">
+    <div class="tab active" data-group="primary" data-tab="profile">
+      <div class="agentTab">
+        <div class="identity flexrow">
+          <img
+            class="avatar"
+            src="{{actor.img}}"
+            data-edit="img"
+            title="{{localize "TA.PictureOf"}} {{actor.name}}"
+            width="64"
+            height="64"
+          />
+          <div class="stack">
+            <div class="flexrow">
+              <input
+                id="agent-name"
+                name="name"
+                type="text"
+                value="{{actor.name}}"
+                placeholder="Agent name"
+              />
+            </div>
+            <div class="pad">
+              <strong>{{system.agency.title}}</strong>
+            </div>
+            <div class="pad">
+              {{#if system.anomaly.type}}
+              <a
+                class="content-link anomaly pill"
+                data-link
+                data-pack="triangleagency.item-agency-data"
+                data-uuid="{{system.anomaly.type}}"
+                >{{extra.anomaly.name}}</a
+              >
+              {{/if}}
+              {{#if system.reality.type}}
+
+              <a
+                class="content-link reality pill"
+                data-link
+                data-pack="triangleagency.item-agency-data"
+                data-uuid="{{system.reality.type}}"
+                >{{extra.reality.name}}</a
+              >
+              {{/if}}
+              {{#if system.competency.type}}
+
+              <a
+                class="content-link competency pill"
+                data-link
+                data-pack="triangleagency.item-agency-data"
+                data-uuid="{{system.competency.type}}"
+                >{{extra.competency.name}}</a
+              >
+              {{/if}}
+            </div>
+          </div>
+          {{#if editable}}
+          <button id="lifeInsurance" class="competence-button">
+            Resurrect
+          </button>
+          {{#if system.dice.d20}}
+          <button
+            class="specialDice"
+            style="corner-shape: bevel; border-radius: 0.5lh"
+            data-type="d20"
+            id="skillCheck"
+          >
+            Skill: Check!
+          </button>
+          {{/if}}
+          <button id="conflictResolution">6d4</button>
+          {{/if}}
+        </div>
+        <div class="flexrow">
+          <div class="superlatives">
+            <dl class="shrink">
+              <dt>
+                <img
+                  src="systems/triangleagency/assets/icons/commendation.svg"
+                  width="24"
+                  height="24"
+                />
+                Commendations
+              </dt>
+              <dd>
+                <input
+                  class="recordPerformance hiddenInput"
+                  name="system.agency.commendations"
+                  type="number"
+                  value="{{system.agency.commendations}}"
+                  data-context="commendations"
+                  data-old="{{system.agency.commendations}}"
+                  min="-100"
+                  max="50"
+                  maxlength="4"
+                  oninput="this.value = this.value.slice(0, this.maxLength)"
+                />
+              </dd>
+              <dt>
+                <img
+                  src="systems/triangleagency/assets/icons/demerit.svg"
+                  width="24"
+                  height="24"
+                />
+                Demerits
+              </dt>
+              <dd>
+                <input
+                  class="recordPerformance hiddenInput"
+                  name="system.agency.demerits"
+                  type="number"
+                  value="{{system.agency.demerits}}"
+                  data-context="demerits"
+                  data-old="{{system.agency.demerits}}"
+                  min="0"
+                  max="50"
+                  maxlength="2"
+                  oninput="this.value = this.value.slice(0, this.maxLength)"
+                />
+              </dd>
+            </dl>
+            <p><em>{{{extra.standing}}}</em></p>
+          </div>
+
+          <div class="callout primeDirective grow">
+            <header>
+              <h3>Prime Directive – <strong>{{{extra.competency.system.primeDirectiveBlurb}}}</strong></h3>
+            </header>
+            <div class="cardBody" name="system.competency.primeDirective">
+              {{system.competency.primeDirective}}
+            </div>
+          </div>
+        </div>
+
+        {{#if system.ataDice}}
+        {{#if system.dice.d8}}
+        <img
+          class="ad"
+          src="systems/triangleagency/assets/icons/sponsor.png"
+          data-type="d8"
+        />
+        {{/if}}
+        {{/if}}
+        <div class="flexrow">
+          <div class="reality callout burnoutRelease grow">
+            <header>
+              <h3>
+                {{localize "TA.Agent.BurnoutRelease"}} –
+                <strong>{{{extra.reality.system.burnoutRelease.blurb}}}</strong>
+              </h3>
+              <hr />
+              <label class="switch">
+                <input name="system.burnoutRelease" type="checkbox" {{checked system.burnoutRelease}} />
+                <span class="slider"></span>
+              </label>
+            </header>
+            <div class="cardBody">{{{extra.reality.system.burnoutRelease.description}}}</div>
+          </div>
+
+          <dl class="diceOptions shrink">
+            <dt>
+              <img
+                src="systems/triangleagency/assets/icons/burnout.svg"
+                width="24"
+                height="24"
+              />
+              Extra Burnout
+            </dt>
+            <dd>
+              <input
+                name="system.burnout"
+                type="number"
+                value="{{system.burnout}}"
+                min="0"
+                max="3"
+                maxlength="1"
+                oninput="this.value = this.value.slice(0, this.maxLength)"
+              />
+            </dd>
+          </dl>
+        </div>
+
+        <div class="card qualityAssurances">
+          <header>
+            <h3>{{localize "TA.Agent.QualityAssurances"}}</h3>
+            {{#if isGM}}
+            <hr />
+            <button id="resetQAs">
+              <i class="fa-solid fa-rotate-left"></i>
+            </button>
+            {{/if}}
+          </header>
+          <div class="qaGrid">
+            {{#each extra.qas}}
+            <div class="quality">
+              <div class="qa-pips" data-qa="{{this.qa}}">
+                <span
+                  class="qa-pip {{#if (gte this.data.value 1)}} qa-pip-active{{/if}}"
+                  {{#if (gt 1 this.data.max)}}aria-disabled="true"
+                  {{/if}}
+                  title="1"
+                  data-value="1"
+                  >&#9650;</span
+                >
+                <span
+                  class="qa-pip {{#if (gte this.data.value 2)}} qa-pip-active{{/if}}"
+                  {{#if (gt 2 this.data.max)}}aria-disabled="true"
+                  {{/if}}
+                  title="2"
+                  data-value="2"
+                  >&#9650;</span
+                >
+                <span
+                  class="qa-pip {{#if (gte this.data.value 3)}} qa-pip-active{{/if}}"
+                  {{#if (gt 3 this.data.max)}}aria-disabled="true"
+                  {{/if}}
+                  title="3"
+                  data-value="3"
+                  >&#9650;</span
+                >
+                <span
+                  class="qa-pip {{#if (gte this.data.value 4)}} qa-pip-active{{/if}}"
+                  {{#if (gt 4 this.data.max)}}aria-disabled="true"
+                  {{/if}}
+                  title="4"
+                  data-value="4"
+                  >&#9650;</span
+                >
+                <span
+                  class="qa-pip {{#if (gte this.data.value 5)}} qa-pip-active{{/if}}"
+                  {{#if (gt 5 this.data.max)}}aria-disabled="true"
+                  {{/if}}
+                  title="5"
+                  data-value="5"
+                  >&#9650;</span
+                >
+                <span
+                  class="qa-pip {{#if (gte this.data.value 6)}} qa-pip-active{{/if}}"
+                  {{#if (gt 6 this.data.max)}}aria-disabled="true"
+                  {{/if}}
+                  title="6"
+                  data-value="6"
+                  >&#9650;</span
+                >
+                <span
+                  class="qa-pip {{#if (gte this.data.value 7)}} qa-pip-active{{/if}}"
+                  {{#if (gt 7 this.data.max)}}aria-disabled="true"
+                  {{/if}}
+                  title="7"
+                  data-value="7"
+                  >&#9650;</span
+                >
+                <span
+                  class="qa-pip {{#if (gte this.data.value 8)}} qa-pip-active{{/if}}"
+                  {{#if (gt 8 this.data.max)}}aria-disabled="true"
+                  {{/if}}
+                  title="8"
+                  data-value="8"
+                  >&#9650;</span
+                >
+                <span
+                  class="qa-pip {{#if (gte this.data.value 9)}} qa-pip-active{{/if}}"
+                  {{#if (gt 9 this.data.max)}}aria-disabled="true"
+                  {{/if}}
+                  title="9"
+                  data-value="9"
+                  >&#9650;</span
+                >
+              </div>
+              <div class="description">
+                <label
+                  data-tooltip="{{localize (concat 'TA.Quality.' this.name '.description')}}"
+                  class="qa-label qa-check"
+                  data-qa="{{this.qa}}"
+                  data-action="ata"
+                >
+                  {{#if (eq this.data.value 0)}}
+                  <img
+                    style="display: inline"
+                    src="systems/triangleagency/assets/icons/burnout.svg"
+                    width="16"
+                    height="16"
+                  />
+                  {{/if}}
+                  {{this.name}}
+                </label>
+                <span class="qa-pip-values">
+                  <input
+                    class="qacurr"
+                    data-quality="{{this.qa}}"
+                    type="number"
+                    value="{{this.data.value}}"
+                    min="0"
+                    max="{{this.data.max}}"
+                    maxlength="1"
+                    oninput="this.value = this.value.slice(0, this.maxLength)"
+                    onfocus="this.select()"
+                  />
+                  /
+                  <input
+                    class="qamax"
+                    data-quality="{{this.qa}}"
+                    type="number"
+                    value="{{this.data.max}}"
+                    min="0"
+                    max="9"
+                    maxlength="1"
+                    oninput="this.value = this.value.slice(0, this.maxLength)"
+                    onfocus="this.select()"
+                    {{#unless ../extra.playerExtra}}disabled{{/unless}}
+                  />
+                </span>
+              </div>
+            </div>
+            {{/each}}
+          </div>
+        </div>
+        <div class="behaviors flexrow">
+          <div class="card">
+            <header>
+              <h3 class="competency">
+                {{localize "TA.Agent.SanctionedBehaviors"}} –
+                <strong>{{extra.competency.name}}</strong>
+              </h3>
+            </header>
+            <div class="cardBody">
+              <p>{{{localize "TA.Agent.SanctionedBehaviorGain1"}}}</p>
+              <div>
+                <div>
+                  <label>
+                    <input
+                      id="act1"
+                      type="checkbox"
+                      name="system.mission.sanctionedBehaviors.act1"
+                      {{checked system.mission.sanctionedBehaviors.act1}}
+                    />
+                    {{{extra.competency.system.sanctionedBehaviors.act1}}}
+                  </label>
+                </div>
+
+                <div>
+                  <label>
+                    <input
+                      id="act2"
+                      type="checkbox"
+                      name="system.mission.sanctionedBehaviors.act2"
+                      {{checked system.mission.sanctionedBehaviors.act2}}
+                    />
+                    {{{extra.competency.system.sanctionedBehaviors.act2}}}
+                  </label>
+                </div>
+                <div>
+                  <label>
+                    <input
+                      id="act3"
+                      type="checkbox"
+                      name="system.mission.sanctionedBehaviors.act3"
+                      {{checked system.mission.sanctionedBehaviors.act3}}
+                    />
+                    {{{extra.competency.system.sanctionedBehaviors.act3}}}
+                  </label>
+                </div>
+              </div>
+              <p>{{{localize "TA.Agent.SanctionedBehaviorsBonus"}}}</p>
+            </div>
+          </div>
+          <div class="card">
+            <header>
+              <h3>{{localize "TA.Agent.MissionObjectives"}}</h3>
+            </header>
+            <div class="cardBody">
+              {{#each extra.missionObjectives}}
+              <div>{{{this}}}</div>
+              {{else}}
+              <div>No Optional Objectives yet</div>
+              {{/each}}
+            </div>
+          </div>
+        </div>
+        <div class="reality card">
+          <header>
+            <h3>
+              {{localize "TA.Reality.RealityTrigger"}} -
+              <strong>{{{extra.reality.system.realityTrigger.blurb}}}</strong>
+            </h3>
+          </header>
+          <div class="pad">
+            <div>{{{extra.reality.system.realityTrigger.description}}}</div>
+            <div class="trackWrap">
+              {{{extra.triggerTrack}}}
+              <h4>{{extra.reality.system.realityTrigger.track.name}}</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab" data-group="primary" data-tab="anomaly">
+      <div class="anomaly">
+        {{#if system.anomalyDice}}
+        <div
+          class="pad buttonRow anomalyDice specialDice"
+          data-d6="false"
+          data-d10="false"
+        >
+          {{#if system.dice.d6}}
+          <button id="hasD6" data-type="d6">
+            <img
+              src="systems/triangleagency/assets/icons/d6-on.png"
+              style="display: inline"
+              data-type="d10"
+              title="d6"
+              height="24px"
+            />
+            The Six-Sided Die
+          </button>
+          {{/if}}
+          {{#if system.dice.d10}}
+          <button id="hasD10" data-type="d10">
+            <img
+              src="systems/triangleagency/assets/icons/d10-on.png"
+              height="24px"
+            />
+            The Ten-Sided Die
+          </button>
+          {{/if}}
+        </div>
+        {{/if}}
+        <div class="cardGrid">
+          {{#each extra.anomaly.abilities}}
+          <section class="card" data-group="anomaly" data-tab="{{this.id}}">
+            <header>
+              <h3>
+                {{#if ../isGM}}
+                <i
+                  class="fa-solid fa-trash delete-ability"
+                  title="{{localize "TA.Action.Delete"}}"
+                  data-id="{{this.id}}"
+                ></i>
+                {{/if}}
+                {{this.name}}
+              </h3>
+              <div class="switchStack">
+                <span>Practiced?</span>
+                <label class="switch" title="Practiced?">
+                  <input
+                    class="setPracticed"
+                    data-id="{{this.id}}"
+                    type="checkbox"
+                    {{#if this.practiced}}checked{{/if}}
+                    {{#unless ../extra.playerPlaywallTracks}}disabled="disabled"
+                    {{/unless}}
+                  />
+                  <span class="slider"></span>
+                </label>
+              </div>
+            </header>
+            <div class="cardBody">{{{this.rendered}}}</div>
+
+            {{#if this.canImprove}}
+            {{#if this.practiced}}
+            <div class="peerReview">
+              <p>{{{this.improvement.question}}}</p>
+              <div>
+                {{#each this.improvement.answers}}
+                <div>
+                  <div>{{this.text}}</div>
+                  {{{this.track}}}
+                </div>
+                {{/each}}
+              </div>
+            </div>
+            {{/if}}
+            {{/if}}
+          </section>
+          {{/each}}
+        </div>
+      </div>
+    </div>
+
+    <div class="tab" data-group="primary" data-tab="reality">
+      <div class="reality">
+        <div class="pad buttonRow">
+          {{#if extra.playerExtra}}
+          {{#if editable}}
+          {{#unless extra.RelationshipOptions}}
+          <button class="add-relationship add-button" data-type="relationship">
+            {{localize "TA.Agent.AddRelationship"}}
+          </button>
+          {{else}}
+          <button class="add-relationship" data-type="relationship">
+            New {{localize "TA.Agent.Relationship"}}
+          </button>
+          {{#if extra.canTether}}
+          <button class="add-relationship" data-type="tether">New {{localize "TA.Agent.Tether"}}</button>
+          {{/if}}
+          {{#if extra.canSeek}}
+          <button class="add-relationship" data-type="fugitive">
+            New {{localize "TA.Agent.FugitiveAnomaly"}}
+          </button>
+          {{/if}}
+          {{/unless}}
+          {{/if}}
+          {{/if}}
+          <hr />
+          <div>
+            <i class="fa-solid fa-globe"></i>
+            <span>{{localize "TA.Agent.Network"}}:</span>
+            <span>{{extra.networkSize}}</span>
+          </div>
+        </div>
+
+        <div class="cardGrid">
+          {{#each extra.relationships}}
+          <div
+            class="card {{#if (eq this.type 'fugitive')}}anomaly{{/if}} {{#if (eq this.type 'tether' )}}tether{{/if}}"
+            data-group="relationships"
+            data-id="{{this.id}}"
+          >
+            <header>
+              {{#if ../isGM}}
+              <i
+                class="fa-solid fa-trash delete-relationship"
+                title="{{localize "TA.Action.Delete"}}"
+                data-id="{{this.id}}"
+              >
+              </i>
+              {{/if}}
+              <input
+                name="system.reality.relationships.{{this.id}}.name"
+                type="text"
+                value="{{this.name}}"
+                placeholder="Relationship Name"
+              />
+              {{#if this.hasBenefit}}
+              <div>
+                {{#if this.network}}
+                <i class="fa-solid fa-globe color-green"></i>
+                {{else}}
+                <label class="switch">
+                  <input
+                    name="system.reality.relationships.{{this.id}}.active"
+                    type="checkbox"
+                    {{checked this.active}}
+                  />
+                  <span class="slider"></span>
+                </label>
+                {{/if}}
+              </div>
+              {{/if}}
+            </header>
+            <textarea
+              placeholder="Description…"
+              name="system.reality.relationships.{{this.id}}.description"
+            >
+{{this.description}}</textarea
+            >
+            <div class="pad">
+              <div>
+                {{#if (eq this.type "relationship")}}
+                {{#if ../isGM}}
+                <i
+                  class="showBystander fa-solid fa-user fa-lg color-yellow"
+                  title="{{localize " TA.Agent.ConnectionBystander"}}"
+                  data-relationship="{{this.id}}"
+                  data-bystander="{{this.bystanderId}}"
+                ></i>
+                {{/if}}
+                {{#if ../isGM}}
+                <select class="playedby" data-relationshipid="{{this.id}}">
+                  {{selectOptions ../extra.users selected=this.playedby localize=false}}
+                </select>
+                {{else}}
+                {{this.playedby}}
+                {{/if}}
+                {{/if}}
+              </div>
+            </div>
+            {{#if this.hasBenefit}}
+            <div class="pad connectionBonus {{#if this.active}}active{{/if}}">
+              <h4>
+                Connection Bonus:
+                <span
+                  data-id="{{this.id}}"
+                  class="connectionBonusAction {{#if this.active}}context-clickable{{/if}}"
+                  >{{this.bonusName}}</span
+                >
+              </h4>
+              <div>{{{this.bonusDescription}}}</div>
+            </div>
+            {{/if}}
+            <div class="pad trackWrap">
+              {{{this.trackDisplay}}}
+              <h4>{{this.typeDisplay}}</h4>
+            </div>
+          </div>
+          {{/each}}
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="tab agency"
+      data-group="primary"
+      data-tab="competency"
+      class="competency"
+    >
+      <div class="pad buttonRow">
+        <a
+          class="button"
+          data-link
+          data-pack="Compendium.triangleagency.journalentry-gm-documents"
+          data-uuid="Compendium.triangleagency.journalentry-gm-documents.JournalEntry.ljylbu7Xp3qfJ9wA"
+        >
+          View Catalogue
+        </a>
+      </div>
+      <div class="cardGrid">
+        {{#each extra.requisitions}}
+        <section class="card" data-group="requisition" data-tab="{{this.id}}">
+          <header>
+            <h3>
+              {{#if ../isGM}}
+              <i
+                class="fa-solid fa-trash delete-requisition"
+                title="{{localize "TA.Action.Delete"}}"
+                data-id="{{this.id}}"
+              >
+              </i>
+              {{/if}}
+              {{this.name}}
+            </h3>
+          </header>
+          <div class="cardBody">
+            <div>{{{this.system.description}}}</div>
+            {{#unless this.system.unlimited}}
+            <div>{{{this.trackDisplay}}}</div>
+            {{/unless}}
+            <div>
+              <textarea
+                class="requisitionNote"
+                data-id="{{this.id}}"
+                placeholder="Notes…"
+              >
+{{this.system.notes}}</textarea
+              >
+            </div>
+          </div>
+        </section>
+        {{/each}}
+      </div>
+    </div>
+
+    <div class="tab worklife" data-group="primary" data-tab="workLife">
+      <p class="pad">
+        When you <strong>Spend Time</strong> in one category, strike out one
+        from the end of the other tracks
+      </p>
+      <div class="fullCard competency">
+        <h2>
+          <strong>Competency</strong>
+          {{#if system.competency.type}}
+          —
+          <a
+            class="content-link"
+            data-link
+            data-pack="triangleagency.item-agency-data"
+            data-uuid="{{system.competency.type}}"
+            >{{extra.competency.name}}</a
+          >
+          {{/if}}
+        </h2>
+        <div class="cardBody">
+          {{{extra.worklife.competency}}}
+          <p>{{{localize "TA.Agent.CompetencyMissionEnd"}}}</p>
+          <p>{{{localize "TA.Agent.CompetencyBenefit"}}}</p>
+        </div>
+      </div>
+      <div class="fullCard reality">
+        <h2>
+          <strong>Reality</strong>
+          {{#if system.reality.type}}
+          —
+          <a
+            class="content-link"
+            data-link
+            data-pack="triangleagency.item-agency-data"
+            data-uuid="{{system.reality.type}}"
+            >{{extra.reality.name}}</a
+          >
+          {{/if}}
+        </h2>
+        <div class="cardBody">
+          {{{extra.worklife.reality}}}
+          <p>{{{localize "TA.Agent.RealityMissionEnd"}}}</p>
+          <p>{{{localize "TA.Agent.RealityBenefit"}}}</p>
+        </div>
+      </div>
+      <div class="fullCard anomaly">
+        <h2>
+          <strong>Anomaly</strong>
+          {{#if system.anomaly.type}}
+          —
+          <a
+            class="content-link"
+            data-link
+            data-pack="triangleagency.item-agency-data"
+            data-uuid="{{system.anomaly.type}}"
+            >{{extra.anomaly.name}}</a
+          >
+          {{/if}}
+        </h2>
+        <div class="cardBody">
+          <div>
+            {{{extra.worklife.anomaly}}}
+            <p>{{{localize "TA.Agent.AnomalyMissionEnd"}}}</p>
+            <div>{{{localize "TA.Agent.AnomalyBenefit"}}}</div>
+          </div>
+        </div>
+      </div>
+      <div class="fullCard neutral">
+        <h2>{{localize "TA.Agent.AccumulatedTime"}}</h2>
+        <div class="cardBody">{{{extra.timeTrack}}}</div>
+      </div>
+    </div>
+
+    <div class="tab notes twoCol" data-group="primary" data-tab="notes">
+      <div class="card neutral">
+        <header>
+          <h3>Events</h3>
+        </header>
+        {{editor system.notes target="system.notes" engine="prosemirror" button=false editable=true collaborate=true }}
+      </div>
+      <div class="card reality">
+        <header>
+          <h3>Character</h3>
+        </header>
+        {{editor system.reality.personal target="system.reality.personal" engine="prosemirror" button=false editable=true collaborate=true }}
+      </div>
+    </div>
+
+    <div class="tab" data-group="primary" data-tab="agency">
+      <div class="cardGrid">
+        <div class="card">
+          <header><h3>{{localize "TA.TheAgency"}}</h3></header>
+          <div class="pad">
+            <div>
+              <div class="">{{localize "TA.Agent.MissionCommendations"}}</div>
+              <div>
+                <input
+                  name="system.mission.commendations"
+                  type="number"
+                  value="{{system.mission.commendations}}"
+                  min="-100"
+                  max="200"
+                  maxlength="4"
+                  oninput="this.value = this.value.slice(0, this.maxLength)"
+                />
+              </div>
+            </div>
+
+            <div>
+              <div class="">{{localize "TA.Agent.MissionDemerits"}}</div>
+              <div>
+                <input
+                  name="system.mission.demerits"
+                  type="number"
+                  value="{{system.mission.demerits}}"
+                  min="0"
+                  max="50"
+                  maxlength="2"
+                  oninput="this.value = this.value.slice(0, this.maxLength)"
+                />
+              </div>
+            </div>
+
+            <div>
+              <div class="">{{localize "TA.Agent.CareerDemerits"}}</div>
+              <div>
+                <input
+                  name="system.agency.career.demerits"
+                  type="number"
+                  value="{{system.agency.career.demerits}}"
+                  min="0"
+                  max="50"
+                  maxlength="2"
+                  oninput="this.value = this.value.slice(0, this.maxLength)"
+                />
+              </div>
+            </div>
+
+            {{#if extra.manualStanding}}
+            <div>
+              <div class="">{{localize "TA.Agent.Standing"}}</div>
+              <div>
+                <input
+                  name="system.agency.standing"
+                  type="number"
+                  value="{{system.agency.standing}}"
+                  min="0"
+                  max="10"
+                  maxlength="2"
+                  oninput="this.value = this.value.slice(0, this.maxLength)"
+                />
+              </div>
+            </div>
+            <div class="center color-red">{{{extra.standing}}}</div>
+            {{/if}}
+          </div>
+        </div>
+        <div class="card">
+          <header>
+            <h3>{{localize "TA.Playwall"}}</h3>
+            <button id="togglePlaywallLock">
+              {{#if system.achievementsLocked}}
+              <i class="fa-solid fa-lock fa-sm"></i>
+              {{else}}
+              <i class="fa-solid fa-lock-open fa-sm"></i>
+              <i
+                id="resyncPaywall"
+                class="fa-solid fa-rotate fa-sm"
+                title="{{localize "TA.PlaywallSync"}}"
+              ></i>
+              {{/if}}
+            </button>
+          </header>
+          <div class="pad">
+            <div class="color-blue">{{localize "TYPES.Item.Anomaly"}}</div>
+            {{#if system.achievementsLocked}}
+            <div class="gotoPlaywall">
+              {{#each system.achievements.anomaly}}
+              <span class="playwallLink" data-playwall="{{@key}}">{{@key}}</span>
+              {{#unless @last}}
+              ,
+              {{/unless}}
+              {{/each}}
+            </div>
+            {{else}}
+            <input
+              class="playwallReference"
+              type="text"
+              data-context="anomaly"
+              value="{{extra.playwall.anomaly}}"
+              oninput="this.value = this.value.toUpperCase()"
+              data-list="{{extra.playwall.anomaly}}"
+            />
+            {{/if}}
+
+            <div class="color-yellow">{{localize "TYPES.Item.Reality"}}</div>
+            {{#if system.achievementsLocked}}
+            <div class="gotoPlaywall">
+              {{#each system.achievements.reality}}
+              <span class="playwallLink" data-playwall="{{@key}}">{{@key}}</span>
+              {{#unless @last}}
+              ,
+              {{/unless}}
+              {{/each}}
+            </div>
+            {{else}}
+            <input
+              class="playwallReference"
+              type="text"
+              data-context="reality"
+              value="{{extra.playwall.reality}}"
+              oninput="this.value = this.value.toUpperCase()"
+              data-list="{{extra.playwall.reality}}"
+            />
+            {{/if}}
+
+            <div class="color-red">{{localize "TYPES.Item.Competency"}}</div>
+            {{#if system.achievementsLocked}}
+            <div class="gotoPlaywall">
+              {{#each system.achievements.competency}}
+              <span class="playwallLink" data-playwall="{{@key}}">{{@key}}</span>
+              {{#unless @last}}
+              ,
+              {{/unless}}
+              {{/each}}
+            </div>
+            {{else}}
+            <input
+              class="playwallReference"
+              type="text"
+              data-context="competency"
+              value="{{extra.playwall.competency}}"
+              oninput="this.value = this.value.toUpperCase()"
+              data-list="{{extra.playwall.competency}}"
+            />
+            {{/if}}
+
+            <div class="">{{localize "TA.Other"}}</div>
+            {{#if system.achievementsLocked}}
+            <div class="gotoPlaywall">
+              {{#each system.achievements.other}}
+              <span class="playwallLink" data-playwall="{{@key}}">{{@key}}</span>
+              {{#unless @last}}
+              ,
+              {{/unless}}
+              {{/each}}
+            </div>
+            {{else}}
+            <input
+              class="playwallReference"
+              type="text"
+              data-context="other"
+              value="{{extra.playwall.other}}"
+              oninput="this.value = this.value.toUpperCase()"
+              data-list="{{extra.playwall.other}}"
+            />
+            {{/if}}
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="fullCard neutral">
+          <header><h2>GM Notes</h2></header>
+          <textarea name="system.gmNotes">{{system.gmNotes}}</textarea>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>

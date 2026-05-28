@@ -1,0 +1,51 @@
+{
+  "folder": "GFOz4uUhD2fAbKL7",
+  "name": "Struggling",
+  "type": "Reality",
+  "_id": "ijLTlkflRJmccMM3",
+  "img": "systems/triangleagency/assets/icons/reality-icon.png",
+  "system": {
+    "description": "<p>Saddled with a great debt, continuous expense, or lack of income, ends never quite meet for you. You rely on others for support, endure distasteful circumstances, and haggle out of necessity. You're every employer&rsquo;s dream! While the Agency would love to help, it usually isn't in our budget. Thankfully there are obvious benefits to your situation: you take more shifts, work longer hours, and improve immediately upon threat of firing. In many cases, you do all this even in non-paying positions and rely entirely on Commendations for survival.</p>",
+    "burnoutRelease": {
+      "blurb": "Not a Penny More",
+      "description": "When you're doing something that'll get you a good deal, ignore all Burnout"
+    },
+    "realityTrigger": {
+      "blurb": "Fly in Your Wallet",
+      "description": "Something you’re obligated to pay for costs more money than you can afford to spend. If you don't find a way to escape payment, you’ll have to borrow from one of your Relationships (chosen by you) which loses one Connection. If you gain any significant money, your debts make it quickly disappear, and you mark the track. When it's full, or you manage to escape your responsibilities, choose a new Reality.",
+      "track": {
+        "id": "",
+        "name": "Back to Zero",
+        "description": "",
+        "size": 5,
+        "milestones": {
+          "5": "<b>X</b>"
+        }
+      }
+    },
+    "relationships": {
+      "question1": "Who do you rely on for shelter?",
+      "question2": "Who do you owe the most money to?",
+      "question3": "For whom do you most want to get it together?"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801382651,
+    "modifiedTime": 1722801382651,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!ijLTlkflRJmccMM3"
+}

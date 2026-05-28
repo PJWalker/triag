@@ -1,0 +1,84 @@
+{
+  "folder": "fzChvOHarZUydEJB",
+  "name": "Say Again?",
+  "type": "AnomalyAbility",
+  "_id": "OS5wrzx7hjoB84YR",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>You may respond to a spoken sentence with the phrase <em>\"Say again?\"</em>, and roll [quality]; then you may tell the group what the target says instead of what they said initially.</p>",
+    "chat": "",
+    "synopsis": "Put words in a target's mouth",
+    "anomaly": "qMpjg1WXwmnUly8O",
+    "reference": "",
+    "quality": "presence",
+    "outcomes": {
+      "success": "the target believes that the new sentence is what they meant.",
+      "sixplus3s": "you may speak for the target at any time in the next hour.",
+      "failure": "the target is unaffected, and for the next 3 hours you can only speak using the words in the sentence you intended for them."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "When someone interrupts me, I give them...",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "The benefit of the doubt.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "T2"
+        },
+        "answer2": {
+          "text": "A piece of my mind.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "P4"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!OS5wrzx7hjoB84YR"
+}

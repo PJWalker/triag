@@ -1,0 +1,84 @@
+{
+  "folder": "FbWHYEaYHPS7AP9Y",
+  "name": "Gyre the Gimbal",
+  "type": "AnomalyAbility",
+  "_id": "8anv91IgsPWRtSf8",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Adjust your balance and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Change the direction of gravity.",
+    "anomaly": "QFZ908dwWMLydS1m",
+    "reference": "",
+    "quality": "professionalism",
+    "outcomes": {
+      "success": "you change the orientation of gravity up to 90 degrees in a direction\nof your choosing. If you’re in a room, it affects only that room. If you’re outside, it\naffects everything within about 30 yards. This effect lasts until you make another roll.",
+      "eachplus3": "choose one:<ul>\n<li>The change doesn’t affect a single target, such as yourself.</li>\n<li>The range is infinite for a single target.</li>\n<li>Gravity for a single target is rotated further than\n90 degrees.</li>\n</ul>",
+      "failure": "you become unmoored from\ngravity. For at least an hour your body acts as\nif it is in a zero gravity environment. Anyone\nwho sees this will become a Loose End."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "When in crisis, I...",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "Fly.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "P6"
+        },
+        "answer2": {
+          "text": "Fight.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "S18"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!8anv91IgsPWRtSf8"
+}

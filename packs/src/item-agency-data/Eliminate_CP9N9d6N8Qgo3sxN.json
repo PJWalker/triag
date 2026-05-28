@@ -1,0 +1,84 @@
+{
+  "folder": "16yAQdlvCXM40LTi",
+  "name": "Eliminate",
+  "type": "AnomalyAbility",
+  "_id": "CP9N9d6N8Qgo3sxN",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>You can remove a mundane object or person from the equation permanently. Once, they existed. Now they do not. Aim your Gun and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Remove something mundane from existence.",
+    "anomaly": "CVBKoAdfkebKDAtW",
+    "reference": "",
+    "quality": "dynamism",
+    "outcomes": {
+      "success": "the target disappears without a trace.",
+      "sixplus3s": "choose any number of targets you can see from where you’re standing. They disappear without a trace.",
+      "failure": "the target is killed. An object is destroyed, a living creature dies. This fact is visible, obvious, and potentially horrifying."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "Only you answer this question: Will you remember them all?",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "No.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "S6"
+        },
+        "answer2": {
+          "text": "Yes.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "T5"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!CP9N9d6N8Qgo3sxN"
+}

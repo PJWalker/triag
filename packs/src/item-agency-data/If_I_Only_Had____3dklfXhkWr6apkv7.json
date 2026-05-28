@@ -1,0 +1,84 @@
+{
+  "folder": "47B4BLgc3ZXiBRb2",
+  "name": "If I Only Had...",
+  "type": "AnomalyAbility",
+  "_id": "3dklfXhkWr6apkv7",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Everyone’s missing something, and you can pick what it is. Reach inside a target and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Remove a critical component from a target",
+    "anomaly": "eS7KC5SIpaSgrhpn",
+    "reference": "I4",
+    "quality": "subtlety",
+    "outcomes": {
+      "success": "choose one to remove:<ul>\n<li><b>Heart</b>: When absent, the target loses their capacity to care or feel for others. Nothing matters, and it is difficult to insult or hurt them. Grudges will be forgiven but friendships, too, will cease to be important. They are still committed to following rules & completing assigned tasks efficiently and well.</li>\n<li><b>Brain</b>: When absent, the target loses their capacity to think about the future, plan, or deduce. They forget things immediately, and live only in the moment. Whatever they are feeling or experiencing is very important, and they will follow impulses without considering the consequences.</li>\n<li><b>Courage</b>: When absent, the target becomes consumed with worry. Their feelings and thoughts become overwhelmed by an anxiety so intense that making any decision at all becomes difficult.</li>\n</ul>\n<p>You receive these things as crystalline objects that fit in one hand. The shapes can vary depending on the target. If the target comes into contact with the removed object, it returns to them and they become whole. Letting other people touch somebody’s removed object can have unpredictable effects.</p>",
+      "sixplus3s": "your list of options expands to include the following options, exclusive to Anomalous targets:<ul>\n<li><b>Home</b>: you take an Anomalous being’s Domain, their place of power. As long as they don’t possess this, they do not receive the typical benefits of a Domain, and the amount of Chaos created by any source within it is reduced by 1 (but cannot be reduced below 1 in this way.)</li>\n<li><b>Spirit</b>: The crystalline object you receive will provide a visual clue or sign of the Anomaly’s Focus, and will gently pull you toward the Anomaly, functioning like a compass.</li>\n</ul>",
+      "failure": "roll a four-sided die. You lose something of your own based on your roll. It vanishes into the air, and will return to you at the end of the mission.<ul>\n<li>Heart</li>\n<li>Brain</li>\n<li>Receive Burnout on all Anomaly Abilities</li>\n<li>Courage</li>\n</ul>"
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!3dklfXhkWr6apkv7"
+}

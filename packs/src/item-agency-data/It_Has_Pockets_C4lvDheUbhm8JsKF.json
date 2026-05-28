@@ -1,0 +1,80 @@
+{
+  "folder": "8vkjXfpy8MxHBcCF",
+  "name": "It Has Pockets",
+  "type": "AnomalyAbility",
+  "_id": "C4lvDheUbhm8JsKF",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>You can absorb objects into yourself, manipulate them while they are wholly or partially inside you, and adjust the rest of your physiology to accommodate them. For example, you could hide a chainsaw in your torso or have its blades stick out where your hands normally go.</p><p>This process does not change the overall mass of you or the objects, but you can distribute that mass however you'd like. For example, in order to hide a dozen bowling balls inside of yourself, you can reshape yourself to be taller rather than appearing to have large spheres inside of your body.</p>",
+    "chat": "",
+    "synopsis": "Store objects inside your body",
+    "anomaly": "QeG4FEIg0thHuwYW",
+    "reference": "I10",
+    "quality": "attentiveness",
+    "outcomes": {},
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!C4lvDheUbhm8JsKF"
+}

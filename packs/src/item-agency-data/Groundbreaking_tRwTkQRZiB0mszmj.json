@@ -1,0 +1,85 @@
+{
+  "folder": "KJ942AoNAzO30V2s",
+  "name": "Groundbreaking",
+  "type": "AnomalyAbility",
+  "_id": "tRwTkQRZiB0mszmj",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Celebrate somebody’s grand re-opening. Tap them and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Break and reassemble someone with changes",
+    "anomaly": "udMNsme6WENZjHUA",
+    "reference": "G7",
+    "quality": "subtlety",
+    "outcomes": {
+      "success": "the target is shattered into pieces. Pick one of the following pieces and replace it with a preferred alternative before putting the remaining pieces back together how they were. The target will have no memory of this experience. If you deliberately prevent the target from being put back together, add 10 Chaos to the Chaos Pool.<ul>\n<li>Appearance</li>\n<li>Allegiance</li>\n<li>History</li>\n<li>Intellect</li>\n<li>Goals</li>\n<li>Health</li>\n</ul>",
+      "every3rd3": "pick an additional option and replace it as well.",
+      "triscendence": "in addition, you may use one or more of their pieces as the base to create an entirely new being. You decide the details of the rest of the pieces for this new being.",
+      "failure": "the target is shattered into pieces, but you are unable to piece them back together. They will find their own way back together eventually… but you won’t control the changes."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!tRwTkQRZiB0mszmj"
+}

@@ -1,0 +1,36 @@
+{
+  "folder": "Zr9K1uVNEI8SJMLf",
+  "name": "Charitable Donation",
+  "type": "Requisition",
+  "img": "systems/triangleagency/assets/icons/requisition-icon.png",
+  "system": {
+    "reference": "",
+    "cost": 9,
+    "description": "<p>A randomly selected orphanage in need receives one year's worth of funding</p>",
+    "totalUses": 1,
+    "missionUses": 1,
+    "used": 0,
+    "notes": "",
+    "unlimited": true
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "1.0.13",
+    "createdTime": 1725214962609,
+    "modifiedTime": 1725214991790,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "_id": "37z5OgGPyBGcnlNv",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!37z5OgGPyBGcnlNv"
+}

@@ -1,0 +1,85 @@
+{
+  "folder": "nMw5TZVUUcixbUMm",
+  "name": "Can I Try?",
+  "type": "AnomalyAbility",
+  "_id": "tdsywNzsEEFfgE3U",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Never hurts to ask. Approach somebody who is doing, or about to do, anything at all and ask,<em>“Can I try?”</em> and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Take the first turn. ",
+    "anomaly": "olkslTZqenoaKhbD",
+    "reference": "C1",
+    "quality": "initiative",
+    "outcomes": {
+      "success": "the person stops\nwhatever they were doing, or were\nabout to do, or are gatekeeping,\nto let you do it instead. (Sit on the\nbus, take the fire extinguisher, pull\nthe lever deciding who lives or dies,\netc.) They’re happy to step aside.",
+      "every3rd3": "choose one:<ul>\n<li>An ally of yours can also participate\nor go before the target.</li>\n<li>You can do another activity they\nwould normally not let you do.</li>\n<li>The target will teach you how to\ndo the thing you are now doing.</li>\n</ul>",
+      "triscendence": "you can say <i>“You try this!”</i> and suggest any behavior for that person to try while you’re trying their thing. They will do it.",
+      "failure": "they don't allow you to try - and when you think about the\nactivity you intended to do, you get so tired. Too tired to even consider doing that activity for the rest of the mission."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "If I can't have any...",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "No one can.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "T1"
+        },
+        "answer2": {
+          "text": "You must be mistaken. I can have any.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "I1"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!tdsywNzsEEFfgE3U"
+}

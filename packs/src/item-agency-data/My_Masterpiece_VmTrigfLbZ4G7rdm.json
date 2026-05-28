@@ -1,0 +1,83 @@
+{
+  "folder": "KJ942AoNAzO30V2s",
+  "name": "My Masterpiece",
+  "type": "AnomalyAbility",
+  "_id": "VmTrigfLbZ4G7rdm",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>When using <strong>What’s That Over There?</strong>, you can create any object, made of any material, to any specifications you can imagine, including abstract ones (“an impenetrable safe,” “the best ice cream,” etc.) or ones based on information you don’t have (a French-English dictionary, a blueprint of the Louvre, a freshly-painted Mona Lisa, etc.). Objects made this way are limited to a size held easily in both of your hands.</p><p>When used in this way, What’s That Over There can only make one object and gains the following effects:</p>",
+    "chat": "",
+    "synopsis": "Create anything you want",
+    "anomaly": "udMNsme6WENZjHUA",
+    "reference": "M12",
+    "quality": "attentiveness",
+    "outcomes": {
+      "eachplus3": "the size limit increases:<ul>\n<li>1: Human-sized</li>\n<li>2: Horse-sized</li>\n<li>3: Room-sized</li>\n<li>4: Building-sized</li>\n<li>5+: More. Negotiable based on number.</li>\n</ul>",
+      "failure": "you create the object as if you had succeeded. However, this creation inspires revulsion and protest. Anyone who sees it will be compelled to comment on it, and it will likely enter the news cycle in a rare moment of cultural unity as people find common ground in their distaste for it. This will generate a large amount of Loose Ends. In addition, you suffer from Burnout until you successfully create something using a different Ability."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!VmTrigfLbZ4G7rdm"
+}

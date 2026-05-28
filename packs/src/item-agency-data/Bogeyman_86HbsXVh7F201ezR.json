@@ -1,0 +1,80 @@
+{
+  "folder": "47B4BLgc3ZXiBRb2",
+  "name": "Bogeyman",
+  "type": "AnomalyAbility",
+  "_id": "86HbsXVh7F201ezR",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>You linger forever in the minds of those you’ve haunted. You can now use <strong>Miss Me?</strong> targeting anyone or anything you’ve previously targeted with one of your Absence abilities, regardless of where either of you are before you roll. If you do, roll [quality] instead of Persistence.</p><p>If you fail a roll while using Bogeyman's effect, the target becomes immune to your Absence powers forever – and to your perception. They will always be a gap in your senses. You will never know they’re coming.</p>",
+    "chat": "",
+    "synopsis": "Linger in the mind of those you've haunted",
+    "anomaly": "eS7KC5SIpaSgrhpn",
+    "reference": "B7",
+    "quality": "attentiveness",
+    "outcomes": {},
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!86HbsXVh7F201ezR"
+}

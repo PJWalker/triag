@@ -1,0 +1,22 @@
+{
+  "name": "Gun Abilities",
+  "sorting": "a",
+  "folder": "LE5EmdSFeTF5Z95n",
+  "type": "Item",
+  "_id": "16yAQdlvCXM40LTi",
+  "description": "",
+  "sort": 700000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.328",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363520,
+    "modifiedTime": 1722801363520,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I"
+  },
+  "_key": "!folders!16yAQdlvCXM40LTi"
+}

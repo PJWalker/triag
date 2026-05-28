@@ -1,0 +1,85 @@
+{
+  "folder": "fzChvOHarZUydEJB",
+  "name": "Captive Audience",
+  "type": "AnomalyAbility",
+  "_id": "425WR4qQBYx0vnhe",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>When you talk, they have no choice but to listen. Start speaking to a target and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "",
+    "anomaly": "qMpjg1WXwmnUly8O",
+    "reference": "C2",
+    "quality": "presence",
+    "outcomes": {
+      "success": "as long as you are speaking, the target cannot move, speak, or ignore you. If you or anyone comes into contact\nwith them physically or Harms them in any way, the effect ends.",
+      "eachplus3": "you may add a target to this effect who is also captivated while you are talking.",
+      "triscendence": "you may issue a simple command to any targets affected by this ability (<i>“sit down,” “write down your password,” “give me the knife,”</i> etc.), and they will follow it to the best of their ability.\n<p>In addition, you may pause up for to thirty seconds between words or phrases while you are speaking without ending this effect. </p>",
+      "failure": "all within earshot are immune to your Whisper powers for the remainder of the mission."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!425WR4qQBYx0vnhe"
+}

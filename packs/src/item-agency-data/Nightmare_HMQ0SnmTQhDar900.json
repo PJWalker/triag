@@ -1,0 +1,84 @@
+{
+  "folder": "EUXv71E1Ef8t6s11",
+  "name": "Nightmare",
+  "type": "AnomalyAbility",
+  "_id": "HMQ0SnmTQhDar900",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Project yourself into something larger-than-life. Pick a mind and wrap its shadow around yourself as you roll [quality].</p>",
+    "chat": "Nightmare",
+    "synopsis": "Project an illusory form.",
+    "anomaly": "CDsjaFFWPiSydrw2",
+    "reference": "",
+    "quality": "presence",
+    "outcomes": {
+      "success": "you may adopt an illusory form and appear as that form to your target.\nThe form can be terrifying, beautiful, or mundane—and they believe it’s your true form.",
+      "every3rd3": "you may ask the player controlling the target\nto tell you one of the following before you take this form:<ul>\n<li>Their worst fear</li>\n<li>Their greatest goal</li>\n<li>Their most secret desire</li>\n<ul>",
+      "failure": "your true identity is emblazoned\nonto their mind—by night they will dream\nabout you, by day they will think about you.\nFor today, though, maybe nothing will happen."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "I tend to imagine...",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "The best case scenario.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "D1"
+        },
+        "answer2": {
+          "text": "The worst possible outcome.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "R13"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!HMQ0SnmTQhDar900"
+}

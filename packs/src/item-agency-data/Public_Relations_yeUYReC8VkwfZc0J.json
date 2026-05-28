@@ -1,0 +1,37 @@
+{
+  "folder": "UL3HWyofCJWKnNuT",
+  "name": "Public Relations",
+  "type": "Competency",
+  "_id": "yeUYReC8VkwfZc0J",
+  "img": "systems/triangleagency/assets/icons/competency-icon.png",
+  "system": {
+    "description": "<p>The Agency is often in need of people who can explain away Anomalous effects and steer concerned onlookers to the correct conclusions. Some PR employees use their ability to persuade with words, others with distraction, and many find intimidation most effective at changing someone's mind. All understand that reputation is paramount, and that the stories people tell themselves are just as important as reality.</p>\n<p>Public Relations Agents are often put in charge of the many nonprofit and charitable organizations under the Agency&rsquo;s influence. These employees spend work hours organizing events, contacting legislators, and ensuring that stories about the Agency never make it to the public.</p>",
+    "primeDirectiveBlurb": "Keep Everything Above Board",
+    "primeDirective": "Each time you lie, receive 1 Demerit.",
+    "sanctionedBehaviors": {
+      "act1": "Create a distraction.",
+      "act2": "Give a great excuse.",
+      "act3": "Ensure they will never speak of this again."
+    },
+    "initialRequisition": "XxImdUIrkgKmqnbW"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801394109,
+    "modifiedTime": 1722801394109,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!yeUYReC8VkwfZc0J"
+}

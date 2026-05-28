@@ -1,0 +1,84 @@
+{
+  "folder": "47B4BLgc3ZXiBRb2",
+  "name": "I Swear I Just Had it",
+  "type": "AnomalyAbility",
+  "_id": "PNLT31kEIND5dQgi",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>You’re not the only thing that’s elusive. When someone is about to interact with an object (<em>remote control, door, airplane, etc.</em>), pat your own pocket and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Make something misplaced. ",
+    "anomaly": "eS7KC5SIpaSgrhpn",
+    "reference": "I2",
+    "quality": "subtlety",
+    "outcomes": {
+      "success": "the object is no longer\nthere. It might be in a nearby room,\nhidden behind a pile of refuse, in\nsomeone else’s pocket, or some other\nplausible place. The GM will decide.",
+      "failure": "the object is no longer\nthere because it’s become lodged\nin your throat. You are incapacitated\nuntil it is removed. If it was large\nenough, you may receive Harm.",
+      "eachplus3": "you may choose one of the following: <ul>\n<li>An additional nearby object\nof your choice is moved.</li>\n<li>You choose where any objects\nmoved in this way are now located.</li>\n<li>One of the moved objects\ndisappears entirely</li>\n</ul>"
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "I'm more scared to lose...",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "My talents.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "I4"
+        },
+        "answer2": {
+          "text": "My possessions.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "L8"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!PNLT31kEIND5dQgi"
+}

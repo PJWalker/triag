@@ -1,0 +1,36 @@
+{
+  "folder": "qbhkM4exggvPcUMP",
+  "name": "Triple-Shot Glass",
+  "type": "Requisition",
+  "_id": "2y3MZNwefeJ6R9d9",
+  "img": "systems/triangleagency/assets/icons/requisition-icon.png",
+  "system": {
+    "reference": "",
+    "cost": 0,
+    "description": "<p>This is a special shot glass from the Vault Cafe. Once per Mission, if this shot glass is used when pulling espresso from any espresso machine, the resulting shot can be poured into the mouth of a dead body to return them to life for ten minutes. Whether Anomalous or Mundane, they can't survive any amount of Harm.</p>",
+    "totalUses": 1,
+    "missionUses": 1,
+    "used": 0,
+    "notes": "",
+    "unlimited": false
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801408523,
+    "modifiedTime": 1725215199920,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 900000,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!2y3MZNwefeJ6R9d9"
+}

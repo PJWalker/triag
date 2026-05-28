@@ -1,0 +1,36 @@
+{
+  "folder": "Zr9K1uVNEI8SJMLf",
+  "name": "History Revision Request",
+  "type": "Requisition",
+  "img": "systems/triangleagency/assets/icons/requisition-icon.png",
+  "system": {
+    "reference": "",
+    "cost": 99,
+    "description": "<p>Take advantage of the <span class=\"isagency\">Agency</span>’s <span class=\"isagency\"><strong>3</strong></span><strong>% Flash Back</strong> program to rewrite a specific mundane moment from your past. This may involve everything from adjusting what you said during a fateful conversation to altering whether you added mayonnaise to your sandwich this morning. Note that this cannot affect past interactions with Anomalous beings, including your own personal Anomaly.</p>",
+    "totalUses": 1,
+    "missionUses": 1,
+    "used": 0,
+    "notes": "",
+    "unlimited": true
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "1.0.13",
+    "createdTime": 1725214962609,
+    "modifiedTime": 1725215015947,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "_id": "o7fQ2TksGcHvlRKs",
+  "sort": 100782,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!o7fQ2TksGcHvlRKs"
+}

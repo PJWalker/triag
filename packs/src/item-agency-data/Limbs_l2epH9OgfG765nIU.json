@@ -1,0 +1,84 @@
+{
+  "folder": "8vkjXfpy8MxHBcCF",
+  "name": "Limbs",
+  "type": "AnomalyAbility",
+  "_id": "l2epH9OgfG765nIU",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Roll [quality] to expand your physical possibility with additional limbs similar to the ones you already possess.</p>",
+    "chat": "",
+    "synopsis": "Gain additional limbs to subdue a creature. ",
+    "anomaly": "QeG4FEIg0thHuwYW",
+    "reference": "",
+    "quality": "dynamism",
+    "outcomes": {
+      "success": "you gain reach and control far beyond typical combatants, and can easily engage any mundane or<b> Minor Anomaly</b> target into a stalemate.",
+      "eachplus3": "For each additional 3, choose one:<ul>\n<li>Disarm a target. </li>\n<li>Engage one more target.</li>\n<li>Render an engaged target unconscious.</li>\n<li>Kill an unconscious target.</li>\n</ul>",
+      "failure": "you become only limbs. All other features disappear and you become a conscious pile of whatever limbs you were hoping to create. You are extremely awkward and vulnerable to Harm for an hour."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "When I run into a wall, I...",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "Eat the wall.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "S13"
+        },
+        "answer2": {
+          "text": "Step over the wall.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "G9"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!l2epH9OgfG765nIU"
+}

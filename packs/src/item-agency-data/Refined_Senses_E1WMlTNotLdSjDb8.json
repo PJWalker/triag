@@ -1,0 +1,84 @@
+{
+  "folder": "8vkjXfpy8MxHBcCF",
+  "name": "Refined Senses",
+  "type": "AnomalyAbility",
+  "_id": "E1WMlTNotLdSjDb8",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Fold your brain and reshape your sensory organs in millions of miniscule ways with an [quality] roll that hones them toward specific purposes.</p>",
+    "chat": "",
+    "synopsis": "Alter your sensory organs",
+    "anomaly": "QeG4FEIg0thHuwYW",
+    "reference": "R7",
+    "quality": "attentiveness",
+    "outcomes": {
+      "success": "you dramatically increase your own powers of observation. Pick one, and describe what about the connected piece of your body changes in an unusual way to accommodate the change. The effect lasts for one hour or until you end it.<ul>\n<li><b>Eyes</b>: You immediately know if you are told a lie or half truth.</li>\n<li><b>Brain</b>: You know whether something can be reasoned with, and if so, how to stop or prevent it from attacking you and your allies.</li>\n<li><b>Ears and Nose</b>: You can detect, and follow, smells or sounds imperceptible to normal people.</li>\n<li><b>Tongue</b>: When you taste something, you can tell how old it is and what it’s made of. </li>\n<li><b>Skin</b>: When you touch something you can feel vibrations, pulses, and changes anywhere connected to it.</li>\n</ul>",
+      "eachplus3": "you may pick an additional effect from the list.",
+      "failure": "your senses change faster than your ability to understand them, and overtaken by a strange force. You become a <b>Harbinger of the End</b>. For the rest of the Mission, the GM might describe bad things happening to you or someone nearby. You will not know whether they’re real until you respond to those things."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "Only you answer this question: Have you become a Harbinger of the End?",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "No. I'm too composed for that.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 1,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "M8"
+        },
+        "answer2": {
+          "text": "Yes. I can feel myself changing. Something is calling to me. It is giving me a pattern, or a blueprint. Something I can…become. I can tell that it is dangerous, but I am ready to risk my life to find out the truth.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 1,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "E1"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!E1WMlTNotLdSjDb8"
+}

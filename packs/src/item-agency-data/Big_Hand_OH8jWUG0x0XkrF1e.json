@@ -1,0 +1,85 @@
+{
+  "folder": "kE8ZnYG6BZpNJHMx",
+  "name": "Big Hand",
+  "type": "AnomalyAbility",
+  "_id": "OH8jWUG0x0XkrF1e",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>You create and can now wield a powerful artifact: <strong>Big Hand</strong>. Big Hand is a long, elegant, sword-like weapon that deals no Harm. It can be activated by hitting a target or by tapping it against any clock. When you wield Big Hand alone, roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Use time as a weapon",
+    "anomaly": "pERhmmz8N0cKYUe3",
+    "reference": "B4",
+    "quality": "dynamism",
+    "outcomes": {
+      "success": "the target is hit with Big Hand. They experience the last thing that Harmed them again, receiving an equal amount of Harm. Tapped clocks ignore this effect.",
+      "triscendence": "you can experience the next 60 seconds in any order. You may bring any objects or people you can hold with you as you travel between seconds in this way.",
+      "eachplus3": "you may choose one of the following:<ul>\n<li>Time advances by one minute.</li>\n<li>Time rewinds by one minute.</li>\n<li>A nearby target hears a distracting “tick tock” sound in their mind that prevents them from focusing on any complex plan, math, or speech for the next minute.</li>\n<li>A nearby timer advances to its end and the task it was applied to completes (the toast pops out, a parking meter hits its limit, etc.)</li>\n</ul>",
+      "failure": "the next thing that Harms you does so twice, for double the Harm."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!OH8jWUG0x0XkrF1e"
+}

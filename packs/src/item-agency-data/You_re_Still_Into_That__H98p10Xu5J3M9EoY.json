@@ -1,0 +1,84 @@
+{
+  "folder": "nMw5TZVUUcixbUMm",
+  "name": "You're Still Into That?",
+  "type": "AnomalyAbility",
+  "_id": "H98p10Xu5J3M9EoY",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Make sure someone knows what’s uncool. Tell someone the worst part of a simple activity, hobby, specific course of action, or profession. Roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Make something uncool. ",
+    "anomaly": "olkslTZqenoaKhbD",
+    "reference": "Y4",
+    "quality": "presence",
+    "outcomes": {
+      "success": "they wouldn’t be\ncaught dead doing that thing. If it’s\ntheir responsibility or job, they will do\neverything they can to get out of, or\nignore, it. If they really have to do it,\nthey approach it with embarrassment,\nshame, and/or frustration depending\non their disposition. This effect ends if\nthe target ever sees you embarrassed.",
+      "eachplus3": "you can list other\nuncool things the first thing “is just like.”\nThey’ll feel equally interested in avoiding\nthose behaviors or activities, too",
+      "failure": "who cares what you think?\nThey love that thing now. In fact, they\nwant to do it even more. As much as\npossible. To a dangerous degree."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "When it's time to hang a painting...",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "I tap the wall to find a stud.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "I8"
+        },
+        "answer2": {
+          "text": "I hire a stud to tap the wall.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "D7"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!H98p10Xu5J3M9EoY"
+}

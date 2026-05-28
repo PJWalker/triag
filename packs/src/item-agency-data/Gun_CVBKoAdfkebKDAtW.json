@@ -1,0 +1,30 @@
+{
+  "folder": "yO4nEJ41LORK5Bca",
+  "name": "Gun",
+  "type": "Anomaly",
+  "_id": "CVBKoAdfkebKDAtW",
+  "img": "systems/triangleagency/assets/icons/anomaly-icon.png",
+  "system": {
+    "description": "<p>A sentence ended. A life ended. A hope, grand and genuine, for something attainable and beautiful, ended. Gun Anomalies arrive to put a stop to things. Now. Cynical and proud, Gun Anomalies are a well-documented scourge on the mundane world. Their influence spreads misery, fear, and grief across nearly every band of society. Their powers extend further than machinery, however: the slap of a curtain hitting the stage, the slam of a door, and the soft bidoop of a breakup text are all within their niche. They may seek hosts who truly need their power but always, soon, corrupt. In the hands of an Agent, the Gun creates punctuality, efficiency, and cleanliness. Following Agency protocol ensures there’s no chance of abuse or overuse, and Gun Resonants are beloved in every department. It is highly recommended you ensure they are aware of this.</p><h3><strong>The Gun</strong></h3><p>Your Anomaly is always present in physical form, but is useless to anyone else. Determine a shape for your Gun or choose one of the following forms:</p><table><tbody><tr><td data-colwidth=\"144\"><p>Violin</p></td></tr><tr><td data-colwidth=\"144\"><p>Deck of Cards</p></td></tr><tr><td data-colwidth=\"144\"><p>Sword</p></td></tr><tr><td data-colwidth=\"144\"><p>Tube of Lipstick</p></td></tr><tr><td data-colwidth=\"144\"><p>Yo-yo</p></td></tr><tr><td data-colwidth=\"144\"><p>Remote Control</p></td></tr></tbody></table>",
+    "abilities": []
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!CVBKoAdfkebKDAtW"
+}

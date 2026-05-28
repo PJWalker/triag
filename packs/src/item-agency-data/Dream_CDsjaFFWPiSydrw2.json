@@ -1,0 +1,30 @@
+{
+  "folder": "yO4nEJ41LORK5Bca",
+  "name": "Dream",
+  "type": "Anomaly",
+  "_id": "CDsjaFFWPiSydrw2",
+  "img": "systems/triangleagency/assets/icons/anomaly-icon.png",
+  "system": {
+    "description": "<p>Monsters at the foot of the bed. Birth, life, and death in a single night. Your face in a movie never filmed. Dream Anomalies decide if you want to wake up, and then choose whether you do. Dreams dance on the edge of despair and delight, stoking their victims’ subconscious turmoil to create the perfect dramatic performance. They can be found festering in unfinished manuscripts, coursing through the halls of museums, funneling attention into billboards, and making every small problem larger than life. Also, of course, in dreams. Bonding with a Dream Anomaly can make Agents very popular at work! A Dream Resonant knows when the team is held back by fear, lack of motivation, or the wrong office decor. Please note that Agents with Dream abilities are no longer permitted to participate in Agency book clubs without written agreement that they will not “fix” the book prior to the meeting.</p>",
+    "abilities": []
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!CDsjaFFWPiSydrw2"
+}

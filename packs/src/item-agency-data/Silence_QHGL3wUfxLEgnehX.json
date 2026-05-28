@@ -1,0 +1,84 @@
+{
+  "folder": "fzChvOHarZUydEJB",
+  "name": "Silence",
+  "type": "AnomalyAbility",
+  "_id": "QHGL3wUfxLEgnehX",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Open your mouth and emit a sound that adjusts frequency to cancel out the noises you make. Roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Suppress sound",
+    "anomaly": "qMpjg1WXwmnUly8O",
+    "reference": "",
+    "quality": "subtlety",
+    "outcomes": {
+      "success": "none of your actions make a sound until after you make another roll or close your mouth.",
+      "eachplus3": "you can silence the actions of one additional target until this effect ends.",
+      "failure": "your frequency becomes imbalanced and you greatly amplify all sounds you make for the next hour."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "I go quiet...",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "So others can speak.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "S10"
+        },
+        "answer2": {
+          "text": "So my next words hit harder.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "S8"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!QHGL3wUfxLEgnehX"
+}

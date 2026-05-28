@@ -1,0 +1,22 @@
+{
+  "name": "Connection Benefits",
+  "sorting": "a",
+  "folder": "GFOz4uUhD2fAbKL7",
+  "type": "Item",
+  "_id": "sc2x6JoeNKuWB2Pe",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.328",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "description": "",
+  "_key": "!folders!sc2x6JoeNKuWB2Pe"
+}

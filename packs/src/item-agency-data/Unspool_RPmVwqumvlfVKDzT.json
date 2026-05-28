@@ -1,0 +1,84 @@
+{
+  "folder": "47B4BLgc3ZXiBRb2",
+  "name": "Unspool",
+  "type": "AnomalyAbility",
+  "_id": "RPmVwqumvlfVKDzT",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>All bindings lose their strength when you’re around. Tug at an invisible thread connected to an object within 3 meters of you and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Make something fall apart. ",
+    "anomaly": "eS7KC5SIpaSgrhpn",
+    "reference": "U3",
+    "quality": "presence",
+    "outcomes": {
+      "success": "the target completely\ndisassembles: its locks open, its\nseams come apart, its knots come\nundone, its screws come loose.",
+      "every3rd3": "choose one:<ul>\n<li>Your range increases by three meters.</li>\n<li>Any number of things within your\ncurrent range undergo this effect.</li>\n<li>It is easy to put the target back together.</li>\n</ul>",
+      "failure": "things fall apart wherever you go: lights fall from the ceiling, cables on cranes snap when you pass below them, your shoes come untied. The GM receives the following Chaos Effect until the Mission is over.<ul>\n<li><b> Unspool</b> (1 Chaos) Something comes completely undone in a way that inconveniences the player who gave you this ability</li>\n</ul>"
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "When I don't want to do something I'm expected to do, I...",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "Never show up.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "L7"
+        },
+        "answer2": {
+          "text": "Cause enough drama that it gets canceled.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "U4"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!RPmVwqumvlfVKDzT"
+}

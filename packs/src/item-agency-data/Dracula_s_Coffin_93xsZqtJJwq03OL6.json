@@ -1,0 +1,36 @@
+{
+  "folder": "qbhkM4exggvPcUMP",
+  "name": "Dracula's Coffin",
+  "type": "Requisition",
+  "_id": "93xsZqtJJwq03OL6",
+  "img": "systems/triangleagency/assets/icons/requisition-icon.png",
+  "system": {
+    "reference": "",
+    "cost": 0,
+    "description": "<p>The coffin of the man himself lies deep in the vault, buried under layers of earth. You can exhume the coffin once per Mission to place something inside that can fit. When the coffin is returned to the earth, whatever you placed inside never existed. All memories of it are erased, and every effect it had on the world is ascribed to other sources.</p>",
+    "totalUses": 1,
+    "missionUses": 1,
+    "used": 0,
+    "notes": "",
+    "unlimited": false
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801408523,
+    "modifiedTime": 1725215168811,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!93xsZqtJJwq03OL6"
+}

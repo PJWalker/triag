@@ -1,0 +1,84 @@
+{
+  "folder": "FbWHYEaYHPS7AP9Y",
+  "name": "Personal Space",
+  "type": "AnomalyAbility",
+  "_id": "RMsSjUaJQcbl70bM",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Take a deep breath and hold it. If you do not normally breathe, another willing character who does must hold their breath on your behalf. Roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Control your gravity for the space of a beath",
+    "anomaly": "QFZ908dwWMLydS1m",
+    "reference": "P6",
+    "quality": "professionalism",
+    "outcomes": {
+      "success": "for the duration of this breath, you have full control over the pull of gravity on your own body. You can fall in any direction, float, and accelerate with perfect precision. This effect ends when you release this breath or when it is knocked out of you - whether it ends gradually or suddenly depends on the rate the breath is released.",
+      "every3rd3": "you may say one phrase or take one breath without ending this effect.",
+      "failure": "your gravity changes direction with every breath you take for the next ten minutes. This effect is extremely unusual to observe, and often creates Loose Ends or causes Harm, to you or others."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "I most often uplift...",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "Others.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "I7"
+        },
+        "answer2": {
+          "text": "Myself.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "I9"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!RMsSjUaJQcbl70bM"
+}

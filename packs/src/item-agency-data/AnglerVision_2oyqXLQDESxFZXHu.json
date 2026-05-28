@@ -1,0 +1,36 @@
+{
+  "folder": "uOSN71vOFpYkPAsJ",
+  "name": "AnglerVision",
+  "type": "Requisition",
+  "_id": "2oyqXLQDESxFZXHu",
+  "img": "systems/triangleagency/assets/icons/requisition-icon.png",
+  "system": {
+    "reference": "D4",
+    "cost": 6,
+    "description": "<p>This anglerfish-like creature has a small projector dangling from an appendage on its forehead. By spending one Quality Assurance from <strong>Duplicity</strong> or <strong>Attentiveness</strong>, you may project up to nine images, distinct and clear, on any surface and at any unobstructed distance away. These images can be prompts (“something scary”), specific images from the memories of the user, or it can be set to “automatic” and it will change to something relevant at the end of the next nine confidently-spoken sentences.</p>",
+    "totalUses": 1,
+    "missionUses": 1,
+    "used": 0,
+    "notes": "",
+    "unlimited": false
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801408523,
+    "modifiedTime": 1725215093801,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!2oyqXLQDESxFZXHu"
+}

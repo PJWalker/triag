@@ -1,0 +1,85 @@
+{
+  "folder": "nMw5TZVUUcixbUMm",
+  "name": "Thank You So Much",
+  "type": "AnomalyAbility",
+  "_id": "FsLcv1TKdWAcSax6",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Show how grateful you are by grabbing something that belongs to someone else and saying, to the owner, <em>\"Thank you so much,\"</em> as you roll [quality].</p>",
+    "chat": "",
+    "synopsis": "",
+    "anomaly": "olkslTZqenoaKhbD",
+    "reference": "T1",
+    "quality": "empathy",
+    "outcomes": {
+      "success": "they believe they gave it to you. Whatever you were holding is considered rightfully yours by anyone nearby. The target may not be completely happy about it, but they do believe it was their choice.",
+      "eachplus3": "you can grab an additional thing and include it in this effect.",
+      "triscendence": "the target, or another target nearby, considers anything they own or possess to be yours, as well. Forever.",
+      "failure": "you picked the wrong thing - and it’s embarrassing. They really care about what you tried to take, and will do everything they can to stop you. Your Drain abilities no longer work on anybody who saw you be embarrassed in this way."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!FsLcv1TKdWAcSax6"
+}

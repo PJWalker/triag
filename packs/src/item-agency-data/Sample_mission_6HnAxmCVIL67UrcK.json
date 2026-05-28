@@ -1,0 +1,53 @@
+{
+  "folder": "IydJFtnpkGW5P7tM",
+  "name": "Sample mission",
+  "type": "MissionReport",
+  "_id": "6HnAxmCVIL67UrcK",
+  "img": "systems/triangleagency/assets/icons/missionreport-icon.png",
+  "system": {
+    "resolved": false,
+    "status": "",
+    "otherstatus": "",
+    "alias": "",
+    "behavior": "",
+    "focus": "",
+    "domain": "",
+    "agents": {},
+    "mvp": "",
+    "probation": "",
+    "finalgrade": "",
+    "paperwork": "incomplete",
+    "looseends": {},
+    "objectives": {
+      "1eSf3ibHqMit28RM": {
+        "type": "commendation",
+        "value": 1,
+        "description": "Punch someone wearing puce"
+      },
+      "2ioRcd2ReIk0YIHr": {
+        "type": "commendation",
+        "value": 3,
+        "description": "Throw up while riding on public transport."
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801438984,
+    "modifiedTime": 1722801438984,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!6HnAxmCVIL67UrcK"
+}

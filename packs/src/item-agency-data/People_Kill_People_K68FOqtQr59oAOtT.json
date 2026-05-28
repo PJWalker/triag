@@ -1,0 +1,84 @@
+{
+  "folder": "16yAQdlvCXM40LTi",
+  "name": "People Kill People",
+  "type": "AnomalyAbility",
+  "_id": "K68FOqtQr59oAOtT",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Imbue a target with the power of your Gun. Say something to boost their confidence and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Grant someone your Gun",
+    "anomaly": "CVBKoAdfkebKDAtW",
+    "reference": "P3",
+    "quality": "presence",
+    "outcomes": {
+      "success": "the next person who hurts the target, physically or emotionally, is immediately Eliminated. If the target knows what you have given them, they can stop the effect from activating on targets they do not want Eliminated.",
+      "eachplus3": "this effect activates an additional time on the following person who hurts them, or another person who heard your words of confidence receives this effect as well.",
+      "failure": "you create a Gun Hollow obsessed with killing as many targets as possible. If it successfully kills you, it steals your Resonance, stabilizes, and escapes as a full Anomaly with a new Focus based on the circumstances (often \"the experience of death.\")"
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!K68FOqtQr59oAOtT"
+}

@@ -1,0 +1,84 @@
+{
+  "folder": "47B4BLgc3ZXiBRb2",
+  "name": "Missed!",
+  "type": "AnomalyAbility",
+  "_id": "CSpAPdmmnAskao63",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>They never seem to know where you are. When something might touch or hurt you, you can say <em>“Missed!”</em> and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "You were never there. ",
+    "anomaly": "eS7KC5SIpaSgrhpn",
+    "reference": "",
+    "quality": "duplicity",
+    "outcomes": {
+      "success": "you were always somewhere else nearby - perhaps behind\nor on top of whatever tried to touch you.",
+      "eachplus3": "another willing,\nnearby target may be moved with you\nto the new location.",
+      "failure": "the target moves instead—to\nhurt another, to an angle that deals additional\nHarm, or to a very inconvenient place."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "In an argument, I'll win by...",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "Identifying gaps in logic.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "I2"
+        },
+        "answer2": {
+          "text": "Never backing down.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "M10"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!CSpAPdmmnAskao63"
+}

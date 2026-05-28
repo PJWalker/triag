@@ -1,0 +1,84 @@
+{
+  "folder": "FbWHYEaYHPS7AP9Y",
+  "name": "Mirror",
+  "type": "AnomalyAbility",
+  "_id": "xW6DrzR1E4PF92RN",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Draw a shape in the air with your finger and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Create a mirror that reflects light and space",
+    "anomaly": "QFZ908dwWMLydS1m",
+    "reference": "M9",
+    "quality": "duplicity",
+    "outcomes": {
+      "success": "the shape becomes an insubstantial Mirror. Its surface perfectly reflects everything, and when somebody passes through it, they find themselves moving back the way they came. The other face of the Mirror can be seen through and passed through as if it did not exist.",
+      "failure": "you create a persistent, difficult-to-destroy opening to a Mirror Reality, and something will come through. Perhaps many things.",
+      "eachplus3": "choose one of the following. You may choose the same option multiple times:<ul>\n<li>Both faces of the Mirror are reflective.</li>\n<li>Double the size of the Mirror.</li>\n<li>Select a target that will not be visually reflected by the Mirror.</li>\n<li>Select a target that will not be spatially reflected by the Mirror.</li>\n</ul>"
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "I decide what to do...",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "By following trends.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "B6"
+        },
+        "answer2": {
+          "text": "By trying everything.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "A8"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!xW6DrzR1E4PF92RN"
+}

@@ -1,0 +1,85 @@
+{
+  "folder": "EUXv71E1Ef8t6s11",
+  "name": "La-La Land",
+  "type": "AnomalyAbility",
+  "_id": "2e2u3NmjWKVMWdON",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Make life imitate art. Choose a genre of art or specific art piece you’ve interacted with before using <strong>Site Visit</strong>, yell “ACTION!” and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Impose a work of art on reality",
+    "anomaly": "CDsjaFFWPiSydrw2",
+    "reference": "L1",
+    "quality": "presence",
+    "outcomes": {
+      "success": "everyone and everything in the surrounding area adjusts to conform to the rules and conventions of that genre or work: A nearby police officer becomes a medieval knight; the casino is swarmed by large teams of professional thieves; a bustling park takes on the serene atmosphere of an impressionist painting.\n<p>This effect lasts for ninety minutes, until you dismiss it, or when somebody gets cut – whichever happens first. Whichever way this effect ends, when it is over all affected people assume that it was a particularly vivid flight of fancy.</p>",
+      "eachplus3": "at any point while this effect is active, you may set a Scene by announcing something relevant to that genre. For example, you might say <i>“this is where the villain gives his monologue”</i> while approaching a target: they must stop whatever they’re doing to explain their history, motivation, and plan.",
+      "triscendence": "you may instead select any number of people and force them to participate in a line-for-line reenactment of a  script of your choice. This effect lasts until the end of the script is reached, or when you choose to end it.",
+      "failure": "the world around you adjusts to conform to the genre, but none of the people do. Everyone nearby is aware of what you’ve done; this may result in a huge amount of Loose Ends."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!2e2u3NmjWKVMWdON"
+}

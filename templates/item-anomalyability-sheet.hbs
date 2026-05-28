@@ -1,0 +1,129 @@
+<form class="{{cssClass}} anomaly pad" {{#unless isGM}}inert{{/unless}} autocomplete="off">
+  <div class="fullCard">
+    <header>
+      <input name="name" type="text" value="{{item.name}}" placeholder="Anomaly name" />
+      <input
+        name="system.reference"
+        type="text"
+        value="{{system.reference}}"
+        title="{{localize "TA.PlaywallReference"}}"
+        style="
+          width: 50px;
+          text-align: center;
+          background-color: #2752a2;
+          text-transform: uppercase;
+          color: white;
+        "
+        oninput="this.value = this.value.toUpperCase()"
+      />
+    </header>
+
+    <div class="cardBody pad">
+      <div class="flexrow">
+        <input
+          name="system.synopsis"
+          type="text"
+          value="{{system.synopsis}}"
+          placeholder="{{localize "TA.Synopsis"}}"
+        />
+
+        <select style="flex-grow: 0" class="anomaly" name="system.anomaly">
+          {{selectOptions extra.anomalies selected=system.anomaly localize=true}}
+        </select>
+
+        <select style="flex-grow: 0" class="agency" name="system.quality">
+          {{selectOptions extra.qualities selected=system.quality localize=true}}
+        </select>
+      </div>
+      <hr />
+      <div style="margin: 1lh 0">{{editor system.description target="system.description" engine="prosemirror" button=true editable=editable }}</div>
+
+      <div>
+        {{#each extra.outcomes}}
+        <div data-id="{{this.id}}" style="clear: both; margin-bottom: 0.5lh">
+          {{#if isGM}}
+          <div style="float: right">
+            <i
+              data-action="edit"
+              class="editOutcome fa-solid fa-pen-to-square editicon"
+              title="Edit"
+            ></i>
+            <i
+              data-action="delete"
+              class="editOutcome fa-solid fa-trash-can editicon"
+              title="Delete"
+            ></i>
+          </div>
+          {{/if}}
+          <div><strong>{{this.label}}</strong>, {{{this.description}}}</div>
+        </div>
+        {{/each}}
+      </div>
+
+      <div class="flexrow pad" style="align-items: center">
+        <input
+          name="system.chat"
+          type="text"
+          value="{{system.chat}}"
+          placeholder="Text displayed in chat"
+        />
+        <label style="flex-grow: 0; min-width: fit-content">{{localize "TA.Outcome.AnswerTrackSize"}}</label>
+        <input
+          name="system.track.size"
+          type="number"
+          value="{{system.track.size}}"
+          min="0"
+          max="12"
+          maxlength="2"
+          oninput="this.value = this.value.slice(0, this.maxLength)"
+          style="flex-grow: 0"
+        />
+      </div>
+      <div class="peerReview pad">
+        <div style="margin-bottom: 0.5lh">
+          <input
+            name="system.improvement.question"
+            type="text"
+            value="{{system.improvement.question}}"
+            placeholder="Advancement question"
+          />
+        </div>
+        <div>
+          {{#each system.improvement.answers}}
+          <div
+            class="flexrow"
+            style="align-items: center; margin-bottom: 0.5lh"
+          >
+            <input
+              name="system.improvement.answers.{{@key}}.text"
+              type="text"
+              value="{{this.text}}"
+              placeholder="Answer"
+            />
+            <label style="flex-grow: 0; min-width: fit-content">{{localize "TA.Outcome.AnswerTrackSize"}}</label>
+            <input
+              style="flex-grow: 0; min-width: fit-content"
+              name="system.improvement.answers.{{@key}}.track.size"
+              type="number"
+              value="{{this.track.size}}"
+              min="0"
+              max="5"
+              maxlength="1"
+              oninput="this.value = this.value.slice(0, this.maxLength)"
+            />
+            <span class="color-red" style="flex-grow: 0">&#9654;</span>
+            <input
+              style="flex-grow: 0; min-width: fit-content"
+              name="system.improvement.answers.{{@key}}.nextStage"
+              type="text"
+              value="{{this.nextStage}}"
+              placeholder="??"
+              oninput="this.value = this.value.toUpperCase()"
+            />
+          </div>
+          {{/each}}
+        </div>
+      </div>
+    </div>
+  </div>
+</form>

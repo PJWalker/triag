@@ -1,0 +1,80 @@
+{
+  "folder": "FbWHYEaYHPS7AP9Y",
+  "name": "Inescapable Orbit",
+  "type": "AnomalyAbility",
+  "_id": "jDA1BZMa0XNOeTOi",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Your gravity bends fate to its will, drawing your wishes to you. At the end of a Mission, while spending Time, give the GM a list of 7 things written on a piece of paper. During the next Mission, 3 of those things must come within one meter of you and be pointed out to you directly.</p><p>When each does, cross it out. If at least three things don’t appear, the next Mission begins with 10 fewer Chaos. This can send starting Chaos into the negatives.</p><p>Each Mission after the first use, you can choose to leave the list as-is (shorter, if items were crossed out) or add 3 items exactly. If there are fewer than 3 items on the list, the GM is only required to fulfill what’s on the list. You cannot remove items, and no items can ever be placed on the list a second time. If the list has zero items, it must be replenished fully back to 7 on the next use.</p><p>If you ask for something genuinely impossible within Reality, the heavens still provide: the GM can declare a meteor falls near you at an opportune moment, assisting you in some way, to cross something off the list.</p>",
+    "chat": "",
+    "synopsis": "Bend fate to your will",
+    "anomaly": "QFZ908dwWMLydS1m",
+    "reference": "I7",
+    "quality": "attentiveness",
+    "outcomes": {},
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!jDA1BZMa0XNOeTOi"
+}

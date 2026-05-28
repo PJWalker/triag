@@ -1,0 +1,84 @@
+{
+  "folder": "EUXv71E1Ef8t6s11",
+  "name": "Naptime",
+  "type": "AnomalyAbility",
+  "_id": "z6BRM7lqjnr5PNRk",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Blow a pinch of sand onto a target and roll [quality].</p>",
+    "chat": "Naptime",
+    "synopsis": "Put someone to sleep. ",
+    "anomaly": "CDsjaFFWPiSydrw2",
+    "reference": "",
+    "quality": "subtlety",
+    "outcomes": {
+      "success": "you send the target into a sudden sleep.\nThey’ll have pleasant dreams and think they nodded off\non their own after they wake up in a few minutes.",
+      "eachplus3": "choose one:<ul>\n<li>Add an additional target to this effect.</li>\n<li>The effect lasts an additional hour.</li>\n</ul>",
+      "failure": "another target, an ally or\nperhaps even yourself, falls asleep instead.\nThe fickle sand swirls in obvious ways, and\nthe original target sees what you’ve done."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "My favorite dreams...",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "Recur.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "D8"
+        },
+        "answer2": {
+          "text": "Are completely unexpected.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "S1"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!z6BRM7lqjnr5PNRk"
+}

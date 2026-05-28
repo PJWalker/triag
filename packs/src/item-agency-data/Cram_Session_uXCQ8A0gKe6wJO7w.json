@@ -1,0 +1,84 @@
+{
+  "folder": "kE8ZnYG6BZpNJHMx",
+  "name": "Cram Session",
+  "type": "AnomalyAbility",
+  "_id": "uXCQ8A0gKe6wJO7w",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>When you are attacked by an enemy, take the hit and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Analyze an attack made against you",
+    "anomaly": "pERhmmz8N0cKYUe3",
+    "reference": "C10",
+    "quality": "dynamism",
+    "outcomes": {
+      "success": "you create a space outside of time to study the attack completely, and train to counter it perfectly. Triple the amount of Harm dealt to you, but write down the way you were harmed (sword slashing, bolt of electricity, building falling on top of you, etc.)\n<p/>Any time you are Harmed in the exact same way as one you've written down, by anyone, activate this Ability with the following adjusted text:<ul>\n<li><b>On a success</b>, reduce the Harm by one for each 3 rolled. If this reduces Harm into the negative, you can turn their attack back at them and deal that much Harm in response</li>\n</ul>",
+      "triscendence": "your study reveals the target’s weaknesses. At any point, whenever you have physical access to the target enemy, you may prevent any Harm it would deal to you, and may deal a fatal amount of Harm to it with close to no effort.",
+      "failure": "time freezes for everyone except you and the one who Harmed you. You will both return to the normal flow of time only when one of you is dead or destroyed."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "When I'm falling behind, I...",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "Make others wait for me.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "R5"
+        },
+        "answer2": {
+          "text": "Push myself to the limit.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "P2"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!uXCQ8A0gKe6wJO7w"
+}

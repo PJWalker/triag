@@ -1,0 +1,80 @@
+{
+  "folder": "fzChvOHarZUydEJB",
+  "name": "Catchphrase",
+  "type": "AnomalyAbility",
+  "_id": "Yb0i359aM8PHDvhn",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>At any time during the beginning of each mission, before the end of the briefing, secretly write up to six different three-word phrases somewhere. (<em>“So I said,” “my aardvark laughs,” “until the final,”</em> etc.) None of the phrases may share any words, and they should be kept hidden in a publicly visible place so they cannot be changed after the briefing.</p><p>At any point during the Mission’s investigation, if your GM or another player says one of these phrases verbatim, show that phrase to the group. After you do, your next roll automatically achieves Triscendence. Once a phrase is used in this way, it cannot ever be reused again with this Ability.</p><p>If you share hints or details about your selections before they are revealed, accidentally or otherwise, you can no longer gain this effect during this Mission. Immediately reveal all selected phrases to your group. Each time any other player says any of the phrases, add 10 Chaos to the Chaos Pool.</p>",
+    "chat": "",
+    "synopsis": "Achieve Triscendence through catchphrases",
+    "anomaly": "qMpjg1WXwmnUly8O",
+    "reference": "C5",
+    "quality": "attentiveness",
+    "outcomes": {},
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!Yb0i359aM8PHDvhn"
+}

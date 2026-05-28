@@ -1,0 +1,80 @@
+{
+  "folder": "47B4BLgc3ZXiBRb2",
+  "name": "Lost in the Crowd",
+  "type": "AnomalyAbility",
+  "_id": "TJM3o2CAugzyxbSp",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Any time you step into a group of six or more people, you immediately become every person in the crowd. You can see what they see, feel what they feel, direct them in small ways, and disappear, reappear, or use Abilities anywhere inside or along the edge of the crowd instantaneously.</p><p>As long as you are in a crowd of fifteen or more people, you are impossible to Harm or target - but the people in the crowd are not.</p><p>In addition, when you succeed using <strong>Unbound</strong>, you may bring any number of other people with you without spending any 3s.</p>",
+    "chat": "",
+    "synopsis": "Become absorbed into a group",
+    "anomaly": "eS7KC5SIpaSgrhpn",
+    "reference": "L9",
+    "quality": "attentiveness",
+    "outcomes": {},
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!TJM3o2CAugzyxbSp"
+}

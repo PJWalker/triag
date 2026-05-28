@@ -1,0 +1,84 @@
+{
+  "folder": "47B4BLgc3ZXiBRb2",
+  "name": "Negatives",
+  "type": "AnomalyAbility",
+  "_id": "aaD239G4Y8BlWocr",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Inspect the place where something once was, and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "See what was. ",
+    "anomaly": "eS7KC5SIpaSgrhpn",
+    "reference": "",
+    "quality": "attentiveness",
+    "outcomes": {
+      "success": "you can see the lost history of the place you’re inspecting. If a note was removed, you know what it read - if an object\nwas stolen, you know what it was and how it left.",
+      "every3rd3": "you may say one sentence\nabout what is lost, and that sentence is true.",
+      "failure": "there’s too much loss. You become overwhelmed by the history of the location you’re in, and receive one Harm - in addition to any Loose Ends caused by your visible, painful reaction"
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "To fill empty space, I tend to...",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "Make conversation.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "W5"
+        },
+        "answer2": {
+          "text": "Take up more of it.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "C6"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!aaD239G4Y8BlWocr"
+}

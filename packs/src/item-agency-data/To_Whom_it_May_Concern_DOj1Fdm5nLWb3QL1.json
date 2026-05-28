@@ -1,0 +1,84 @@
+{
+  "folder": "kE8ZnYG6BZpNJHMx",
+  "name": "To Whom it May Concern",
+  "type": "AnomalyAbility",
+  "_id": "DOj1Fdm5nLWb3QL1",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>They’re only as old as you say they are. Tap a pen to a greeting card and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Mess with a target's age",
+    "anomaly": "pERhmmz8N0cKYUe3",
+    "reference": "T4",
+    "quality": "presence",
+    "outcomes": {
+      "success": "the card becomes a <b>Happy Birthday</b> card. When it's opened, the target ages one year. If you write a name on the card, it affects only that person, and only the first time they open it. If the card is opened before a name is written on it, it affects the opener. If the card is later destroyed (burnt in a fire, dissolved in acid, etc.) the effect is undone and they are returned to their situation before they first opened the card.",
+      "failure": "your GM prepares and hands you one card of their choice. You cannot make any other rolls until after you open it. The effect lasts until the end of the mission, even if the card is destroyed.",
+      "spend3s": "replacements for, or additions to, <b>Happy Birthday</b>. You may add more than one to the same card, or create additional cards with these effects:<ul>\n<li>1: <b>Another Year Older</b>: the target ages an additional year.</li>\n<li>2: <b>To My Beloved Grandchild</b>: the target becomes five years younger.</li>\n<li>3: <b>Feliz Quinceañera</b>: the target becomes fifteen years old.</li>\n<li>3: <b>Thirty, Flirty, and Thriving</b>: the target becomes thirty years old.</li>\n<li>3: <b>Over The Hill</b>: the target becomes fifty-five years old.</li>\n<li>4: <b>Dear John</b>: the target receives terrible news in the letter, and it’s true. The news is decided by the player controlling the target, but it must be truly heartbreaking.</li>\n<li>5: <b>Four Score and Seven Years Ago</b>: the target becomes eighty-seven years old.</li>\n<li>6: <b>My Condolences</b>: the target dies.</li>\n<li>6: <b>Welcome to the World</b>: the target becomes an infant.</li>\n</ul>"
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!DOj1Fdm5nLWb3QL1"
+}

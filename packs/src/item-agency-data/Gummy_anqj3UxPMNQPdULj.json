@@ -1,0 +1,80 @@
+{
+  "folder": "8vkjXfpy8MxHBcCF",
+  "name": "Gummy",
+  "type": "AnomalyAbility",
+  "_id": "anqj3UxPMNQPdULj",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Your body is unbelievably flexible. You can painlessly stretch, twist, flatten, and shape your body without the typical restrictions applied by your bones, organs, or nervous system. It remains easy and comfortable for you to maintain your default form. This ability is unable to disguise your identity, let you pose as another person, or shape your body into a precise tool.</p><div><p>This Ability does not require rolls, but anyone who sees you use this even for a moment is likely to become a Loose End.</p></div>",
+    "chat": "",
+    "synopsis": "Become incredibly malleable",
+    "anomaly": "QeG4FEIg0thHuwYW",
+    "reference": "G9",
+    "quality": "attentiveness",
+    "outcomes": {},
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "Instead of asking the group a question during Be Known, mark one that was true during the last mission. You can receive both of the following Abilities by filling their tracks.",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "I used this ability to solve a problem.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "I10"
+        },
+        "answer2": {
+          "text": "I used this ability to make someone laugh.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "G5"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!anqj3UxPMNQPdULj"
+}

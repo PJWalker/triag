@@ -1,0 +1,84 @@
+{
+  "folder": "kE8ZnYG6BZpNJHMx",
+  "name": "Rerun",
+  "type": "AnomalyAbility",
+  "_id": "WiFgBkOJsmJuxo8Z",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>This one never gets old. When somebody or something does something worth seeing again, applaud and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "",
+    "anomaly": "pERhmmz8N0cKYUe3",
+    "reference": "R10",
+    "quality": "persistence",
+    "outcomes": {
+      "success": "the target enters a loop, repeating its exact behavior over the last five to sixty seconds, for 20 minutes. If the target is conscious, they do not remember being in the loop: every time the loop restarts, their memory is reset to its state at the loop’s beginning.\n<p>Though the target’s memory resets, the world around them proceeds through time as normal. For example, if they’ve been looped just before they intend to staple a document, soon that document will have dozens of staples in it.</p>",
+      "eachplus3": "choose one:<ul>\n<li>Up to three additional people or objects join the loop</li>\n<li>The loop covers up to an additional minute</li>\n<li>The loop repeats for an additional 20 minutes</li>\n</ul>",
+      "failure": "the target disappears instead: you’ve disconnected them from the timeline. They will appear sporadically, rejoining the timeline for up to a minute at a time at seemingly random intervals. In the meanwhile, they understand what you’ve done, and may eventually learn to use this state to their advantage."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!WiFgBkOJsmJuxo8Z"
+}

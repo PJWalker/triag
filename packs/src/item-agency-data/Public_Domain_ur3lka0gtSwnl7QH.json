@@ -1,0 +1,80 @@
+{
+  "folder": "EUXv71E1Ef8t6s11",
+  "name": "Public Domain",
+  "type": "AnomalyAbility",
+  "_id": "ur3lka0gtSwnl7QH",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>When you use Dramaturg, your <strong>Mask</strong> may imbue the sleeper with the personality and knowledge of any mythic or fictional character, including the following list of legally-mentionable ones.</p><p>They do not get any of those characters’ supernatural abilities unless the sleeper already had them. Like in Dramaturg, they regard you warmly, and are predisposed to help you. However, their memories are persistent as yours: they will remember whether they are treated well, or poorly, and respond to you in kind each time they are summoned.</p><p>From now on when you fail using Dramaturg, the most recent fictional character you called upon will also become unavailable until you do something they would do, winning them back.</p><p>If you call on a fictional character during Triscendence, the target of Dramaturg also receives the character's supernatural or extraordinary abilities.</p><ul><li>Sherlock Holmes</li><li>Hercules</li><li>Morgan le Fay</li><li>Steamboat Willie</li><li>Dracula</li><li>Victor Frankenstein</li><li>Dorothy Gale</li><li>Winnie the Pooh</li><li>Alice of Wonderland</li><li>Don Quixote</li><li>Betty Boop</li><li>Robin Hood</li><li>Jay Gatsby</li></ul>",
+    "chat": "",
+    "synopsis": "Gain a public domain Mask",
+    "anomaly": "CDsjaFFWPiSydrw2",
+    "reference": "P14",
+    "quality": "attentiveness",
+    "outcomes": {},
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!ur3lka0gtSwnl7QH"
+}

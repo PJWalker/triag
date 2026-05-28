@@ -1,0 +1,84 @@
+{
+  "folder": "KJ942AoNAzO30V2s",
+  "name": "Permanent Transfer",
+  "type": "AnomalyAbility",
+  "_id": "wjmIYFzZiCUgtAk0",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>After you use <strong>Your Best Self</strong>, you may invite the alternate version of yourself to stay in this reality indefinitely. Make them an offer and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Make your duplicate stay. ",
+    "anomaly": "udMNsme6WENZjHUA",
+    "reference": "P5",
+    "quality": "persistence",
+    "outcomes": {
+      "success": "this alternate version\nof yourself accepts the deal and\nremains as a new Relationship with <span class=\"color-red\">3</span>\nConnection and a Connection Bonus\nrelated to the description you gave for\nthem. Assign them to another player to\nplay. Add 1 Loose End to the total count\nat the beginning of every Mission for\nas long as they remain here. They\ncan leave this Reality at any time.",
+      "every3rd3": "you may\nincrease your starting Connection\nby 1 (to a maximum of 9).",
+      "failure": "they remain. You return\nto where they came from. Your player\nnow plays the new version of you.\nDepending on how similar they are\nyou might: adjust your Work/Life\nBalance choices; swap out Anomaly\nAbilities for the ones you would have\nreceived with different behavior;\nmove Relationships up and down\nequivalently to how well this version\nconnects to people; or any other\ndetails you feel necessary to adjust."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "Which would I rather have?",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "A large community of like- minded acquaintances.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "O5"
+        },
+        "answer2": {
+          "text": "A small group of friends that truly understands each other.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "F2"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!wjmIYFzZiCUgtAk0"
+}

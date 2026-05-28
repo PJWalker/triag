@@ -1,0 +1,80 @@
+<form class="{{cssClass}} pad" autocomplete="off">
+  <div class="fullCard">
+    <header style="font-size: 2em; font-weight: bold">
+      <input
+        name="name"
+        type="text"
+        value="{{item.name}}"
+        placeholder="Competency name"
+      />
+    </header>
+
+    <div class="pad">{{editor system.description target="system.description" engine="prosemirror" button=true editable=editable }}</div>
+
+    <fieldset class="agency">
+      <legend class="competency">{{localize "TA.Agent.PrimeDirective"}}</legend>
+      <div>
+        <input
+          id="system.primeDirectiveBlurb"
+          name="system.primeDirectiveBlurb"
+          type="text"
+          value="{{system.primeDirectiveBlurb}}"
+          placeholder="Title"
+          class="header"
+        />
+        <textarea
+          name="system.primeDirective"
+          rows="5"
+          cols="10"
+          wrap="soft"
+          placeholder="What you do to earn a Commendation"
+        >
+{{system.primeDirective}}</textarea
+        >
+      </div>
+    </fieldset>
+
+    <fieldset class="agency">
+      <legend class="competency">{{localize "TA.Agent.SanctionedBehaviors"}}</legend>
+      <div>
+        <div>
+          <input
+            id="system.sanctionedBehaviors.act1"
+            name="system.sanctionedBehaviors.act1"
+            type="text"
+            value="{{system.sanctionedBehaviors.act1}}"
+            placeholder="Behavior"
+          />
+        </div>
+        <div style="margin-top: 10px">
+          <input
+            id="system.sanctionedBehaviors.act2"
+            name="system.sanctionedBehaviors.act2"
+            type="text"
+            value="{{system.sanctionedBehaviors.act2}}"
+            placeholder="Behavior"
+          />
+        </div>
+        <div style="margin-top: 10px">
+          <input
+            id="system.sanctionedBehaviors.act3"
+            name="system.sanctionedBehaviors.act3"
+            type="text"
+            value="{{system.sanctionedBehaviors.act3}}"
+            placeholder="Behavior"
+          />
+        </div>
+      </div>
+    </fieldset>
+
+    <fieldset class="agency">
+      <legend class="competency">{{localize "TA.Agent.InitialRequisition"}}</legend>
+      <div style="margin-top: 3px">
+        <select name="system.initialRequisition">
+          <option value=""></option>
+          {{selectOptions extra.requisitions selected=system.initialRequisition localize=true}}
+        </select>
+      </div>
+    </fieldset>
+  </div>
+</form>

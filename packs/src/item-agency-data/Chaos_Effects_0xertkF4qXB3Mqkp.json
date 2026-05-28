@@ -1,0 +1,22 @@
+{
+  "name": "Chaos Effects",
+  "sorting": "a",
+  "folder": "I4JnBwIiyBFBeiI6",
+  "type": "Item",
+  "_id": "0xertkF4qXB3Mqkp",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.328",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "description": "",
+  "_key": "!folders!0xertkF4qXB3Mqkp"
+}

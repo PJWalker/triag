@@ -1,0 +1,37 @@
+{
+  "folder": "UL3HWyofCJWKnNuT",
+  "name": "Reception",
+  "type": "Competency",
+  "_id": "JjXbQb9gTKbC6muH",
+  "img": "systems/triangleagency/assets/icons/competency-icon.png",
+  "system": {
+    "description": "<p>Just as every story must have a beginning and every idea a conception, Agency buildings must have fire code compliant entrances and exits. In a world rocked by chaos, uncertainty, and doubt, Receptionists ensure nothing, neither people nor ideas, gets in or out without proper authorization. Receptionists are not merely guardians of the gates. They are also often distributors of justice and interpreters of rules such as orchestral conductors, librarians, drill sergeants, and babysitters.</p>",
+    "primeDirectiveBlurb": "Remain ever vigilant",
+    "primeDirective": "Choose one:\nEach time you sit down, receive 1 Demerit.\nEach time you leave a question unanswered, receive 1 Demerit.",
+    "sanctionedBehaviors": {
+      "act1": "Interrogate someone.",
+      "act2": "Commandeer belongings.",
+      "act3": "Close a door forever."
+    },
+    "initialRequisition": "PYc2jEAkW1XbzCeO"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801394109,
+    "modifiedTime": 1722801394109,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!JjXbQb9gTKbC6muH"
+}

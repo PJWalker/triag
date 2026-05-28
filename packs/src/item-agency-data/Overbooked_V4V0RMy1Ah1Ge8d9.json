@@ -1,0 +1,51 @@
+{
+  "folder": "GFOz4uUhD2fAbKL7",
+  "name": "Overbooked",
+  "type": "Reality",
+  "_id": "V4V0RMy1Ah1Ge8d9",
+  "img": "systems/triangleagency/assets/icons/reality-icon.png",
+  "system": {
+    "description": "<p>You keep another job in the mundane world, out of pride or necessity. You want to do a good job and have committed to straddling two full calendars. Navigating this conundrum well earns you appreciation by both groups, fulfillment in a variety of spheres, and a legacy double the average. It's also a tremendous waste of time.</p>\n<p>The Agency's priorities are muddy, their focus inconsistent, and their knots Gordian. The mundane world is constantly squawking into your ear like so many baby birds. Everything in your life is work, so your Relationships drag you deeper down a path of unnecessary commitment. It's only a question of when, not if, you lose balance and fail both the Agency and yourself.</p>\n<p>Decide what kind of Vocation you have, such as journalist, public defender, tutor, sculptor's assistant, etc.</p>",
+    "burnoutRelease": {
+      "blurb": "Threading the Needle",
+      "description": "When you're doing something that counts as work or practice for your Vocation, ignore all Burnout."
+    },
+    "realityTrigger": {
+      "blurb": "Work Phone",
+      "description": "You have a smartphone dedicated to your Vocation, which a Relationship may call at any time. If you ignore it, that Relationship loses one Connection. If you fail to do your Vocation duties or lose your phone, mark the track. When it's full, your your Vocation is irrevocably ended.",
+      "track": {
+        "id": "",
+        "name": "Something Gives",
+        "description": "",
+        "size": 5,
+        "milestones": {
+          "5": "<b>X</b>"
+        }
+      }
+    },
+    "relationships": {
+      "question1": "Who's your other boss?",
+      "question2": "Who cares the most about your health?",
+      "question3": "Who are you in charge of?"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801382651,
+    "modifiedTime": 1722801382651,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!V4V0RMy1Ah1Ge8d9"
+}

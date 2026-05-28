@@ -1,0 +1,37 @@
+{
+  "folder": "UL3HWyofCJWKnNuT",
+  "name": "CEO",
+  "type": "Competency",
+  "_id": "UuYMwfUS0IHASMnE",
+  "img": "systems/triangleagency/assets/icons/competency-icon.png",
+  "system": {
+    "description": "<p>The world is an infinitely complex system full of many difficult decisions. Here at the Agency, we leave those dilemmas to the people who have already decided how they will react in any situation. These Agents choose a lane, receive rewards, and delegate consequences. They will continue down this gilded path until they die. The Agency tends to place Agents from the CEO department in positions where their rigid and inflexible nature can serve as the strong foundation of a team. They thrive in positions where backing down would be ruinous, and self-reflection would be catastrophic.</p>",
+    "primeDirectiveBlurb": "Maintain the Hierarchy",
+    "primeDirective": "Each time you take an order, receive 1 Demerit",
+    "sanctionedBehaviors": {
+      "act1": "Make someone do what you want.",
+      "act2": "Enjoy one of the finer things in life.",
+      "act3": "Make a necessary sacrifice."
+    },
+    "initialRequisition": "I5AAaXQxME5ACIeR"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801394109,
+    "modifiedTime": 1722801394109,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!UuYMwfUS0IHASMnE"
+}

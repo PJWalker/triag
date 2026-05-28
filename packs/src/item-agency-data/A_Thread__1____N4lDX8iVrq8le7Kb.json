@@ -1,0 +1,85 @@
+{
+  "folder": "kE8ZnYG6BZpNJHMx",
+  "name": "A Thread (1/?)",
+  "type": "AnomalyAbility",
+  "_id": "N4lDX8iVrq8le7Kb",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Fate unspools at your whim. Tie a target’s thread around your finger and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "",
+    "anomaly": "pERhmmz8N0cKYUe3",
+    "reference": "A4",
+    "quality": "professionalism",
+    "outcomes": {
+      "success": "you carry their thread with you and can loop it around a place, person, or object, ensuring the target makes a connection with that thing in the near future. The targets do not have to be human, or even alive. These threads are visible only to you and can pass through anything on their way to the destination you set.",
+      "eachplus3": "you can loop their thread around an additional thing, forming a timeline of events for their upcoming activities. Any choices they make leading them to connect to these targets will feel, to them, like natural choices they are making.",
+      "triscendence": "choose one:<ul>\n<li><b>Knot</b>: You can attach their thread to something that will become important for the rest of their lives. They will be unable to extricate their fate from the fate of what you have tied this knot to.</li>\n<li><b>Scissors</b>: You can cut an existing thread they have with something else - a plan, a future, a possibility. Pick something to remove from their future; they will never interact with it again.</li>\n</ul>",
+      "failure": "the target has an inexorable fate leading to a pre-ordained conclusion. You see a thread leading to a troubling future event they will participate in that you are powerless to stop. You’re welcome to try, but you will fail."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!N4lDX8iVrq8le7Kb"
+}

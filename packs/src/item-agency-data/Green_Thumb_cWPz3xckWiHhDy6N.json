@@ -1,0 +1,84 @@
+{
+  "folder": "8vkjXfpy8MxHBcCF",
+  "name": "Green Thumb",
+  "type": "AnomalyAbility",
+  "_id": "cWPz3xckWiHhDy6N",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Focus on a plant nearby and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Control plant growth",
+    "anomaly": "QeG4FEIg0thHuwYW",
+    "reference": "G6",
+    "quality": "presence",
+    "outcomes": {
+      "success": "you can rapidly grow the plant in a manner unbound by its normal biology (houseplants can grow vines, become trees, etc.) This plant can bind a single target or make an area roughly the size of a single room difficult to pass through. Alternatively, you may affect any simple change or natural effect that an overgrown plant of the species in question could do (bend into a specific shape, bear fruit, discharge a protective liquid, etc.) It is fully pliable to your will.",
+      "failure": "nature hears you but doesn’t listen. The living things around you, not just plants, gobble up your Resonance hungrily and grow in dangerous and obvious ways.",
+      "eachplus3": "you may choose one:<ul>\n<li><b>Wrap</b>: Bind an additional target.</li>\n<li><b>Grow</b>: Expand the area by the size of another room.</li>\n<li><b>Fruit</b>: The plant can drop a deadly fruit of your design onto a bound target for 2 Harm.</li>\n<li><b>Thorn</b>: The area becomes sharp and dangerous, dealing 1 Harm to anyone who tries to move through it.</li>\n<li><b>Blossom</b>: The plant takes on a beautiful appearance and smell, powerfully alluring to anyone who can see or smell it.</li>\n</ul>"
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "I'd prefer to be...",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "A wild fungus",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "S14"
+        },
+        "answer2": {
+          "text": "A house plant.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "S12"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!cWPz3xckWiHhDy6N"
+}

@@ -1,0 +1,97 @@
+{
+  "folder": "kE8ZnYG6BZpNJHMx",
+  "name": "Overheat",
+  "type": "AnomalyAbility",
+  "_id": "MTjdF1E37lnqb6pB",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Temperature is just a measurement of speed, after all. Rub your hands together, place them on an object, and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Change the temperature",
+    "anomaly": "pERhmmz8N0cKYUe3",
+    "reference": "O7",
+    "quality": "initiative",
+    "outcomes": {
+      "success": "spend 3s on the following Effects<ul>\n<li>1 - <b>Frozen</b>: The object immediately becomes a solid.</li>\n<li>1 - <b>Melted</b>: The object immediately becomes a liquid.</li>\n<li>1 - <b>Evaporated</b>: The object immediately becomes a gas.</li>\n<li>3 - <b>Superheated</b>: in ten seconds, the object explodes in a dizzying display of light and heat. It, and anything inside or adjacent to it, is utterly annihilated.</li>\n<li>3 - <b>Supercooled</b>: the object’s particles stop moving, allowing it to pass largely undisturbed through other objects. With a little force, the object can be made to phase through other objects.</li>\n<li>6 - <b>Heatsink</b>: Anything that comes into contact with this object, except for you, immediately freezes. The object itself is unchanged.</li>\n<li>6 - <b>Radiator</b>: Anything that comes into contact with this object, except for you, immediately melts. The object itself is unchanged.</li>\n<li>12 - <b>Timesink</b>: Anything that comes into contact with this object, except for you, ages rapidly to a point of extreme decay. The object itself is unchanged.</li>\n</ul>\nIf you have extra, you may touch an additional nearby object and activate more effects. These effects persist for an hour, at which point the object will gradually return to its natural state, if able.",
+      "failure": "the object is unchanged, but everything touching the object immediately melts as in Radiator. This includes you."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "When you fulfill the criteria listed on the track, you can increase that track once when you use Be Known for this ability. You can fill all 3 tracks and receive all 3 abilities.",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "I spent three 3s on one use of Overheat.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "B4"
+        },
+        "answer2": {
+          "text": "I spent six 3s on one use of Overheat.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "L5"
+        },
+        "answer3": {
+          "text": "I spent twelve 3s on one use of Overheat.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "C8"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!MTjdF1E37lnqb6pB"
+}

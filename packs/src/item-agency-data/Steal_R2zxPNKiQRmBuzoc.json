@@ -1,0 +1,85 @@
+{
+  "folder": "nMw5TZVUUcixbUMm",
+  "name": "Steal",
+  "type": "AnomalyAbility",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>You may choose a feature of a mundane target and roll [quality] to take it for yourself. Their face, their voice, their love, their fingerprints - now you have it, and they do not.</p><p>Whenever you do this, you receive it as a physical object representing that thing. You may take off and put on things Borrowed at will. When the effect ends, this physical object disappears. Others can use objects created this way as if they used Borrow, though if anyone else bears one for more than a day, it will become permanently affixed to them.</p>",
+    "chat": "",
+    "synopsis": "Take a feature of a target",
+    "anomaly": "olkslTZqenoaKhbD",
+    "reference": "S15",
+    "quality": "duplicity",
+    "outcomes": {
+      "success": "this effect lasts for up to one hour.",
+      "eachplus3": "choose one:<ul>\n<li>The target keeps a flawed version of what’s borrowed.</li>\n<li>The effect lasts an additional hour.</li>\n<li>You may share what’s borrowed with one other target.</li>\n</ul>",
+      "failure": "the target loses what you’ve taken permanently, and no one gets it. They remember what they have lost.",
+      "sixplus3s": "you may keep what you Borrowed forever."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "Which do I find more offensive?",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "Wasted potential.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "S9"
+        },
+        "answer2": {
+          "text": "Impoliteness.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "B3"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "_id": "R2zxPNKiQRmBuzoc",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!R2zxPNKiQRmBuzoc"
+}

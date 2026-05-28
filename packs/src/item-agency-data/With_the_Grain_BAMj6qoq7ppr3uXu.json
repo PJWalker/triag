@@ -1,0 +1,84 @@
+{
+  "folder": "EUXv71E1Ef8t6s11",
+  "name": "With the Grain",
+  "type": "AnomalyAbility",
+  "_id": "BAMj6qoq7ppr3uXu",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>The shore’s edge is as blurry as the wave’s. Fall to the ground and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Transform into sand",
+    "anomaly": "CDsjaFFWPiSydrw2",
+    "reference": "W9",
+    "quality": "professionalism",
+    "outcomes": {
+      "success": "you land as a pile of sand. While in this form, you may scatter across the floor, fly on the wind, or squeeze into the smallest of spaces. You cannot be Harmed except by things that could destroy sand. You are able to move yourself in any of these ways about as fast as an average human’s walking speed. You may use this form to inhabit porous objects (a car, a bookshelf, a robe) and manipulate them.\n<p>This effect ends after an hour, whenever you get wet, or when you dismiss it. When it does, you fully reconstitute wherever your sand was most concentrated.</p>",
+      "every3rd3": "you may separate into an additional pile of sand, each of which may act independently from one another. If this effect ends for one of the piles, you may continue as the other piles and reconstitute from the final one to end this effect.",
+      "failure": "only half of you dissolves into sand, and the sand is inert. You may choose which half. Your body regrows after an hour, and you suffer from Burnout on all rolls while in this state."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!BAMj6qoq7ppr3uXu"
+}

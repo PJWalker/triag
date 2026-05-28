@@ -1,0 +1,22 @@
+{
+  "name": "Anomalies",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "I4JnBwIiyBFBeiI6",
+  "description": "",
+  "sort": 100000,
+  "color": "#2752a2",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.328",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801198279,
+    "modifiedTime": 1722801277927,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I"
+  },
+  "_key": "!folders!I4JnBwIiyBFBeiI6"
+}

@@ -1,0 +1,85 @@
+{
+  "folder": "nMw5TZVUUcixbUMm",
+  "name": "Spirit Away",
+  "type": "AnomalyAbility",
+  "_id": "imUDuVtlVDdhYeIJ",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>When someone near you is going to be hurt or killed for any reason (including by you) you may roll [quality].</p><p>If you use this ability on an Agent, they can roll <strong>Professionalism</strong>, add their 3s to your roll, and decide what time frame they will return in.</p>",
+    "chat": "",
+    "synopsis": "Protect a target by sending them away",
+    "anomaly": "olkslTZqenoaKhbD",
+    "reference": "S11",
+    "quality": "initiative",
+    "outcomes": {
+      "success": "instead of being hurt the target is sent <b>Elsewhere</b>. Somewhere of joy, adventure, and magic. A decade from now, they will return the same age as when they left, memories intact.",
+      "eachplus3": "you may pick from additional return time frames:<ul>\n<li>1: Five years</li>\n<li>2: One Year</li>\n<li>3: One Month</li>\n<li>4: One Day</li>\n<li>5: A Few Moments Later</li>\n</ul>",
+      "triscendence": "they can return at any time, and they can have  experienced as much time as you like there. Those numbers can be different.",
+      "failure": "their mind is sent there but their body is not. It will return when they do, perhaps. Or perhaps something else will make use of the body."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!imUDuVtlVDdhYeIJ"
+}

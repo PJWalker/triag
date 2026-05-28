@@ -1,0 +1,84 @@
+{
+  "folder": "FbWHYEaYHPS7AP9Y",
+  "name": "Pocket Stars",
+  "type": "AnomalyAbility",
+  "_id": "sJhYLIRPebAcyKXs",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Everyone’s a star; you’re a walking galaxy. At any time, you may touch a mundane person or object of any size to collapse them into a perfectly round ball that fits in your palm.</p><p>During this process, and while in this form, the target feels nothing, and experiences nothing. When you throw the ball in any direction, they return to their original form. If you use this ability while you have six targets under its effect, the target that has been under this effect the longest immediately returns to its original form.</p><p>You may attempt to use this ability on a Minor Anomaly by rolling [quality].</p>",
+    "chat": "",
+    "synopsis": "Compress a target into a sphere",
+    "anomaly": "QFZ908dwWMLydS1m",
+    "reference": "P10",
+    "quality": "presence",
+    "outcomes": {
+      "success": "you collapse the target into a sphere as described.",
+      "triscendence": "the target forms an instant bond with you and won’t flee when released. Add it as a Relationship with 1 Connection. Its Connection Benefit is the ability to call on it to help you once during a Mission with the abilities of its type. Disruptive Anomalies generate one 3 on three rolls you make before leaving.",
+      "failure": "you collapse into a sphere as described. You cannot be returned until the Target is dead or destroyed."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!sJhYLIRPebAcyKXs"
+}

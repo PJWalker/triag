@@ -1,0 +1,80 @@
+{
+  "folder": "16yAQdlvCXM40LTi",
+  "name": "What Have I Done?",
+  "type": "AnomalyAbility",
+  "_id": "PN9xDc8pZPKgrwc5",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>There has been enough killing. You lose your Gun. Describe your last moments with it: how it is destroyed, discarded, lost, forgotten, or memorialized.</p><p>You have fundamentally changed, and so has your personal Anomaly. Your Anomaly permanently assumes one of the manifestations of your regret listed below, and gains the listed effects of your choice.</p><p>Describe the exact physical form of this new manifestation. All effects mentioning your “Gun” now refer to your selection. Abilities that reference <strong>Eliminated</strong> targets still apply to targets \"Eliminated\" with these effects.</p><p style=\"\"><strong>The Shield</strong></p><p>Nothing can pierce your shame. If you would receive 1 Harm, receive 0 Harm instead. If you would receive any other amount of Harm, receive 1 Harm. Whenever you or an effect you control would Eliminate a target, that effect instead removes the target’s desire to hurt others or partake in any kind of violence.</p><p style=\"margin-top: 10px\"><strong>The Cloak</strong></p><p>You’ve run away from your past, your present, and you’ve nearly escaped your future. You are no longer perceptible by any mundane means while wearing your Cloak. Whenever you or an effect you control would Eliminate a target, that effect instead removes the target’s ability to be remembered by others when they are not present.</p><p style=\"margin-top: 10px\"><strong>The Light</strong></p><p>The flames you snuffed will be rekindled. You owe it to them. Anyone who stands in the light you cast is immediately cured of any minor injuries or illnesses. Whenever you or an effect you control would Eliminate a target, that effect instead removes the target’s pain, self-defined imperfection, or death.</p><p style=\"margin-top: 10px\"><strong>The Weight</strong></p><p>You will bear the guilt for them. Any time any ally would experience a failure effect that affects only them, you may have it affect only you instead. In addition, any time a person or group has negative feelings toward anyone, for any reason, you can roll Empathy to redirect those feelings toward you on a success. Whenever you or an effect you control would Eliminate a target, that effect instead removes the target’s guilt, shame, self hatred, or regret.</p><p style=\"margin-top: 10px\"><strong>The Book</strong></p><p>You remember them all, and so must the others. You learn and can remember every detail about the lives and deeds of every target Eliminated by your Gun. Anyone who spends a moment reading the Book can also find a record of the best thing they’ve done for another person, and the worst. Whenever you or an effect you control would Eliminate a target, that effect instead removes the Target’s ability to be forgotten by anyone.</p>",
+    "chat": "",
+    "synopsis": "Become something more than a killer",
+    "anomaly": "CVBKoAdfkebKDAtW",
+    "reference": "W2",
+    "quality": "attentiveness",
+    "outcomes": {},
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!PN9xDc8pZPKgrwc5"
+}

@@ -1,0 +1,84 @@
+{
+  "folder": "nMw5TZVUUcixbUMm",
+  "name": "God Forbid I Do Anything",
+  "type": "AnomalyAbility",
+  "_id": "fZ1Lhjy6tPoUhma2",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Anything you do at all is actually chill, and fine. Whenever you are doing anything that might raise attention you don’t want, you can let out a deep sigh and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Have others accept your actions",
+    "anomaly": "olkslTZqenoaKhbD",
+    "reference": "G2",
+    "quality": "professionalism",
+    "outcomes": {
+      "success": "your behavior is normal, and the idea of remarking on it, to you or anyone else, fills observers with embarrassment.",
+      "eachplus3": "you can activate the success effect of this ability once on a new activity within the next hour.",
+      "failure": "the activity instead becomes a local sensation, and the fact that you were the one to popularize it is newsworthy."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!fZ1Lhjy6tPoUhma2"
+}

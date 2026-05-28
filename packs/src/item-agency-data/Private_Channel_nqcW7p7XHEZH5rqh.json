@@ -1,0 +1,85 @@
+{
+  "folder": "fzChvOHarZUydEJB",
+  "name": "Private Channel",
+  "type": "AnomalyAbility",
+  "_id": "nqcW7p7XHEZH5rqh",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Open a mailbox, turn the dial on a two-way radio, or dial a telephone number and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Tune in to someone who can help you",
+    "anomaly": "qMpjg1WXwmnUly8O",
+    "reference": "P12",
+    "quality": "initiative",
+    "outcomes": {
+      "success": "you connect with someone who communicates in a language you understand and has two other traits from the following list. You choose one, the GM selects another. Whoever it is, and whatever options are chosen, they will engage in conversation with you for as long as you remain engaging.<ul>\n<li>Is from where you are currently standing, but 30 years in the past</li>\n<li>Is experiencing the exact problem(s) you’re facing right now</li>\n<li>Is delighted to hear from you</li>\n<li>Is a subject matter expert in a field of your choice</li>\n<li>Knows something relevant to your current Mission</li>\n<li>Can teach you about a new skill</li>\n<li>Loves to lie</li>\n<li>Knows you personally</li>\n<li>Is very busy</li>\n<li>Only helps people when they get something in exchange</li>\n<li>Is very loud</li>\n<li>Thinks you are someone else</li>\n<li>Loves something you hate</li>\n<li>Wants to relay an important message</li>\n<li>Can be trusted with any secret</li>\n<li>Also speaks a language you don’t</li>\n<li>Is in line in a crowded space</li>\n<li>Knows all of the same people you do</li>\n</ul>",
+      "eachplus3": "you may select an additional trait from the list or remove one from the list before the GM chooses.",
+      "sixplus3s": "your signal is strong, and you can contact them any time. Add them as a Relationship with 1 Connection and assign them to another player who will portray them from now on. You may choose to spend Quality Assurances after your conversation has ended in order to gain this effect.",
+      "failure": "you send yourself over the airwaves, mail yourself, or otherwise transmit yourself to an unknown destination and time. Good luck!"
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!nqcW7p7XHEZH5rqh"
+}

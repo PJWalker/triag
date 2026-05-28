@@ -1,0 +1,51 @@
+{
+  "folder": "GFOz4uUhD2fAbKL7",
+  "name": "Romantic",
+  "type": "Reality",
+  "_id": "mWF3IcusG38lQa16",
+  "img": "systems/triangleagency/assets/icons/reality-icon.png",
+  "system": {
+    "description": "<p>For better and worse, you fall in love extremely easily. You're constantly building a complicated web from your charm whether you're seeking new conquests, accidentally alluring, or just putting your heart before your head. We&rsquo;re not entirely sure what&rsquo;s going on with them. A notorious people pleaser, your keen attention to others' interests is an irreplaceable asset to any Field Team. The speed with which you form personal bonds is key in a line of work defined by earning and profiting from trust. Unfortunately, if left unsupervised, these bonds can cause you to become ensnared in complex emotional webs of your own design.</p>",
+    "burnoutRelease": {
+      "blurb": "That's Right, I'm Hot",
+      "description": "When you’re doing something that'll make you look more attractive or sympathetic, ignore all Burnout."
+    },
+    "realityTrigger": {
+      "blurb": "Oh No, They're Hot",
+      "description": "You can't ignore an opportunity when you notice a Vibe., whether genuine or imagined. If you don't take your shot, you dwell on the missed connection and struggle to be present: the Relationship you're closest to something real with loses one Connection. When an existing relationship gets in the way of a new one, mark the track. When it's full, you finally find what you're looking for.",
+      "track": {
+        "id": "",
+        "name": "Settled",
+        "description": "",
+        "size": 5,
+        "milestones": {
+          "5": "<b>X</b>"
+        }
+      }
+    },
+    "relationships": {
+      "question1": "Who is your longest-term situationship?",
+      "question2": "Who has never, ever found you attractive?",
+      "question3": "Who are you oblivious to the romantic possibilities with?"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801382651,
+    "modifiedTime": 1722801382651,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!mWF3IcusG38lQa16"
+}

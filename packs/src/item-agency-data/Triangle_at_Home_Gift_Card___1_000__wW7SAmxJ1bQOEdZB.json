@@ -1,0 +1,36 @@
+{
+  "folder": "Zr9K1uVNEI8SJMLf",
+  "name": "Triangle at Home Gift Card ($1,000)",
+  "type": "Requisition",
+  "img": "systems/triangleagency/assets/icons/requisition-icon.png",
+  "system": {
+    "reference": "",
+    "cost": 1,
+    "description": "<p>While at the office, or whenever you are in a shopping center during a Mission, you may spend money from this gift card to purchase props, furniture, home goods, and whatever other commonly available mundane items your investigation may require. Goods not for resale.</p>",
+    "totalUses": 1,
+    "missionUses": 1,
+    "used": 0,
+    "notes": "",
+    "unlimited": true
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "1.0.13",
+    "createdTime": 1725214962609,
+    "modifiedTime": 1725215195253,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "_id": "wW7SAmxJ1bQOEdZB",
+  "sort": 900000,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!wW7SAmxJ1bQOEdZB"
+}

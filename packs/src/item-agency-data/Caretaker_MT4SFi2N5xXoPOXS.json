@@ -1,0 +1,51 @@
+{
+  "folder": "GFOz4uUhD2fAbKL7",
+  "name": "Caretaker",
+  "type": "Reality",
+  "_id": "MT4SFi2N5xXoPOXS",
+  "img": "systems/triangleagency/assets/icons/reality-icon.png",
+  "system": {
+    "description": "<p>You have a deep bond with a Dependent who travels with you, learning and growing as you work. Fragile and precious, their presence bolsters you. One day, they'll be a living testament to your morals, guidance, and capacity for love. For now, they are mostly making a mess.</p><p>Decide what your Dependent is. They're a shared character: when it is in a scene, it may be portrayed by you or the GM. As long as your <strong>Life Insurance Policy</strong> is active, your Dependent enjoys its benefits.</p>",
+    "burnoutRelease": {
+      "blurb": "It's Your Favorite!",
+      "description": "When you are doing something that'll entertain your Dependent, ignore all Burnout."
+    },
+    "realityTrigger": {
+      "blurb": "Needy",
+      "description": "Your Dependent needs attention. If you ignore them, they'll throw a fit now and demand your time later. The Relationship who likes them the least loses one Connection. If you make them cope on their own, get them hurt, or foist them off on someone else, your rapport suffers, and you mark the track. When it's full, your Dependent no longer needs you.",
+      "track": {
+        "id": "",
+        "name": "Independent",
+        "description": "",
+        "size": 5,
+        "milestones": {
+          "5": "<b>X</b>"
+        }
+      }
+    },
+    "relationships": {
+      "question1": "Who would gain custody of your dependent if you were gone?",
+      "question2": "Who misses the freedom you used to have?",
+      "question3": "Who is your Dependent always excited to spend time with?"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801382651,
+    "modifiedTime": 1722801382651,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!MT4SFi2N5xXoPOXS"
+}

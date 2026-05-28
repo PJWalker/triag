@@ -1,0 +1,84 @@
+{
+  "folder": "fzChvOHarZUydEJB",
+  "name": "Redact",
+  "type": "AnomalyAbility",
+  "_id": "nf7XDdtxgM6a0s8E",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Some words die, and others are murdered. Speak one for the last time and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Remove a word from reality",
+    "anomaly": "qMpjg1WXwmnUly8O",
+    "reference": "R6",
+    "quality": "dynamism",
+    "outcomes": {
+      "success": "the word is removed from every person’s vocabulary. Written and recorded uses of it are treated as a quirk, and people will each rationalize its presence when they encounter it. It will never again hold its original meaning.",
+      "failure": "the word is only removed from your vocabulary, and you can't learn it again.",
+      "triscendence": "you may replace the removed word with an original of your creation, or add the word’s original meaning as an additional definition for an existing word."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!nf7XDdtxgM6a0s8E"
+}

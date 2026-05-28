@@ -1,0 +1,36 @@
+{
+  "folder": "Zr9K1uVNEI8SJMLf",
+  "name": "Convenient Paperclip (Rental)",
+  "type": "Requisition",
+  "img": "systems/triangleagency/assets/icons/requisition-icon.png",
+  "system": {
+    "reference": "",
+    "cost": 1,
+    "description": "<p>This one-inch metal paperclip allows Agents to discreetly store any number of documents or digital files. Fasten paper files together to store them, or place one end of the paperclip into any data port in order to save, transfer, or copy digital data. There is no limit to the amount of data stored in the Paperclip; any number of papers will look like a nondescript pile of five or so sheets. Note that any information stored in a Paperclip becomes Agency property.</p>",
+    "totalUses": 1,
+    "missionUses": 1,
+    "used": 0,
+    "notes": "",
+    "unlimited": true
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "1.0.13",
+    "createdTime": 1725214962609,
+    "modifiedTime": 1725214996327,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "_id": "MMvGOl40RpRZOO4p",
+  "sort": 150000,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!MMvGOl40RpRZOO4p"
+}

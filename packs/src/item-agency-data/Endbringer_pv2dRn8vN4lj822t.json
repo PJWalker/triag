@@ -1,0 +1,80 @@
+{
+  "folder": "8vkjXfpy8MxHBcCF",
+  "name": "Endbringer",
+  "type": "AnomalyAbility",
+  "_id": "pv2dRn8vN4lj822t",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>You see how it will come. You see how it could be prevented. Both are you.</p><p>Your body sharpens and hones itself into the tool necessary to make the choice. <strong>You die</strong>. If you are returned to life, you may now wield this tool: the <strong>Endbringer</strong>. If not, someone else takes it and receives the rest of this ability. Describe what the perfect weapon, made of your body, looks like.</p><p>When anyone wields the Endbringer as a weapon, even minor contact with it will kill any mundane or Anomalous target in a dramatic and unignorable way that will create 7 Loose Ends if seen by even one person.</p><p>Every time you use it, mark out one space on <strong>The End</strong> track. When the track is full, go to <strong>J4</strong>.</p>",
+    "chat": "",
+    "synopsis": "Become the ultimate weapon",
+    "anomaly": "QeG4FEIg0thHuwYW",
+    "reference": "E1",
+    "quality": "attentiveness",
+    "outcomes": {},
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!pv2dRn8vN4lj822t"
+}

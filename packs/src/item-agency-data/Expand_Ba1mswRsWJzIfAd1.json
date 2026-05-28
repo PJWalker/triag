@@ -1,0 +1,30 @@
+{
+  "folder": "0xertkF4qXB3Mqkp",
+  "name": "Expand",
+  "type": "ChaosEffect",
+  "_id": "Ba1mswRsWJzIfAd1",
+  "img": "systems/triangleagency/assets/icons/chaos-icon.png",
+  "system": {
+    "cost": 6,
+    "description": "<p>The Anomaly’s Domain grows, bringing another location under its power. The size of this change varies based on the Anomaly’s Focus.</p>"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!Ba1mswRsWJzIfAd1"
+}

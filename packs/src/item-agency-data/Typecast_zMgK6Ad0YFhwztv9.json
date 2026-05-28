@@ -1,0 +1,84 @@
+{
+  "folder": "EUXv71E1Ef8t6s11",
+  "name": "Typecast",
+  "type": "AnomalyAbility",
+  "_id": "zMgK6Ad0YFhwztv9",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>The crowd loves a classic. After anyone says or does something just right, say <em>“Keep doing that!”</em> and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Lock a target into a stereotype",
+    "anomaly": "CDsjaFFWPiSydrw2",
+    "reference": "T8",
+    "quality": "attentiveness",
+    "outcomes": {
+      "success": "the thing the target has just said or done will become “their thing” in the mind of anyone who interacts with them. People will expect that behavior from them all the time. They’ll be delighted when they get it, and disappointed when they don’t. This effect lasts forever, or until you use this ability on the same target to replace it with a new thing.",
+      "failure": "the thing you tried to make their thing becomes your thing. People will expect that behavior from you all the time, forever. They’ll be delighted when they get it, and disappointed when they don’t.",
+      "sixplus3s": "you may instead cast them in a Role. Choose one of the options below. The target’s sense of identity doesn’t change, but everyone they interact with will now treat them with the assumption that they are your selection unless they have a strong, pre-existing contradictory opinion.<ul>\n<li>An eager-eyed hero</li>\n<li>An enticing romantic prospect</li>\n<li>A wizened sage</li>\n<li>A well-meaning caretaker</li>\n<li>A hapless flop</li>\n<li>A conniving schemer</li>\n<li>A merciless bandit</li>\n<li>A trusty steed</li>\n</ul>"
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!zMgK6Ad0YFhwztv9"
+}

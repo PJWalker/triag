@@ -1,0 +1,84 @@
+{
+  "folder": "fzChvOHarZUydEJB",
+  "name": "Okay, I Get It",
+  "type": "AnomalyAbility",
+  "_id": "xYUfR3zMBjb4GKgD",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>When someone is speaking to you about a skill, craft, procedure, or plan, you can interrupt them and say <em>\"Ok, I get it.\"</em>, and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Understand exactly what someone means",
+    "anomaly": "qMpjg1WXwmnUly8O",
+    "reference": "O1",
+    "quality": "attentiveness",
+    "outcomes": {
+      "success": "you get it perfectly. Even from just a few words you can emulate the speaker’s knowledge of the subject and perform the skill, craft, procedure, or plan as if you had the same level of expertise as them. This effect lasts for 24 hours.",
+      "triscendence": "you get it forever. If what you were learning from them was short term (a procedure or plan) pick one piece of it to become an expert in permanently.",
+      "failure": "you don’t get it, but you think you do. The target will not explain anymore, and you will move on. Even if they were nearly finished, you don’t get it. You suffer from Burnout on any rolls related to the skill, craft, procedure, or plan for the rest of the mission, and are utterly inept when attempting to replicate it without making huge errors."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!xYUfR3zMBjb4GKgD"
+}

@@ -1,0 +1,37 @@
+{
+  "folder": "UL3HWyofCJWKnNuT",
+  "name": "Clown",
+  "type": "Competency",
+  "_id": "fLNtGGmXwRIENrem",
+  "img": "systems/triangleagency/assets/icons/competency-icon.png",
+  "system": {
+    "description": "<p>Clowns are the Agency&rsquo;s angels of mercy. They provide the world&rsquo;s best medicine, laughter, to its most sick and needy. They understand that life&rsquo;s weight is overwhelming only to those who make themselves carry the burden, and that the surest way to fall into despair is to forget that you could simply not do that. Society is full of our Clowns. They operate in plain sight, often using their high profile and increased visibility as a tool to distract the masses from being consumed by worry, fear, and doubt - and creating Anomalies that mirror those emotions. They are frequently deployed as TV personalities, stay-at-home parents, and politicians.</p>",
+    "primeDirectiveBlurb": "Keep Them Laughing",
+    "primeDirective": "Each time you talk about feelings, receive 1 Demerit.",
+    "sanctionedBehaviors": {
+      "act1": "Put on a show.",
+      "act2": "Expose an embarrassing truth.",
+      "act3": "Demand a smile."
+    },
+    "initialRequisition": "6qnCoiQuroYotVyS"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801394109,
+    "modifiedTime": 1722801394109,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!fLNtGGmXwRIENrem"
+}

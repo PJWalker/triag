@@ -1,0 +1,85 @@
+{
+  "folder": "fzChvOHarZUydEJB",
+  "name": "That's So Interesting",
+  "type": "AnomalyAbility",
+  "_id": "3NyT6HvILfETGIeT",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>When somebody is speaking near you, say <em>\"That’s so interesting,\"</em> and roll [quality].</p>",
+    "chat": "to make someone eager to talk.",
+    "synopsis": "Makes someone eager to talk",
+    "anomaly": "qMpjg1WXwmnUly8O",
+    "reference": "T2",
+    "quality": "presence",
+    "outcomes": {
+      "success": "they’re overwhelmingly flattered, and begin extolling every detail, benefit, drawback, and opinion they have on the subject at hand, even if they were previously reticent, nervous, or forbidden from discussing the topic.",
+      "eachplus3": "you may prod them to discuss one of the following aspects of whatever they’re talking about:<ul>\n<li>How they first learned about it.</li>\n<li>Their deepest emotional connection to it.</li>\n<li>What they would do if they could no longer interact with it.</li>\n<li>Some other similar detail.</li>\n</ul>",
+      "sixplus3s": "you can change the subject. Tell them something you think is interesting and they’ll be happy to talk about it at length instead of what they were talking about.",
+      "failure": "you begin gushing about what’s on your mind in an endless torrent - why you were using this power on them, what you’re doing in this location, what you’re worried or excited about - all of it pours out of you."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "When I want to learn how to use a new gadget, I...",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "Ask someone to teach me.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "O1"
+        },
+        "answer2": {
+          "text": "Read every page of the instruction manual in every language.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "P12"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!3NyT6HvILfETGIeT"
+}

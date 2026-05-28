@@ -1,0 +1,82 @@
+{
+  "folder": "FbWHYEaYHPS7AP9Y",
+  "name": "Swallowing a Star",
+  "type": "AnomalyAbility",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "",
+    "chat": "",
+    "synopsis": "Vastly increase your density",
+    "anomaly": "QFZ908dwWMLydS1m",
+    "reference": "M11",
+    "quality": "persistence",
+    "outcomes": {
+      "eachplus3": "choose one:<uL>\n<li>You can ignore the next 1 Harm dealt to you while you remain in this state.</li>\n<li>You can lift the appendage for a moment (such as for a single step).</li>\n<li>You can extend the <b>on a success</b> effect to one other person as long as they maintain contact with you. You do not Harm creatures who touch you for this effect.</li>\n<li>You may use your gravity to pull one human-sized person or object you can see to you.</li>\n<li>You pull all nearby air to yourself; the space around you becomes as dense as water.</li>\n<li>You may pull any projectiles fired while this effect is active off their course and into a tight orbit around yourself.</li>\n</ul>"
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "_id": "alKg2VMCdsr2gVEL",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!alKg2VMCdsr2gVEL"
+}

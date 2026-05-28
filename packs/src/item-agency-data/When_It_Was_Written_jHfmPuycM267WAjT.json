@@ -1,0 +1,85 @@
+{
+  "folder": "kE8ZnYG6BZpNJHMx",
+  "name": "When It Was Written",
+  "type": "AnomalyAbility",
+  "_id": "jHfmPuycM267WAjT",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>When somebody quotes or displays a work of any kind (art, business, trend, etc.) to you, you may trace its journey back to its creation. Criticize the work and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "See a work's timeline",
+    "anomaly": "pERhmmz8N0cKYUe3",
+    "reference": "W3",
+    "quality": "subtlety",
+    "outcomes": {
+      "success": "you and any number of willing targets travel back in time to a significant moment in the work’s development and can influence one detail: a pearl earring turns to a hoop; a dirge becomes a celebration; a bridge changes its destination. Once you’ve influenced its past in this way, that’s how it has always been. Alterations made this way do not cause Loose Ends in the present.",
+      "eachplus3": "you may learn one secret about the work or its development that no one else knows.",
+      "triscendence": "you can change everything about its development and the final product. You can stop it from being created, or make it something entirely different. You can become its muse, its star, or its creator entirely. Describe the unlimited time you spend with it before your return.",
+      "failure": "you are changed instead: the paint triggers a lifelong allergic reaction; your name changes to become the subject of a song; you lose something valuable off the side of the bridge."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "My favorite problems are the ones...",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "That fix themselves if I wait long enough.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "P11"
+        },
+        "answer2": {
+          "text": "That I can fix by planning ahead.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "B2"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!jHfmPuycM267WAjT"
+}

@@ -1,0 +1,84 @@
+{
+  "folder": "KJ942AoNAzO30V2s",
+  "name": "Personal Stash",
+  "type": "AnomalyAbility",
+  "_id": "PmuRmw6yWrzzqpVm",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>You might need that again! You gain a <strong>Personal Stash</strong> that allows you to store objects created by your Anomaly. Any time one of your Anomaly abilities creates something, you may keep a single copy of what you made in your Stash. In addition, you can safely hide any amount of mundane non-living objects inside.</p><p>Only you may use your Stash. If it is taken from you, it loses its supernatural properties, and you may produce another Stash with access to everything stored in the original. Choose a look for your Stash or make your own:</p><div style=\"display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0 10px; text-align: center\"><p>Wheeled Backpack</p><p>Messenger Bag</p><p>Stuffed Tiger</p><p>Freshness-Sealed Food Container</p><p>To-Do List</p><p>Spray Can</p></div><p>You may produce something from this space at any time by identifying the item and rolling [quality].</p>",
+    "chat": "",
+    "synopsis": "Gain a place to store your stuff",
+    "anomaly": "udMNsme6WENZjHUA",
+    "reference": "P7",
+    "quality": "attentiveness",
+    "outcomes": {
+      "success": "the item is retrieved.",
+      "eachplus3": "you can retrieve an additional item before rolling again.",
+      "failure": "pass the GM your list of objects. They decide what leaves the space – it can never be put back in again."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!PmuRmw6yWrzzqpVm"
+}

@@ -1,0 +1,84 @@
+{
+  "folder": "47B4BLgc3ZXiBRb2",
+  "name": "Vale",
+  "type": "AnomalyAbility",
+  "_id": "0EKwbD7soF4qCxi3",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>When you would like to make a special place a little more special, stand outside it and roll [quality]..</p>",
+    "chat": "",
+    "synopsis": "Create a hidden space",
+    "anomaly": "eS7KC5SIpaSgrhpn",
+    "reference": "V1",
+    "quality": "presence",
+    "outcomes": {
+      "success": "this place becomes a <b>Vale</b>, and gains one of the following traits:<ul>\n<li><b>Shrouded</b>: this place is now impossible to find on purpose by any mundane means. Unless you tell them how, only people who have familiarity with Anomalous Resonance can find this place.</li>\n<li><b>Unmoored</b>: every mission, this place will move to a different plausible location. You may decide to place it at any time, and it will have been there all day.</li>\n<li><b>Brigadooned</b>: This place will disappear until a future time you set (up to 100 years away) when you use this ability, at which point it returns seamlessly.</li>\n<li><b>Lost</b>: this place can only be found by people, including you, who are not looking for it.</li>\n</ul>",
+      "sixplus3s": "in addition to the place gaining one of the above traits, you may return to this place at any time by passing through any doorway and closing it behind you.",
+      "failure": "the place becomes a Vale for something or someone else. You cannot use any Anomaly Abilities here again."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!0EKwbD7soF4qCxi3"
+}

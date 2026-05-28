@@ -1,0 +1,36 @@
+{
+  "name": "Sponsor Requirements",
+  "type": "Sponsorship",
+  "img": "systems/triangleagency/assets/icons/sponsorship-icon.png",
+  "system": {
+    "requirements": {
+      "s1": "Reference something that happened to the target or location exactly 40 hours prior to the current moment that affects this Causality Chain.",
+      "s2": "Reference something in a different country that affects this Causality Chain.",
+      "s4": "Reference a way exposure to a piece of fiction has affected this Causality Chain.",
+      "s5": "Reference some way Wet Mouth Brand Chewing Gum & Dietary Supplement affects this Causality Chain (Be sure to include the exact wording!)",
+      "s7": "Include something blue in the Causality Chain.",
+      "s8": "Reference a betrayal that affects this Causality Chain."
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801244526,
+    "modifiedTime": 1722801244526,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_id": "sD2h2zchSuQ1lN3Q",
+  "sort": 0,
+  "_key": "!items!sD2h2zchSuQ1lN3Q"
+}

@@ -1,0 +1,84 @@
+{
+  "folder": "47B4BLgc3ZXiBRb2",
+  "name": "Unstable",
+  "type": "AnomalyAbility",
+  "_id": "c2V70LM4UeO00Q0S",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>You can now use <strong>Unspool</strong> on mundane living targets. When used to target people instead of objects, roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Unspool living targets",
+    "anomaly": "eS7KC5SIpaSgrhpn",
+    "reference": "U4",
+    "quality": "empathy",
+    "outcomes": {
+      "success": "the target loses resistance to their emotions: whatever is their most pressing concern becomes the whole of their mind. Annoyance becomes fury; regret becomes grief; anxiety becomes terror.",
+      "every3rd3": "choose one:<ul>\n<li>Your range increases by three meters.</li>\n<li>Any number of people within your current range undergo this effect.</li>\n<li>You pick the emotion that heightens within them rather than what’s most pressing.</li>\n</ul>",
+      "failure": "things fall apart wherever you go: the person you accidentally tripped holds a murderous grudge, exes won’t stop calling, simple advice is followed too seriously. The GM receives the following Chaos ability until the Mission is over:\n<p style=\"margin-left: 10px\"><b>Unstable</b> (1 Chaos) - Someone responds emotionally in an outsized way that inconveniences the player who gave you this ability.</p>"
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!c2V70LM4UeO00Q0S"
+}

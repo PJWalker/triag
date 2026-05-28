@@ -1,0 +1,80 @@
+{
+  "folder": "EUXv71E1Ef8t6s11",
+  "name": "Right Behind You",
+  "type": "AnomalyAbility",
+  "_id": "ocOtorJ9fkfVLAjV",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>When you use <strong>Nightmare</strong>, your illusory form may instead be a separate and tangible illusion attached to a nearby shadow. It acts independently from you, but you control its every action. Though tangible, it is weak: strong enough to knock books off of a shelf but not strong enough to bar a door closed. You can perceive the space around it as if you are there, and when you speak you can choose to speak through it instead of your own body. During this time, your own body is unaltered.</p><p>Illusions created in this way can hide in, and re-emerge from, the target shadow as many times as you like. They last until you use <strong>Nightmare</strong> again or until you dismiss them, whichever comes first.</p>",
+    "chat": "",
+    "synopsis": "Attach an illusion to a shadow",
+    "anomaly": "CDsjaFFWPiSydrw2",
+    "reference": "R13",
+    "quality": "attentiveness",
+    "outcomes": {},
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "What's in my closet?",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "Crystals.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "F10"
+        },
+        "answer2": {
+          "text": "Skeletons.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "I6"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!ocOtorJ9fkfVLAjV"
+}

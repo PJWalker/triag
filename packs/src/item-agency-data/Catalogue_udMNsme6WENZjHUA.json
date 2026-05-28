@@ -1,0 +1,30 @@
+{
+  "folder": "yO4nEJ41LORK5Bca",
+  "name": "Catalogue",
+  "type": "Anomaly",
+  "_id": "udMNsme6WENZjHUA",
+  "img": "systems/triangleagency/assets/icons/anomaly-icon.png",
+  "system": {
+    "description": "<p>Two yolks in every egg. Extra socks in a load of laundry. The perfect doubles partner. Catalogue Anomalies create exactly what you need, exactly how you want it. Mischievous by nature, Catalogue Anomalies in the wild are responsible for many of history&rsquo;s most notorious moments of surprise. Icebergs suddenly too close to avoid, viruses mutating to thrive in new hosts, critical battle plans in enemy hands&hellip; Catalogues will make anything if it has an impact on the world. Their power is limited only by creativity, so they cling to hosts ripe with imagination.</p>",
+    "abilities": []
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!udMNsme6WENZjHUA"
+}

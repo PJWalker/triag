@@ -1,0 +1,84 @@
+{
+  "folder": "nMw5TZVUUcixbUMm",
+  "name": "Sympathetic Pain",
+  "type": "AnomalyAbility",
+  "_id": "0f7a3OqcJ8sc6qyb",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Whenever something hurts or Harms you (even if that Harm is redirected, resisted, or leads to your death) smile and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Take some hurt for later. ",
+    "anomaly": "olkslTZqenoaKhbD",
+    "reference": "S19",
+    "quality": "attentiveness",
+    "outcomes": {
+      "success": "you gain the skill,\nability, power, or circumstance they\nused to Harm you. Write it down—\nyou can use it once, at any time, on\nsomething else. This still works if you\nare harmed in a mundane way. (<i>if you\nare stabbed, you can now create a\nknife wound; if you are burned, you\nmay inflict those same burns, etc.</i>)",
+      "eachplus3": "you can use that\nskill, ability, power, or circumstance an\nadditional time during this mission.",
+      "failure": "the hurt or Harm you\ntook is immediately inflicted on every\nliving thing within thirty meters."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "We're putting on a show? Put me...",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "In the director's chair.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "D3"
+        },
+        "answer2": {
+          "text": "Center stage.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "A6"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!0f7a3OqcJ8sc6qyb"
+}

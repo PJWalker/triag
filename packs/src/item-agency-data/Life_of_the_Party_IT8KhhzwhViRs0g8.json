@@ -1,0 +1,85 @@
+{
+  "folder": "nMw5TZVUUcixbUMm",
+  "name": "Life of the Party",
+  "type": "AnomalyAbility",
+  "_id": "IT8KhhzwhViRs0g8",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>It’s always a party when you’re around. Do something to raise the energy level and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Start a party",
+    "anomaly": "olkslTZqenoaKhbD",
+    "reference": "L3",
+    "quality": "presence",
+    "outcomes": {
+      "success": "no matter what your surroundings are or what the mood was, a party starts. Every living creature in your area sets aside animosity and inhibition and gains an interest in partying together. At first, the mood is “Chill Hang,” where everyone is happy to be there.",
+      "triscendence": "you may center this effect on any person. A Bacchanal started this way will still bend to your direction as if you were there.",
+      "failure": "the area around you immediately becomes a Bacchanal directed by another force. Something that doesn’t have your interests in mind.",
+      "eachplus3": "you may escalate the party by one step, in this order:<uL>\n<li><b>Good Time</b>: People start having emotional conversations and suggest unusual activities.</li>\n<li><b>Dance Party</b>: People begin to dance, sing, and look for physical expressions of fun.</li>\n<li><b>Rager</b>: The party gets rowdy, visible, and attractive to passersby.</li>\n<li><b>Everyone Becomes Unconscious As Quickly As Possible</b>: As described.</li>\n<li><b>Bacchanal</b>: The people party so hard they lose independent will and become extremely suggestible. You can direct them toward places or people and suggest violent or extreme behaviors on the entire crowd.</li>\n</uL>"
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!IT8KhhzwhViRs0g8"
+}

@@ -1,0 +1,51 @@
+{
+  "folder": "GFOz4uUhD2fAbKL7",
+  "name": "Backbone",
+  "type": "Reality",
+  "_id": "BBmk5jOUgTh6sM2h",
+  "img": "systems/triangleagency/assets/icons/reality-icon.png",
+  "system": {
+    "description": "<p>Whether it&rsquo;s a book club or a political dynasty, Backbone Agents are in charge of an organization made up of several dedicated members. Holding and maintaining this position affords them privilege, prestige, and power. Not that it does them any good. Agents with such far-reaching commitments outside of the workplace are constant multitaskers in the field. Despite more pressing duties, they are often performing favors, arbitrating disagreements, and picking up loose slack for their many members. Their immense pride for their organization makes them vulnerable to distractions, extortion schemes, and blackmail. And their fixation on keeping their constituents happy means they are all too willing to talk things through when a simple and terse email would suffice.</p>",
+    "burnoutRelease": {
+      "blurb": "Here's My Card",
+      "description": "When you're doing something that'll increase the influence of your Organization, ignore all Burnout"
+    },
+    "realityTrigger": {
+      "blurb": "Endless Responsibility",
+      "description": "One of your organization’s members approaches you with a need. If you ignore or avoid them, you look bad to your organization and those who know it: a Relationship, chosen by the player of your successor loses one Connection. If you break your Organization's rules or embarrass the members, mark the track. When it's full, you're ousted and your successor takes over.",
+      "track": {
+        "id": "",
+        "name": "Ousted",
+        "description": "",
+        "size": 5,
+        "milestones": {
+          "5": "<b>X</b>"
+        }
+      }
+    },
+    "relationships": {
+      "question1": "Who is your successor?",
+      "question2": "Who threatens your organization's continued existence?",
+      "question3": "Who can never even remember your organization's name?"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801382651,
+    "modifiedTime": 1722801382651,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!BBmk5jOUgTh6sM2h"
+}

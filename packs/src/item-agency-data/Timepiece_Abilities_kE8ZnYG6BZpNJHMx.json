@@ -1,0 +1,22 @@
+{
+  "name": "Timepiece Abilities",
+  "sorting": "a",
+  "folder": "LE5EmdSFeTF5Z95n",
+  "type": "Item",
+  "_id": "kE8ZnYG6BZpNJHMx",
+  "description": "",
+  "sort": 200000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.328",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363520,
+    "modifiedTime": 1722801363520,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I"
+  },
+  "_key": "!folders!kE8ZnYG6BZpNJHMx"
+}

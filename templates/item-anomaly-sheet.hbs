@@ -1,0 +1,68 @@
+<form class="{{cssClass}} anomaly pad" autocomplete="off">
+  <div class="fullCard">
+    <div>
+      <header style="font-size: 1.8em; font-weight: bold">
+        <input name="name" type="text" value="{{item.name}}" placeholder="Anomaly name" />
+      </header>
+
+      <div class="pad">{{editor system.description target="system.description" engine="prosemirror" button=true editable=editable }}</div>
+    </div>
+
+    <fieldset id="abilities" class="pad">
+      <legend>{{localize "TA.Abilities"}}</legend>
+      <div
+        style="
+          display: grid;
+          grid-template-columns: 170px auto;
+          gap: 0 10px;
+          width: 100%;
+        "
+      >
+        <div style="width: 100%; height: 360px; overflow: auto">
+          <nav class="abilities-nav sidenav flexrow" data-group="abilities">
+            <ul
+              class="articulat-bold"
+              style="list-style-type: none; padding: 0; margin: 0"
+            >
+              {{#each extra.abilities}}
+              {{#unless this.reference}}
+              <li
+                data-tab="{{this.id}}"
+                style="padding: 4px; cursor: pointer;{{#if this.reference}}color:#2752A2;{{/if}}"
+              >
+                {{this.name}}
+              </li>
+              {{/unless}}
+              {{/each}}
+            </ul>
+          </nav>
+        </div>
+        <div
+          class="abilities-content flexrow"
+          style="height: 360px; overflow: auto"
+        >
+          {{#each extra.abilities}}
+          <div
+            class="tab"
+            data-group="abilities"
+            data-tab="{{this.id}}"
+            style="padding: 5px 2px"
+          >
+            <div style="font-size: 1.1em">
+              <strong>{{this.name}}</strong>
+              {{#if this.reference}}
+              <span
+                class="color-white"
+                style="float: right; padding: 0 8px; background-color: #2752a2"
+                >{{this.reference}}</span
+              >
+              {{/if}}
+            </div>
+            <div>{{{this.rendered}}}</div>
+          </div>
+          {{/each}}
+        </div>
+      </div>
+    </fieldset>
+  </div>
+</form>

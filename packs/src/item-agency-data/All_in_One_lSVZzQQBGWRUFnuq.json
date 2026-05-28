@@ -1,0 +1,84 @@
+{
+  "folder": "KJ942AoNAzO30V2s",
+  "name": "All-in-One",
+  "type": "AnomalyAbility",
+  "_id": "lSVZzQQBGWRUFnuq",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Select a favorite object to imbue with ultimate convenience. The object retains its original appearance (pen, crowbar, lightbulb) but it becomes the <strong>All-in-One</strong>, an object capable of anything.</p><p>Any time you attempt to use it to solve a problem solvable by any mundane tool, gadget, or device, it works. Typically, the All-in-One performs one simple mundane function at a time.</p><p>When you first create it, the All-in-One can also function as the following:</p><ul><li>Shelter from the Elements</li><li>Vehicle for two (speed of a horse)</li><li>Textile factory (prints any mundane textile, one meter per minute)</li><li>Meditation Guide</li><li>Art & Artifact Appraiser</li></ul><p>If you would like to add additional complex tools or functions to the All-in-One, roll [quality].</p><p>The universe may resist the All-in-One. GMs can activate the <strong>On a failure</strong> result, even if the roll was a success, by spending 10 Chaos (this can send available Chaos into the negative).</p>",
+    "chat": "",
+    "synopsis": "Create a universal tool",
+    "anomaly": "udMNsme6WENZjHUA",
+    "reference": "A9",
+    "quality": "initiative",
+    "outcomes": {
+      "success": "you add something to the list. The All-in-One can perform the desired function forever. Remember: it always looks like the original object, and can create Loose Ends if seen performing outlandish functions.",
+      "triscendence": "you may add any Requisition you know about to the list as well, excluding Initial Requisitions. After being used once, the Requisition is removed from the list.",
+      "failure": "the All-In-One can never accomplish the function you were attempting to add."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!lSVZzQQBGWRUFnuq"
+}

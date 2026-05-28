@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 80 104" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <rect id="Participation.svg" x="0" y="0" width="79.523" height="103.991" style="fill:none;"/>
+    <g transform="matrix(0.92307,0,0,0.92307,5.058842,11)">
+        <clipPath id="_clip1">
+            <rect x="0" y="0" width="79.523" height="103.991"/>
+        </clipPath>
+        <g clip-path="url(#_clip1)">
+            <path d="M57.233,15.055C59.895,25.702 53.422,36.491 42.776,39.154C32.129,41.816 21.34,35.344 18.677,24.697C16.015,14.05 22.487,3.261 33.134,0.598C43.781,-2.064 54.57,4.408 57.233,15.055ZM75.875,69.714C75.619,81.058 75.913,100.845 75.913,100.845L60.874,100.845L60.874,64.079L56.751,64.079L56.751,100.845L19.153,100.845L19.153,64.079L15.031,64.079L15.031,100.845L-0,100.845C-0,100.845 0.294,81.058 0.038,69.714C-0.218,58.373 2.326,49.137 13.977,44.267C17.551,42.774 21.831,43.262 27.048,43.857C30.3,44.228 33.917,44.64 37.954,44.64C41.991,44.64 45.609,44.228 48.862,43.857C54.08,43.262 58.36,42.774 61.932,44.267C73.587,49.137 76.131,58.369 75.875,69.714Z" style="fill:rgb(46,26,71);"/>
+        </g>
+    </g>
+</svg>

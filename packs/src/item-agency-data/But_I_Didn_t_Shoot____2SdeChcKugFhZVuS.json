@@ -1,0 +1,80 @@
+{
+  "folder": "16yAQdlvCXM40LTi",
+  "name": "But I Didn't Shoot...",
+  "type": "AnomalyAbility",
+  "_id": "2SdeChcKugFhZVuS",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Targets under the effects of the consequences listed in <strong>Deputize</strong>…</p><p></p><ul><li>Will never lose those effects unless you dismiss them.</li><li>Are immune to Harm. All Harm they would take is dealt to you instead, wherever you are.</li><li>Can signal you at any time by sharing one of their senses directly (allowing you to see with their eyes or hear with their ears, for example.) While experiencing a shared sense with a target, you may use Gun abilities as if you were in that target’s location.</li></ul>",
+    "chat": "",
+    "synopsis": "Enhance your Deputize",
+    "anomaly": "CVBKoAdfkebKDAtW",
+    "reference": "B10",
+    "quality": "attentiveness",
+    "outcomes": {},
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!2SdeChcKugFhZVuS"
+}

@@ -1,0 +1,84 @@
+{
+  "folder": "KJ942AoNAzO30V2s",
+  "name": "You Might Also Like...",
+  "type": "AnomalyAbility",
+  "_id": "9Y5DeeMU6sgzbSxb",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Hold any object small enough to carry and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "",
+    "anomaly": "udMNsme6WENZjHUA",
+    "reference": "",
+    "quality": "dynamism",
+    "outcomes": {
+      "success": "the object changes to a similar - but different - version of the object. (A green coat becomes a blue coat, a stuffed bear becomes a stuffed tiger, room key #203 becomes #204, etc.)",
+      "every3rd3": "you may give the object an additional variant you can freely swap it between, such as giving a cane an alternate self as a sword. This effect is permanent but it can only swap when you are handling the object.",
+      "failure": "the object is replaced with something entirely different. It can no longer be changed by this ability."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "To me, the customer is always...",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "Wrong.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "L2"
+        },
+        "answer2": {
+          "text": "Right.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "J1"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!9Y5DeeMU6sgzbSxb"
+}

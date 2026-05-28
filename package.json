@@ -1,0 +1,17 @@
+{
+  "name": "triangleagency",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@eslint/css": "^1.2.0",
+    "@eslint/js": "^10.0.1",
+    "@types/bun": "latest",
+    "eslint": "^10.3.0",
+    "globals": "^17.6.0",
+    "@league-of-foundry-developers/foundry-vtt-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "folder": "8vkjXfpy8MxHBcCF",
+  "name": "Living Armor",
+  "type": "AnomalyAbility",
+  "_id": "eEp8QNztbF7Ln2kl",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Spend a minute in safety and roll [quality] to reshape your body to cover someone and become their armor.</p>",
+    "chat": "",
+    "synopsis": "become someone's armor",
+    "anomaly": "QeG4FEIg0thHuwYW",
+    "reference": "L6",
+    "quality": "initiative",
+    "outcomes": {
+      "success": "you take all external, physical Harm directed at them. They\nhave control over your combined movements, but you can use your Anomaly Abilities as normal. This effect ends when you're removed from their body, or when you choose to end it. An unwilling target can end this effect freely by ripping you off of their body",
+      "failure": "you lose control of your form on the way to an Armor shape and become a puddle of flesh. You are unharmed, but you will need to be carried like a thick liquid until an hour has passed.",
+      "every3rd3": "choose a trait for the armor:<ul>\n<li><b>Tough</b>: All incoming damage is reduced by 1 (can be chosen multiple times)</li>\n<li><b>Springy</b>: The target can leap much higher and run much faster than either of you could alone.</li>\n<li><b>Sharp</b>: You can create blades to hurt anyone who touches or comes very close to the target for 1 Harm.</li>\n<li><b>Sticky</b>: The target cannot rip you off without taking 2 Harm. However, they can climb walls and hang off of surfaces at will.</li>\n<li><b>Weighted</b>: The target cannot move while you are attached to them, and weighs enough to require multiple others to lift them.</li>\n<li><b>Form-Fitting</b>: You spread yourself out in such a thin layer that the target looks completely normal, and can wear clothes over you in a normal way.</li>\n<li><b>Quiet</b>: The target’s steps and movements become completely silent (they can still speak normally)</li>\n</ul>"
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "When I enter a relationship...",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "I keep my interests top of mind.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "M1"
+        },
+        "answer2": {
+          "text": "I commit completely to the connection.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "M6"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!eEp8QNztbF7Ln2kl"
+}

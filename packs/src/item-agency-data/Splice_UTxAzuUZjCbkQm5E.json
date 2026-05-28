@@ -1,0 +1,84 @@
+{
+  "folder": "8vkjXfpy8MxHBcCF",
+  "name": "Splice",
+  "type": "AnomalyAbility",
+  "_id": "UTxAzuUZjCbkQm5E",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>While holding an unconscious or dead target, press them completely into your flesh and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Absorb a target's genetic signature",
+    "anomaly": "QeG4FEIg0thHuwYW",
+    "reference": "S13",
+    "quality": "subtlety",
+    "outcomes": {
+      "success": "the target dies if it wasn’t already dead, excepting highly unusual cases. Write down a physical description of the target. Whenever you use Limbs, the appendages you grow may include specialized appendages from the target (retractable claws, suction cups, flowers, etc.). You  become slightly larger than you were before.",
+      "triscendence": "you perfectly Splice the target’s genetics with your own; you may change your physical body permanently to reflect this change. This target is immune to the effects of future failure.",
+      "failure": "every target you have ever Spliced releases from your body as a dangerous, autonomous amalgam. It has an unstable form that shifts rapidly in size, shape, and quality across the many characteristics of its Spliced pieces. It’s very hungry. You return to your original size, and lose all previously Spliced targets."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "I'm more likely to cook...",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "The same thing every day.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "P1"
+        },
+        "answer2": {
+          "text": "Something new each time I eat.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "C3"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!UTxAzuUZjCbkQm5E"
+}

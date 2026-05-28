@@ -1,0 +1,94 @@
+{
+  "folder": "kE8ZnYG6BZpNJHMx",
+  "name": "Procrastinate",
+  "type": "AnomalyAbility",
+  "_id": "DwhazisPWhsnuPE0",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>After any player (yourself included) makes a roll, but before they choose whether to spend Quality Assurances, you may add or subtract three 3s from it. If you do, players cannot spend Quality Assurances to adjust the roll. This cannot be used to create Triscendence, even if the final roll has three 3s.</p><p>If you <strong>increased the number of 3s</strong>, the GM receives a single-use Chaos Effect. It cannot be used on this roll, but it can be used on any future rolls before Quality Assurances are spent:</p><ul><li><strong>Deadline</strong> (0 Chaos) Turn a roll, regardless of the number of 3s rolled, into a Failure that cannot be adjusted. This Failure does not add any Chaos.</li></ul><p>If you <strong>decreased the number of 3s</strong>, you can use this ability to add up to that many 3s to a later roll during this Mission without giving the GM <strong>Deadline</strong>.</p><p>If used on a <strong>Triscendence roll</strong>, the roll becomes a Failure. and, during this Mission, you may change the results of up to three future rolls that match the original roll’s type (Ask the Agency or Anomaly Ability) to Triscendence.</p>",
+    "chat": "",
+    "synopsis": "",
+    "anomaly": "pERhmmz8N0cKYUe3",
+    "reference": "P13",
+    "quality": "attentiveness",
+    "outcomes": {},
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "When you fulfill the criteria listed on the track, you can increase that track once when you use Be Known for this ability. You can fill all 3 tracks and receive all 3 abilities.",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "I used Procrastinate to increase 3s",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "B4"
+        },
+        "answer2": {
+          "text": "I used Procrastinate to decrease 3s.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "L5"
+        },
+        "answer3": {
+          "text": "I use Procrastinate on a Triscendence.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "C8"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!DwhazisPWhsnuPE0"
+}

@@ -1,0 +1,84 @@
+{
+  "folder": "8vkjXfpy8MxHBcCF",
+  "name": "Make My Monster Grow",
+  "type": "AnomalyAbility",
+  "_id": "XLo4J0rmY8Ik2o0d",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>You can get big. Really big. Yell and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Increase your size",
+    "anomaly": "QeG4FEIg0thHuwYW",
+    "reference": "M2",
+    "quality": "persistence",
+    "outcomes": {
+      "success": "grow up to a size attainable with the number of 3s rolled. You maintain the same proportions and general  appearance you had when you were normal-sized:<ul>\n<li>1: Horse-sized</li>\n<li>2: Room-sized</li>\n<li>3: Building-sized</li>\n<li>4: City Block-sized</li>\n<li>5: Mountain-sized</li>\n</ul>",
+      "sixplus3s": "you can also change your appearance to look like anything you want.",
+      "failure": "your access to extra matter is given to something else. Something nearby gets big. Really big."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!XLo4J0rmY8Ik2o0d"
+}

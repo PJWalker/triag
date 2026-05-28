@@ -1,0 +1,80 @@
+{
+  "folder": "47B4BLgc3ZXiBRb2",
+  "name": "Who You Used to Be",
+  "type": "AnomalyAbility",
+  "_id": "P5SxeNzNRIi5AyK8",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>You may use <strong>Negatives</strong> on people who are present and view their histories from their perspective. When you do, roll [empathy] instead of Attentiveness. This ability can reach back through time until the event of their most recent great loss.</p>",
+    "chat": "",
+    "synopsis": "View targets' histories",
+    "anomaly": "eS7KC5SIpaSgrhpn",
+    "reference": "W5",
+    "quality": "empathy",
+    "outcomes": {},
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "My approach to delivering bad news is best described by the phrase...",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "\"Boil the frog.\"",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "F1"
+        },
+        "answer2": {
+          "text": "\"Rip the Band-Aid.\"",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "F4"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!P5SxeNzNRIi5AyK8"
+}

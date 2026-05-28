@@ -1,0 +1,30 @@
+{
+  "folder": "yO4nEJ41LORK5Bca",
+  "name": "Absence",
+  "type": "Anomaly",
+  "_id": "eS7KC5SIpaSgrhpn",
+  "img": "systems/triangleagency/assets/icons/anomaly-icon.png",
+  "system": {
+    "description": "<p><span style=\"color: gray\">Swings swaying gently with no rider. Successful escapes from impenetrable prisons. Grief. Wherever there is something to the nothing, there is Absence. Difficult to see, difficult to understand, and difficult to capture, Absence Anomalies can often only be described by their outlines. Untouchable and lonely, their power is seen strongest in misplaced cargo, incomplete plans, and quiet despair. They are enemies of industry and productivity but also of themselves: they must always be lost, or they won’t exist at all. Inbox Zero is easy for those with Absence abilities! Send the nastiest problems and most complicated hassles their way and watch them vanish into nothing. (Keep a copy of their to-do list in a place they do not know about.)</span></p>",
+    "abilities": []
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!eS7KC5SIpaSgrhpn"
+}

@@ -1,0 +1,37 @@
+{
+  "folder": "UL3HWyofCJWKnNuT",
+  "name": "Gravedigger",
+  "type": "Competency",
+  "_id": "V0FQ3BKxGQi7FSdC",
+  "img": "systems/triangleagency/assets/icons/competency-icon.png",
+  "system": {
+    "description": "<p>Gravediggers are the unsung heroes of the night. Masters of hidden and forgotten spaces, they benefit from the world&rsquo;s tendency to shy away from taboo or discomfort. To put things out of sight, one must go out of sight - and Gravediggers are happiest in the places others aren&rsquo;t. Always face-to-face with realities others are unwilling or unable to stomach, they keep the world spinning in unappreciated and often undetected ways. Gravediggers might be found everywhere from the boardroom to the ballroom to, yes, the landfill or the mausoleum.</p>",
+    "primeDirectiveBlurb": "Don't Dirty Innocent Hands",
+    "primeDirective": "Each time you touch something living, receive 1 Demerit.",
+    "sanctionedBehaviors": {
+      "act1": "Dig up some dirt.",
+      "act2": "Clean up a mess.",
+      "act3": "Bury a problem."
+    },
+    "initialRequisition": "93xsZqtJJwq03OL6"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801394109,
+    "modifiedTime": 1722801394109,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!V0FQ3BKxGQi7FSdC"
+}

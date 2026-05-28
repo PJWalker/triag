@@ -1,0 +1,84 @@
+{
+  "folder": "KJ942AoNAzO30V2s",
+  "name": "I'll Check in the Back",
+  "type": "AnomalyAbility",
+  "_id": "kZXBcX40JiMG9sbT",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Reach through someone’s heart and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Create new Anomaly from a target's feelings",
+    "anomaly": "udMNsme6WENZjHUA",
+    "reference": "I3",
+    "quality": "empathy",
+    "outcomes": {
+      "success": "you extract the target’s essence, creating a new Anomaly whose Focus and Domain are closely tied to the target’s goals and personality. It will never deliberately do anything to harm the target. The target is unharmed in this process, but immediately understands that the Anomaly shares a connection with them.",
+      "triscendence": "the newly-formed Anomaly immediately bonds with the target, creating a new Resonant.",
+      "failure": "you extract the target’s essence, creating an inert physical object that once contained their hopes and goals. It cannot be returned. The target knows what they’ve lost."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!kZXBcX40JiMG9sbT"
+}

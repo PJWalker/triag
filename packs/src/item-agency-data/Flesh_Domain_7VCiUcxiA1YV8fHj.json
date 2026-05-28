@@ -1,0 +1,85 @@
+{
+  "folder": "8vkjXfpy8MxHBcCF",
+  "name": "Flesh Domain",
+  "type": "AnomalyAbility",
+  "_id": "7VCiUcxiA1YV8fHj",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>It’s all you. Melt into the floor and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Become the environment",
+    "anomaly": "QeG4FEIg0thHuwYW",
+    "reference": "F6",
+    "quality": "subtlety",
+    "outcomes": {
+      "success": "you become everything in a room-sized space around you. You may see, hear, feel, speak, and form a body from any spot in that space. You are intimately familiar with all of its details. When physical Harm would be dealt anywhere in that space, you can decide to receive the Harm instead. Unless you draw attention to yourself, receive Harm for someone else, or they know to look for the almost-imperceptible fuzz on everything, you cannot be detected.",
+      "triscendence": "your Domain moves with you. For the remainder of the Mission, your Flesh Domain can travel at the same speed you can normally move. The Expand effect ends when you move, however, and it will have to be used again when you settle in a new place.",
+      "every3rd3": "you receive 3 Chaos to spend on Chaos Effects as if you were an Anomaly targeting something within your new self. When used in this way, <b>Expand</b> is altered to the following text:\n<p style=\"margin-left: 10px\">Your Flesh Domain grows by roughly the size of another room.</p>\n<p>In addition, whenever Chaos is created in the space, you take 1/3 of it before it reaches the GM, rounded down. You may spend it on Chaos Effects as described above.</p>",
+      "failure": "your body grows in a grotesque and obvious way across and beyond the space, stretching you too thin, too fast. You die, leaving behind a living mass of flesh covering everything in the area."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!7VCiUcxiA1YV8fHj"
+}

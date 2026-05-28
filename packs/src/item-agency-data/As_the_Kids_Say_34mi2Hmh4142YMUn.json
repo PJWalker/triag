@@ -1,0 +1,84 @@
+{
+  "name": "As the Kids Say",
+  "type": "AnomalyAbility",
+  "_id": "34mi2Hmh4142YMUn",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>You always fit in. Say any phrase to a target and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Fit into any group",
+    "anomaly": "qMpjg1WXwmnUly8O",
+    "reference": "A11",
+    "quality": "duplicity",
+    "outcomes": {
+      "success": "the phrase becomes an accepted in-group idiom for one of the target’s demographics of your choice (teen, cellist, weeaboo, etc.). Share its meaning, and common ways it is used, with the GM and fellow Agents. People from that demographic will now use it when appropriate, and if you’ve said it any time in the past day you will be retroactively understood to have been using this meaning. Your use of this phrase marks you to others as someone “in the know.”",
+      "triscendence": "the target recognizes you as a popular tastemaker in their demographic and listens closely to your every word. Anything you say might become a new phrase.",
+      "failure": "anyone who utters the chosen phrase will vividly think of you, and they won’t know why. Add Loose Ends commensurate with how common the phrase is."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "I think the best way to win people over is to...",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "Be myself, no matter what.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "O2"
+        },
+        "answer2": {
+          "text": "Match their vibe.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "M7"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "folder": "fzChvOHarZUydEJB",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!34mi2Hmh4142YMUn"
+}

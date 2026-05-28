@@ -1,0 +1,84 @@
+{
+  "folder": "nMw5TZVUUcixbUMm",
+  "name": "Universal Recipient",
+  "type": "AnomalyAbility",
+  "_id": "QM25v0gomRsUMRTw",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>When you receive Harm or are hurt in any way, you may roll [quality].</p>",
+    "chat": "",
+    "synopsis": "",
+    "anomaly": "olkslTZqenoaKhbD",
+    "reference": "",
+    "quality": "persistence",
+    "outcomes": {
+      "success": "select a nearby living person or Anomaly other than what hurt you. They are hurt instead of you.",
+      "eachplus3": "you may choose an additional target who receives that same hurt.",
+      "failure": "your pain cycles back on itself, and you are dealt that hurt triply. If there would be Harm remaining after your death, it finds additional nearby targets until it is all dealt."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "When someone hurts me...",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "It's a chance for a valuable lesson.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "S19"
+        },
+        "answer2": {
+          "text": "They should not have done that. Why did they do that?",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "B11"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!QM25v0gomRsUMRTw"
+}

@@ -1,0 +1,65 @@
+{
+  "name": "GM Reference",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Minor Anomalies",
+      "type": "text",
+      "_id": "r0syBYA1f1kBjxCJ",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"articulat-bold color-blue\" style=\"font-size:1.6em;text-align:center\">Minor Anomalies</p><p>One of the most powerful tricks Anomalies can pull is drawing Minor Anomalies into Reality. These little critters have a wide variety of abilities, and work tirelessly to support the Anomaly's agenda. They’re so cute!</p><p>Usually they share an aesthetic with the primary Anomaly, but sometimes the coolest ones with especially strong personalities will freelance. It’s not uncommon for Minor Anomalies to be left behind after the capture or death of their creator, so it’s also a nice way to remind Agents of their past missions.</p><p>Agents can get rid of them in many creative ways, but the easiest is to destroy them with a lot of physical force.</p><p><strong>Threat</strong> represents how much Harm an Anomaly can do in one attack when it tries. <strong>Stability</strong> is how much Harm must be dealt to them before they are exhausted.</p><div style=\"display:grid;grid-template-columns:repeat(5, auto);gap:0 10px;margin-top:10px\"><div class=\"articulat-bold\"><p>Category</p></div><div class=\"articulat-bold\"><p>Threat</p></div><div class=\"articulat-bold\"><p>Stability</p></div><div class=\"articulat-bold\"><p>Description</p></div><div class=\"articulat-bold\"><p>Key Abilities</p></div><div class=\"articulat-bold\"><p>Alluring</p></div><div style=\"text-align:center\"><p>0</p></div><div style=\"text-align:center\"><p>2</p></div><div><p>These Anomalies are visibly or psychologically entrancing. They can be hot, dancing or whatever, but they can also be a mouth-watering meal, a beautiful song, or anything symmetrical and rotating.</p></div><div><p>They can easily gather crowds of hypnotized non-anomalous humans, or, if lucky, Agents. Especially dangerous when paired with Violent Minor Anomalies. These freely control mundane people. Nearby Agent roll failures can lead to control of Agents as well.</p></div><div class=\"articulat-bold\"><p>Disruptive</p></div><div style=\"text-align:center\"><p>1</p></div><div style=\"text-align:center\"><p>1</p></div><div><p>These Anomalies amplify the Chaos created near them, and can quickly \"pay for themselves\" if they’re not found and destroyed. They love to hide as mundane objects. Often, an increase in Chaos is the only clue they’re around.</p></div><div><p>For each of these nearby, each time Chaos is created you add 1 to the total amount. Resonants can identify them as Anomalous with physical touch. That 1 Harm activates when they’re destroyed: they blow up.</p></div><div class=\"articulat-bold\"><p>Impersonating</p></div><div style=\"text-align:center\"><p>1</p></div><div style=\"text-align:center\"><p>2</p></div><div><p>These Anomalies are sophisticated enough to emulate mundane humans. These take the shape of specific people; they’re not usually creative enough to do their own thing.</p></div><div><p>If their unusual behavior doesn’t give them away, they can easily create many Loose Ends before they’re stopped. If an Anomaly is especially smart, it’ll use them as ambassadors to the mundane world.</p></div><div class=\"articulat-bold\"><p>Imprisoning</p></div><div style=\"text-align:center\"><p>0</p></div><div style=\"text-align:center\"><p>3</p></div><div><p>These Anomalies alter real or surreal space to trap their targets. They might animate a cage directly, hide in a deck of cards to catch anyone who touches the joker, or simply become a large beast and swallow their targets.</p></div><div><p>Escaping an Imprisoning anomaly, or rescuing someone who has been captured, requires creative use of an Agent’s abilities. Can imprison mundane people or Agents even without a failure, placing them into literal or imagined environments.</p></div><div class=\"articulat-bold\"><p>Thieving</p></div><div style=\"text-align:center\"><p>1</p></div><div style=\"text-align:center\"><p>2</p></div><div><p>These Anomalies love to steal important objects and are nearly impossible to catch before they’ve done so. They favor shapes humans associate with mischief, like fairies or raccoons. Keep an eye on your keys!</p></div><div><p>Steals things from mundane humans or Agents automatically and has to be caught. They usually only attack when you try to take something back from them. If Agents are paying attention, stolen objects can give clues to their Anomaly’s Focus.</p></div><div class=\"articulat-bold\"><p>Violent</p></div><div style=\"text-align:center\"><p>2</p></div><div style=\"text-align:center\"><p>1</p></div><div><p>These Anomalies always inhabit physical objects, and often use them to cause harm. They might be a strangling rope, or a rock moving at a high speed, or a pair of menacing scissors.</p></div><div><p>Failure to protect yourself against them guarantees injury. Avoiding Harm basically always requires rolls or abilities, and they’re no joke. When they’ve got the drive, they can kill mundane humans in huge amounts.</p></div></div>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "R4XmZNX71mcOlC2I": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "triangleagency",
+        "systemVersion": "0.0.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!Qtq5dnXEOvJr3frG.r0syBYA1f1kBjxCJ"
+    }
+  ],
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801166015,
+    "modifiedTime": 1722801166015,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "_id": "Qtq5dnXEOvJr3frG",
+  "sort": 0,
+  "categories": [],
+  "_key": "!journal!Qtq5dnXEOvJr3frG"
+}

@@ -1,0 +1,16 @@
+<div class="anomalyAbility">
+  {{#if showTitle}}
+  <div class="articulat-bold" style="font-size: 1.1em">{{name}}</div>
+  {{/if}}
+  z
+  {{{description}}}
+</div>
+<div style="display: grid; grid-template-columns: 28px auto">
+  {{#each triggers}}
+  <div style="margin-bottom: 1lh"><img src="{{this.img}}" style="width: 20px" /></div>
+  <div style="margin-bottom: 1lh">
+    <b>{{this.label}}</b>, {{{this.description}}}
+  </div>
+  {{/each}}
+</div>
+</div>

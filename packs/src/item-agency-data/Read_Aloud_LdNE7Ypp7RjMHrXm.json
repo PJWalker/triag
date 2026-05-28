@@ -1,0 +1,84 @@
+{
+  "folder": "EUXv71E1Ef8t6s11",
+  "name": "Read Aloud",
+  "type": "AnomalyAbility",
+  "_id": "LdNE7Ypp7RjMHrXm",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Nobody deserves to languish in obscurity. Hand someone supplies to create art and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Cause a target to express themself through art",
+    "anomaly": "CDsjaFFWPiSydrw2",
+    "reference": "R3",
+    "quality": "attentiveness",
+    "outcomes": {
+      "success": "they produce a completed work of art in seconds (a statue, a painting, a book, a song, etc.) that ineffably, completely, and undeniably communicates a detailed impression of their inner character.\n<p>Anyone who experiences the work will immediately gain a working understanding of the target: a corrupt security guard’s shady dealings are made clear, but so are their debts; an altruistic teen’s pure intentions are on display; a cheating partner’s infidelity is undeniable. By the next morning, if the work remains, it no longer emanates this powerful impression.</p>",
+      "eachplus3": "choose one:<ul>\n<li>The work goes over one target’s head: they engage with the completed artwork purely on a surface level.</li>\n<li>The work becomes a phenomenon, and the target immediately develops a small but passionate fan base.</li>\n<li>Everything else the target ever makes produces the same impression as the work.</li>\n<li>The piece also communicates the target’s most selfish act, most selfless act, greatest shame, proudest moment, greatest enemy, or closest friend. Your choice.</li>\n</ul>",
+      "failure": "the work communicates your most selfish act and greatest shame instead. It cannot be destroyed."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!LdNE7Ypp7RjMHrXm"
+}

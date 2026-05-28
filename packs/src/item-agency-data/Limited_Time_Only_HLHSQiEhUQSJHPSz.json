@@ -1,0 +1,85 @@
+{
+  "folder": "KJ942AoNAzO30V2s",
+  "name": "Limited Time Only",
+  "type": "AnomalyAbility",
+  "_id": "HLHSQiEhUQSJHPSz",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Time for a fire sale. Light a match under an object and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Disappear instances of an object",
+    "anomaly": "udMNsme6WENZjHUA",
+    "reference": "L4",
+    "quality": "professionalism",
+    "outcomes": {
+      "success": "that object, and everything in your Branch's region matching the exact description for that object, disappears\nin a flash of light and loud pop.",
+      "triscendence": "any time after you resolve the effect, you may return every object removed back to existence in one spot by raising your arms and saying <i>\"Everybody gets a [name of object]!\"</i>",
+      "failure": "your object disappears and every person in your Branch's region gets a copy of the object somewhere in their possession at that instant.",
+      "every3rd3": "pick one:<ul>\n<li>This also affects objects loosely matching the description for the original objects (stuffed tigers as well as stuffed bears, blank checks as well as signed checks, different editions of the same book, etc.)</li>\n<li>This effect excludes any objects within a container of your choice, or held by an individual of your choice.</li>\n<li>Objects that disappear this way disappear subtly, without the flash or pop.</li>\n<li>Objects that disappear this way are replaced with cheap plastic knock-offs that otherwise match their exact description.</li>\n</ul>"
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!HLHSQiEhUQSJHPSz"
+}

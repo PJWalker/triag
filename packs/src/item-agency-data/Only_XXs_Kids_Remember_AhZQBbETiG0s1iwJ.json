@@ -1,0 +1,84 @@
+{
+  "folder": "kE8ZnYG6BZpNJHMx",
+  "name": "Only XXs Kids Remember",
+  "type": "AnomalyAbility",
+  "_id": "AhZQBbETiG0s1iwJ",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Think of a piece of fiction, event, or product that either exists or does not exist. Ask <em>“Hey, does anyone remember…”</em> and then the name of the thing you’re thinking of. Roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Implant a false memory in the mass consciousness",
+    "anomaly": "pERhmmz8N0cKYUe3",
+    "reference": "O6",
+    "quality": "attentiveness",
+    "outcomes": {
+      "success": "choose a year. Everyone in the world born during that year believes the thing you thought of was real, and remembers it vividly. Everyone else has no recollection of it (This means you’ve either created an imaginary piece of fiction for one year of people, or only one year of people remember something that did exist).",
+      "eachplus3": "you can add another consecutive year before or after the initial year. People born in those years remember the thing you’ve imagined as well.",
+      "failure": "an important event from your birth year never happened. Decide as a group what that event was and how the world has changed without it. Only those with Anomalous resonance remember the previous timeline."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "If something is really important...",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "I'll remember it.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "R10"
+        },
+        "answer2": {
+          "text": "'ll make copies.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "R2"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!AhZQBbETiG0s1iwJ"
+}

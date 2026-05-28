@@ -1,0 +1,22 @@
+{
+  "name": "Realities",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "GFOz4uUhD2fAbKL7",
+  "description": "",
+  "sort": 200000,
+  "color": "#ebaa12",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.328",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801207773,
+    "modifiedTime": 1722801291593,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I"
+  },
+  "_key": "!folders!GFOz4uUhD2fAbKL7"
+}

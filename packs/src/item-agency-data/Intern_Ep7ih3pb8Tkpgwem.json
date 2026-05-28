@@ -1,0 +1,37 @@
+{
+  "folder": "UL3HWyofCJWKnNuT",
+  "name": "Intern",
+  "type": "Competency",
+  "_id": "Ep7ih3pb8Tkpgwem",
+  "img": "systems/triangleagency/assets/icons/competency-icon.png",
+  "system": {
+    "description": "<p>Unpaid interns are a key part of any organization. They are the gasoline to the car, the wood for the chipper, and the food for the stomach. Without interns and the incredible value they provide, no business could function, and all of modern society would fall apart overnight. Someone must bear this most esteemed and important burden, and if you argue for anything else the end of everything will be your fault. Agency Interns are as ubiquitous as dirt. They are teachers, clerks, drivers, cashiers, and any other roles whose function goes unappreciated by those who benefit. By working indiscriminately for all who demand it, they understand organizations better than anyone.</p>",
+    "primeDirectiveBlurb": "They Wouldn't Ask If It Wasn't Important",
+    "primeDirective": "Each time you deny a request, receive 1 Demerit.",
+    "sanctionedBehaviors": {
+      "act1": "Confidently fail.",
+      "act2": "Embarrass yourself for others' benefit.",
+      "act3": "Bring something screeching to a halt."
+    },
+    "initialRequisition": "ucIRKK2zYHKmKvyb"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801394109,
+    "modifiedTime": 1722801394109,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!Ep7ih3pb8Tkpgwem"
+}

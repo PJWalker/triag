@@ -1,0 +1,83 @@
+{
+  "folder": "kE8ZnYG6BZpNJHMx",
+  "name": "Rocket Watch",
+  "type": "AnomalyAbility",
+  "_id": "m9CH1bspsxvLk0F2",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p><strong>Big Hand</strong>, <strong>Little Hand</strong>, and <strong>Clock Face</strong> combine to create <strong>Rocket Watch</strong>, a weapon of incredible power wielded at the end of a long, sturdy chain.</p><p>Rocket Watch can function as Big Hand, Little Hand, or Clock Face. When used in this way, it functions as written in those abilities.</p><p>When you attack somebody with its full might, roll [dynamism], [subtlety] and [persistence] together. These rolls cannot be adjusted using QAs or copied using <strong>Overclock</strong>, but suffer from Burnout and generate Chaos as normal. Triscendence on any individual roll contributes a maximum of six 3s to the total and activates the Triscendence effect of only that Quality’s associated Ability.</p>",
+    "chat": "",
+    "synopsis": "Wield the awesome Rocket Watch",
+    "anomaly": "pERhmmz8N0cKYUe3",
+    "reference": "R15",
+    "quality": "dynamism",
+    "outcomes": {
+      "success": "total your 3s across the rolls. You may spend these 3s on  any combination of the following effects and any effects from <b>Big Hand</b>, <b>Little Hand</b>, or <b>Clock Face</b>. You may select an option more than once.\n<ul>\n<li><b>Three 3s</b>: Fate Lock. Deal 1 Harm to the target. If the target is killed or destabilized by this Harm, they are killed or destabilized forever, backwards and forwards in time. They cannot be revived in any way, even by using your powers, because they do not exist beyond this moment.</li>\n<li><b>Six 3s</b>: Into Next Week. The target is launched forward 7 days and will appear in the same location exactly 168 hours from now. </li>\n<li><b>Nine 3s</b>: Set Back Ten Years. The target is launched backward 10 years and will appear in this same location exactly 87,600 hours ago.</li>\n<li><b>Twelve 3s</b>: End of the Line. Deal 3 Harm. If the target is killed or destabilized by this Harm, the target experiences Fate Lock for all selves in all possibilities across every timeline and Reality. All versions of them die and can never be returned.</li>\n</ul>",
+      "failure": "<b>of any roll</b>, you receive 1 Harm and fall under threat of Fate Lock. If you are killed before the next time the clock strikes 12, you undergo the effects of Fate Lock."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!m9CH1bspsxvLk0F2"
+}

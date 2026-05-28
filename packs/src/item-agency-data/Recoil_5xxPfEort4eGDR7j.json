@@ -1,0 +1,84 @@
+{
+  "folder": "16yAQdlvCXM40LTi",
+  "name": "Recoil",
+  "type": "AnomalyAbility",
+  "_id": "5xxPfEort4eGDR7j",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Hand your Gun to someone else, tell them to fire anywhere, and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Eliminate whatever is bothering a target",
+    "anomaly": "CVBKoAdfkebKDAtW",
+    "reference": "R4",
+    "quality": "empathy",
+    "outcomes": {
+      "success": "the greatest or most serious problem affecting the target, from their perspective, is removed from their life. This problem may be physical, psychological, social, or any other type of problem. The greatest problem is determined\nsubconsciously by the one who fires.",
+      "triscendence": "they also Resonate with your Gun, and receive their own Gun Anomaly.",
+      "failure": "the one who fired has failed as in <b>Quick Draw</b> - but you cannot be the unintended target. They will bear the burden of their crime, and know you set them up."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!5xxPfEort4eGDR7j"
+}

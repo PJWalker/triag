@@ -1,0 +1,84 @@
+{
+  "folder": "KJ942AoNAzO30V2s",
+  "name": "Let Me Get That For You",
+  "type": "AnomalyAbility",
+  "_id": "3e3AVeaOfu3hbCyr",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>When somebody drops something, you may roll [quality].</p>",
+    "chat": "",
+    "synopsis": "52-card pickup",
+    "anomaly": "udMNsme6WENZjHUA",
+    "reference": "L2",
+    "quality": "duplicity",
+    "outcomes": {
+      "success": "you create dozens of\nduplicates, each of which could pass as the\noriginal to even a trained eye. These duplicates\ncan have a built-in flaw that renders them\nharmless, toothless, or otherwise useless\ncompared to the original: you decide what.",
+      "every3rd3": "you may force someone\nelse to drop something they’re holding (your\nchoice) and repeat the effect of a success.",
+      "failure": "you create far too many\nduplicates, rapidly overwhelming (and likely\ncausing Harm to) you and anyone else in\nthe room. The original object returns to the\nhand of the person that dropped it, and\nthey’re in just the right position to use it."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "I believe you can't make an omelette...",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "Without first breaking a few eggs.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "G7"
+        },
+        "answer2": {
+          "text": "Without eggs, butter, milk, salt, pepper, swiss cheese, mushrooms, tomatoes, and saffron.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "A9"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!3e3AVeaOfu3hbCyr"
+}

@@ -1,0 +1,85 @@
+{
+  "folder": "16yAQdlvCXM40LTi",
+  "name": "Ride a Cowboy",
+  "type": "AnomalyAbility",
+  "_id": "gasNICk8hBpPzZPD",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>If something or someone kills you, you may roll [quality] and immediately possess it.</p>",
+    "chat": "",
+    "synopsis": "Transfer your consciousness to whatever killed you",
+    "anomaly": "CVBKoAdfkebKDAtW",
+    "reference": "R12",
+    "quality": "persistence",
+    "outcomes": {
+      "success": "while your body dies, your consciousness transfers to the target’s body for up to 1 hour. While you remain in their body, you can pick up your Gun and use Anomaly Abilities. The target regains control over their own body after one hour or if their body is in mortal danger at any point. When they do, this effect ends and you are dead.",
+      "eachplus3": "you may extend the duration of this effect by one hour.",
+      "triscendence": "when the effect would end, your body becomes their body; they died from whatever effect or attack killed you. Their body (the one you’ve been in control of) becomes your body, which is unharmed and under your control.",
+      "failure": "your grip on death’s reins is too loose. As you die, you drag an ally down to death with you, chosen by the GM."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!gasNICk8hBpPzZPD"
+}

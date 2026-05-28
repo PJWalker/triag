@@ -1,0 +1,84 @@
+{
+  "folder": "16yAQdlvCXM40LTi",
+  "name": "Make Yourself Useful",
+  "type": "AnomalyAbility",
+  "_id": "fKjtKWS7Z2cdZF2R",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Touch a mundane person or object and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Turn a target into a weapon",
+    "anomaly": "CVBKoAdfkebKDAtW",
+    "reference": "M3",
+    "quality": "dynamism",
+    "outcomes": {
+      "success": "you turn the target into a weapon of your choice. Its details are determined in the following ways:<ul>\n<li><b>Threat</b>: The weapon deals an amount of Harm based on how much you cared for this target, on a scale of 1 (Cared about the least) to 7 (Cared about the most).</li>\n<li><b>Number of Uses</b>: This weapon’s number of uses is based on the age of the target, on a scale of 5 (lowest age) to 1 (highest age).</li>\n<li><b>Special Effects</b>: If the target is human or animal, a special effect of the weapon related to the target’s personality or demeanor can be determined by you and the GM.</li>\n</ul>\n<p>Anyone can use this weapon if you give it to them (or if they take it from you).</p>",
+      "triscendence": "the weapon can either become permanent or the Target can return to its original form after its uses have been expended (it will not remember its time as a weapon).",
+      "failure": "the target is not transformed but is empowered as in a success. They know what you tried to do."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!fKjtKWS7Z2cdZF2R"
+}

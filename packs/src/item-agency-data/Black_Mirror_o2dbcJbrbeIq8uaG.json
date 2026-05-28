@@ -1,0 +1,84 @@
+{
+  "folder": "FbWHYEaYHPS7AP9Y",
+  "name": "Black Mirror",
+  "type": "AnomalyAbility",
+  "_id": "o2dbcJbrbeIq8uaG",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Master the digital pathways. Push into a device’s screen or display and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Move through electronic devices",
+    "anomaly": "QFZ908dwWMLydS1m",
+    "reference": "B6",
+    "quality": "subtlety",
+    "outcomes": {
+      "success": "you enter the device. While inside, you become a being of\nelectricity and data; you may hide within the device, and you may see out of any screen or camera attached to it as if it were a window. In addition, you may emerge from the screen or display of any device directly connected to the original device (by cable, wireless pairing, etc.)",
+      "eachplus3": "choose one:<ul>\n<li>You may bring someone with you.</li>\n<li>You may search the files, storage, or circuitry of the device you entered.</li>\n</ul>",
+      "failure": "only your consciousness goes. You are lost in the technology’s many connections and considered dead. This activates your Life Insurance Policy, but your newly data-based self might take on a life of its own."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!o2dbcJbrbeIq8uaG"
+}

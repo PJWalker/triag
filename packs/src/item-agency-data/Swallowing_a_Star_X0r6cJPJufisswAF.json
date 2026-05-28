@@ -1,0 +1,84 @@
+{
+  "folder": "FbWHYEaYHPS7AP9Y",
+  "name": "Swallowing a Star",
+  "type": "AnomalyAbility",
+  "_id": "X0r6cJPJufisswAF",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Replace your heart with something much, much denser. Place a hand, foot, or equivalent appendage on any surface and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Vastly increase your density",
+    "anomaly": "QFZ908dwWMLydS1m",
+    "reference": "S18",
+    "quality": "persistence",
+    "outcomes": {
+      "success": "as long as you keep that appendage on that surface, you are too solid to be moved in any way by outside forces. When you move yourself, you do so with exceptional gravitas: even simple contact with others can deal them 3 Harm.",
+      "eachplus3": "choose one:<uL>\n<li>You can ignore the next 1 Harm dealt to you while you remain in this state.</li>\n<li>You can lift the appendage for a moment (such as for a single step).</li>\n<li>You can extend the <b>on a success</b> effect to one other person as long as they maintain contact with you. You do not Harm creatures who touch you for this effect.</li>\n</ul>",
+      "failure": "your entire body becomes uncontrollably dense and heavy: you crash to the ground and are rooted in place for ten minutes. If you are at all above ground level when this effect begins, you crash through anything you are on until you reach ground level and receive Harm equal to the number of floors you fell, minimum 1."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "My real strength is...",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "My tremendous power.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "M11"
+        },
+        "answer2": {
+          "text": "The people I keep close to me.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "P10"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!X0r6cJPJufisswAF"
+}

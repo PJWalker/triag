@@ -1,0 +1,84 @@
+{
+  "folder": "kE8ZnYG6BZpNJHMx",
+  "name": "Feel Old Yet",
+  "type": "AnomalyAbility",
+  "_id": "8DeFcmSrSuG7GmHM",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Everyone’s time is limited. Remind somebody of something nostalgic from their past and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Advance a target's mind and body into a future state",
+    "anomaly": "pERhmmz8N0cKYUe3",
+    "reference": "F3",
+    "quality": "duplicity",
+    "outcomes": {
+      "success": "the target fixates on the number of years it’s been since the thing you brought up. You use this fixation to dial their mind and body forward an equal number of years. Until this effect ends, they are the person they will be at that time and can communicate and answer questions from that perspective. They consider their current situation to be an especially powerful memory. They might remember something you will do to them. Future memories of the world outside of their personal experience are very hazy. If this effect would age the Target past their natural lifespan, it instead ages them to the final hour of their natural lifespan.\n<p>This effect ends after a number of minutes equal to the number of years shifted forward, or when you roll again, whichever comes first.</p>",
+      "triscendence": "you may implant a passion or practice in the target. For as long as they are under this effect, they gain the benefits or detriments of having engaged in that passion or practice regularly across the years they shift forward.",
+      "failure": "you turned the dial the wrong way - the target’s mind and body are rewound. They become the person they were when they were first experiencing the nostalgic subject, and it takes a number of days equal to the number of years shifted (minimum one) for them to return to normal."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "I never miss a chance to...",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "Make a connection",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "A4"
+        },
+        "answer2": {
+          "text": "Show I care.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "T4"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!8DeFcmSrSuG7GmHM"
+}

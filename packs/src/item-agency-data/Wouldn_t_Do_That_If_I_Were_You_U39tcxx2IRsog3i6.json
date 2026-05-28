@@ -1,0 +1,85 @@
+{
+  "folder": "16yAQdlvCXM40LTi",
+  "name": "Wouldn't Do That If I Were You",
+  "type": "AnomalyAbility",
+  "_id": "U39tcxx2IRsog3i6",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Your Gun can now get inside people’s heads. When somebody does something that irks you, say something to tell them to stop and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Mess with a target's head",
+    "anomaly": "CVBKoAdfkebKDAtW",
+    "reference": "W11",
+    "quality": "subtlety",
+    "outcomes": {
+      "success": "the target loses the capacity to perform that behavior for as long as they're in your presence.",
+      "eachplus3": "you may increase the range of this effect by moving one entry down the following list and substituting “in your presence” with the text:<ul>\n<li>1. within earshot</li>\n<li>2. in the same Region</li>\n<li>3. in the same country</li>\n<li>4. in the same plane of existence</li>\n<li>5. Alive</li>\n</ul>",
+      "triscendence": "the target will also willingly hand over whatever is in their possession.",
+      "failure": "you both lose the capacity to perform that behavior, forever."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "I believe weapons...",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "Reveal people.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "M3"
+        },
+        "answer2": {
+          "text": "Change people.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "R4"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!U39tcxx2IRsog3i6"
+}

@@ -1,0 +1,84 @@
+{
+  "folder": "KJ942AoNAzO30V2s",
+  "name": "Your Best Self",
+  "type": "AnomalyAbility",
+  "_id": "z5ah0aa8tEGiZ0lb",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Open a container large enough to fit you entirely inside, and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "",
+    "anomaly": "udMNsme6WENZjHUA",
+    "reference": "",
+    "quality": "duplicity",
+    "outcomes": {
+      "success": "an alternate version of you is inside. They have one particular skill that is useful to your current situation (whittling, whistling, whisking, etc.) They disappear from your world within the hour.",
+      "sixplus3s": "you can create an additional alternate self.",
+      "failure": "the alternate version you reveal is evil from your perspective. They have goals and priorities opposite yours and are committed to getting in your way until dealt with. They leave your world voluntarily only when satisfied by the changes they made to it."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "The enemy of my enemy is...",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "My friend.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "Y5"
+        },
+        "answer2": {
+          "text": "Me.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "P5"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!z5ah0aa8tEGiZ0lb"
+}

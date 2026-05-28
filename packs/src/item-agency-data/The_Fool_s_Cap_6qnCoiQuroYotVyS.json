@@ -1,0 +1,36 @@
+{
+  "folder": "qbhkM4exggvPcUMP",
+  "name": "The Fool's Cap",
+  "type": "Requisition",
+  "_id": "6qnCoiQuroYotVyS",
+  "img": "systems/triangleagency/assets/icons/requisition-icon.png",
+  "system": {
+    "reference": "",
+    "cost": 0,
+    "description": "<p>Once per Mission, you may don the Fool&rsquo;s Cap given to all Agency Clowns. For one minute, anything you do inspires laughter and enjoyment, no matter the action. Following this minute, mundane viewers will remember all actions you took fondly. This does not protect you from later viewers of the consequences.</p>",
+    "totalUses": 1,
+    "missionUses": 1,
+    "used": 0,
+    "notes": "",
+    "unlimited": false
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801408523,
+    "modifiedTime": 1725215185019,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 800000,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!6qnCoiQuroYotVyS"
+}

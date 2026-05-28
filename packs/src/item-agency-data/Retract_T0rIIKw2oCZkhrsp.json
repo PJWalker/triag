@@ -1,0 +1,80 @@
+{
+  "folder": "fzChvOHarZUydEJB",
+  "name": "Retract",
+  "type": "AnomalyAbility",
+  "_id": "T0rIIKw2oCZkhrsp",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Everyone makes mistakes except you. Within 24 hours of saying something, you can decide you never said it. If you do, the thing you said is <strong>Retracted</strong>: you never said it, no one remembers you saying it, and the direct consequences of saying it are undone. Time is not rewound, and anything that happened in the meantime still happened. Anomalous beings (like other Agents) still remember what you said, and the consequences.</p><p>This applies to your Anomaly Abilities that involve speaking. For example, you use <strong>Perfect Comeback</strong> to embarrass somebody, who then fumbles and drops a folder containing important documents. One hour later, you Retract the phrase you used when activating Perfect Comeback. They were actually never embarrassed, and still have the folder, but you were able to search through the important documents in that hour.</p>",
+    "chat": "",
+    "synopsis": "Unsay something",
+    "anomaly": "qMpjg1WXwmnUly8O",
+    "reference": "R11",
+    "quality": "attentiveness",
+    "outcomes": {},
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!T0rIIKw2oCZkhrsp"
+}

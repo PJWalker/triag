@@ -1,0 +1,84 @@
+{
+  "folder": "FbWHYEaYHPS7AP9Y",
+  "name": "Forced Perspective",
+  "type": "AnomalyAbility",
+  "_id": "4JUflL7MsNhkRiiq",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Objects are closer than they appear. Grab any inanimate object you can see and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Change the size of an object",
+    "anomaly": "QFZ908dwWMLydS1m",
+    "reference": "F9",
+    "quality": "attentiveness",
+    "outcomes": {
+      "success": "the object remains the size it appeared from your perspective when you grabbed it. Anything and anyone inside of it also maintains this new size. The object retains its original density, so a skyscraper you reduce to fit in your pocket may weigh only a few pounds.\n<p>People inside an object altered in this way experience the world as if the object had remained in place. They cannot leave, and the world around/outside the object appears to be an indistinct blur of color. This effect lasts until you put the object back, until it’s been out of your possession for ten minutes, or until you fall unconscious, whichever comes first. At that point, the object and anyone inside returns to their original location.</p>",
+      "triscendence": "you can make the object’s new size permanent; it will only return to its original location and size if you choose to return it.",
+      "failure": "you achieve the effect of a <b>success</b>, except the object will return to its original size randomly while on your person, in your location, and leave its original space empty."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "When I'm arguing with someone...",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "I aim for their weak points.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "B1"
+        },
+        "answer2": {
+          "text": "I work to understand their point of view.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "A10"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!4JUflL7MsNhkRiiq"
+}

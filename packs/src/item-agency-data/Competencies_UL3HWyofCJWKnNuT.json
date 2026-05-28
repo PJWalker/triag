@@ -1,0 +1,22 @@
+{
+  "name": "Competencies",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "UL3HWyofCJWKnNuT",
+  "description": "",
+  "sort": 250000,
+  "color": "#c8202f",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.328",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801236501,
+    "modifiedTime": 1722801306258,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I"
+  },
+  "_key": "!folders!UL3HWyofCJWKnNuT"
+}

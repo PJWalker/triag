@@ -1,0 +1,85 @@
+{
+  "folder": "EUXv71E1Ef8t6s11",
+  "name": "Fortune Teller",
+  "type": "AnomalyAbility",
+  "_id": "e3Cg0q6idz3DaBmf",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>The future is what we imagine. Get someone’s undivided attention and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Foretell a target's future",
+    "anomaly": "CDsjaFFWPiSydrw2",
+    "reference": "F10",
+    "quality": "persistence",
+    "outcomes": {
+      "success": "you create a binding curse on the target that, however unlikely, will come true. Choose an option from one of the Portents, Outcomes, or Conditions lists, and the GM will choose options from each of the other two. You may create\none freely with any wording, but if you do, the GM can do the same for the others.\n<p>The Portent details when the Outcome will occur, but not the only possible way to the Outcome. The Condition adjusts your curse’s details. The more improbable the curse, the more likely it is to generate Loose Ends.</p>\n<p><b>Portents</b></p><ul>\n<li>When you take your hundredth step,</li>\n<li>When the moon crosses the sun,</li>\n<li>When you accept a sandwich,</li>\n<li>When I say the phrase “[insert phrase],”</li>\n<li>When the student becomes the teacher,</li>\n<li>When ties no longer bind,</li>\n</ul>\n<p><b>Outcomes</b></p><ul>\n<li>You will die.</li>\n<li>You will return to me.</li>\n<li>You will live again.</li>\n<li>You will be betrayed.</li>\n<li>You will hand me [an object you define].</li>\n<li>You will admit the truth about [a subject you define].</li>\n</ul>\n<p><b>Conditions</b></p><ul>\n<li>The Outcome cannot come to pass until after the Portent has been fulfilled.</li>\n<li>This prediction applies to another nearby target.</li>\n<li>The target immediately disbelieves your prediction, and will ignore it or treat it as a joke.</li>\n<li>The Portent must happen 3 times before the outcome is fulfilled.</li>\n<li>No one who knows about the curse can speak out loud about it, including you.</li>\n<li>A noun in the Portent is replaced with [another noun you define.]</li>\n</ul>",
+      "every3rd3": "you may choose an option from an additional column instead of the GM.",
+      "triscendence": "you may create an entirely original Portent, Outcome, and Condition, and apply it to as many people within your Branch’s region as you like.",
+      "failure": "you instead become constantly haunted by strange Portents (everyone’s footsteps are amplified, the moon is crossing the sun any time you look up, people offer you sandwiches everywhere they go, etc.) leading you to suffer from Burnout on all rolls until the original target experiences an Outcome of the GM's choosing."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!e3Cg0q6idz3DaBmf"
+}

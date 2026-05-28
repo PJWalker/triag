@@ -1,0 +1,80 @@
+{
+  "folder": "fzChvOHarZUydEJB",
+  "name": "Binding Vow",
+  "type": "AnomalyAbility",
+  "_id": "2zdc6PgYcxhxZFK3",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>In your presence, words carry a great weight. From now on, whenever you accept a promise from someone else or make a promise yourself, you can choose to make it a <strong>Binding Vow</strong>. Breaking a promise, or failing to fulfill it before it becomes impossible, will cause the person who made it to die immediately in a way that appears mundane.</p><p>If all parties agree, the consequences of breaking the vow may include things other than immediate death (such as binding compulsions or great deals of debt). Any substitute consequences must be agreed upon before the promise becomes a Binding Vow.</p><p>Even for the most skeptical, an approaching Binding Vow carries a deep feeling of weight and truth. Anyone who makes one will understand that what they said carries stakes.</p>",
+    "chat": "",
+    "synopsis": "Make breaking a promise have severe consequences",
+    "anomaly": "qMpjg1WXwmnUly8O",
+    "reference": "B5",
+    "quality": "attentiveness",
+    "outcomes": {},
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!2zdc6PgYcxhxZFK3"
+}

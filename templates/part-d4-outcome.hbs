@@ -1,0 +1,135 @@
+<div class="outcome {{#if primary.result.triscendence}}triscendence{{/if}}">
+  <div>
+    <span>{{{message}}}</span>
+  </div>
+
+  {{#if primary.result.triscendence}}
+  <div>
+    <div>{{{localize "TA.Agent.GainTricendenceMsg"}}}</div>
+    <div class="diceDisplay">
+      <img src="systems/triangleagency/assets/icons/d4-success.png" />
+      <img src="systems/triangleagency/assets/icons/d4-success.png" />
+      <img src="systems/triangleagency/assets/icons/d4-success.png" />
+    </div>
+  </div>
+  {{else}}
+  <p>
+    <img
+      class="icon"
+      src="systems/triangleagency/assets/icons/burnout.svg"
+      title="{{localize "TA.burnout"}}"
+      height="16px"
+      style="display: inline"
+    />
+    {{burnout}} Burnout
+  </p>
+  <div class="diceDisplay">
+    {{#each effective.d4display}}
+    <div>
+      <img src="systems/triangleagency/assets/icons/d4-{{this}}.png" />
+    </div>
+    {{/each}}
+  </div>
+  {{/if}}
+
+  {{#unless lock}}
+  <div class="adjustDie" data-dice="d4" data-adjust="qa" data-type="qa">
+    <div>
+      <i
+        class="color-red fa-solid fa-circle-minus"
+        data-adjust="down"
+        style="font-size: 1.25em"
+      ></i>
+    </div>
+    <div>
+      <span> Spend {{primary.result.quality.id}}: {{qa.remaining}} left </span>
+    </div>
+    <div>
+      <i
+        class="color-red fa-solid fa-circle-plus"
+        data-adjust="up"
+        style="font-size: 1.25em"
+      ></i>
+    </div>
+  </div>
+
+  {{#if supplement.active}}
+  {{#if (eq supplement.type "d6")}}
+  <div>
+    <div title="{{localize "TA.Chat.D6DemeritAdjust"}}">
+      <img
+        class="adjustDie"
+        data-adjust="setFace"
+        data-type="demerit"
+        data-dice="d6"
+        src="systems/triangleagency/assets/icons/demerit.svg"
+      />
+    </div>
+
+    <div title="{{localize "TA.Dialog.UncommendableDie"}}">
+      <img src="systems/triangleagency/assets/icons/d6-outcome-{{supplement.result.pip}}.png" />
+    </div>
+
+    <div title="{{localize "TA.Chat.D6QAAdjust"}}">
+      <img
+        class="adjustDie"
+        data-adjust="setFace"
+        data-type="qa"
+        data-dice="d6"
+        src="systems/triangleagency/assets/icons/qa.png"
+      />
+    </div>
+  </div>
+  {{/if}}
+  {{/if}}
+  {{/unless}}
+
+  {{#unless lock}}
+  <div>
+    <div>
+      {{#if outcome.showDemerits}}
+      <img
+        class="icon"
+        src="systems/triangleagency/assets/icons/demerit.svg"
+        title="{{localize "TA.Chat.ClickToReset"}}"
+      />
+      <span> {{demerit.remaining}} / {{demerit.max}} </span>
+      {{/if}}
+    </div>
+
+    <div class="flexrow">
+      <button id="lockOutcome">
+        <i class="fa-solid fa-lock" title="{{localize "TA.Chat.Lock"}}"></i>Lock-in
+      </button>
+    </div>
+  </div>
+  {{/unless}}
+
+  {{#if primary.result.message}}
+  <div {{#unless lock}}class="unclear" {{/unless}}><span>{{{primary.result.message}}} {{{abilityMessage}}}</span></div>
+  {{/if}}
+  {{#if lock}}
+  {{#if (eq supplement.type "d8")}}
+  {{#if supplement.result.message}}
+  <div>
+    <span>{{{supplement.result.message}}}</span>
+  </div>
+  {{/if}}
+  {{/if}}
+  {{/if}}
+
+  {{#if lock}}
+  <footer class="flexrow">
+    <p style="text-align: right">
+      <img
+        class="icon"
+        src="systems/triangleagency/assets/icons/chaos.svg"
+        title="{{localize "TA.chaos"}}"
+        height="16px"
+        style="display: inline"
+      />
+      +{{effective.chaos}} Chaos
+    </p>
+  </footer>
+  {{/if}}
+</div>

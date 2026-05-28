@@ -1,0 +1,37 @@
+{
+  "folder": "UL3HWyofCJWKnNuT",
+  "name": "Hotline",
+  "type": "Competency",
+  "_id": "YYSfhIv3WfKCAANO",
+  "img": "systems/triangleagency/assets/icons/competency-icon.png",
+  "system": {
+    "description": "<p>Where many people merely hear, the Hotline listens. When the rest of the world has gone silent, the Hotline is always available to talk. They are the lighthouse guiding to safety those unfortunate enough to be navigating life&rsquo;s treacherous waters alone. Within the Agency, Hotlines field important customer service calls from this world and many others. Elsewhere in society, Hotlines are found wherever there are talkers in need. They are counselors, clerks, online community moderators, and more.</p>",
+    "primeDirectiveBlurb": "Never Say \"Unfortunately\"",
+    "primeDirective": "Each time you deliver bad news, receive 1 Demerit",
+    "sanctionedBehaviors": {
+      "act1": "Help someone unburden themselves.",
+      "act2": "Take the blame for something you didn't do.",
+      "act3": "Connect someone to an unexpected fate."
+    },
+    "initialRequisition": "mDt7uz0rQOwvCv2b"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "1.0.5",
+    "createdTime": 1722801394109,
+    "modifiedTime": 1723225771670,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!YYSfhIv3WfKCAANO"
+}

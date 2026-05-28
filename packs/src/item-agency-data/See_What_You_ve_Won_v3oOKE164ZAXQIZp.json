@@ -1,0 +1,85 @@
+{
+  "folder": "KJ942AoNAzO30V2s",
+  "name": "See What You've Won",
+  "type": "AnomalyAbility",
+  "_id": "v3oOKE164ZAXQIZp",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Need something? Anything? Wave your arm with a flourish and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Create anything imaginable",
+    "anomaly": "udMNsme6WENZjHUA",
+    "reference": "S5",
+    "quality": "persistence",
+    "outcomes": {
+      "success": "roll 3 four-sided dice and create an object matching the specifications. You may apply the die results in any order you like.\n<div style=\"display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 5px 10px; margin-top: 10px\">\n<div><b>Category</b></div>\n<div><b>Detail</b></div>\n<div><b>Size</b></div>\n<div>1. Animal</div>\n<div>1. Unprocessed</div>\n<div>1. Grape-sized</div>\n<div>2. Vegetable</div>\n<div>2. Processed</div>\n<div>2. Horse-sized</div>\n<div>3. Mineral</div>\n<div>3. Intricate</div>\n<div>3. Tree-sized</div>\n<div>4. Elemental</div>\n<div>4. Impossible</div>\n<div>4. Building-sized</div>\n</div>\n<p>Your object can appear anywhere you can currently gesture towards. If the summoned object is dropped on top of something, the amount of Harm it causes when it falls usually correlates to the Size category number.</p>\n<p>If you don’t like what you rolled, you can always create a single alpine goat instead.</p>",
+      "eachplus3": "you may adjust the result of one die up or down by 1.",
+      "triscendence": "create the flameresistant LMZ \"Skybreaker\" ArchonClass Helicopter from the purchasable Requisitions list in the Field Agent Manual.",
+      "failure": "the GM creates something using any of these specifications and creates something nearby, perhaps above you."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!v3oOKE164ZAXQIZp"
+}

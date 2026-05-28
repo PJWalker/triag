@@ -1,0 +1,84 @@
+{
+  "folder": "8vkjXfpy8MxHBcCF",
+  "name": "Spirit of the Forest",
+  "type": "AnomalyAbility",
+  "_id": "sKVLiPTHWLsoRLsk",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Roll [quality] and become a plant.</p><p>When you use <strong>Green Thumb</strong>, you do not need to target a plant; the material can come from your own body.</p><p>You may make minor cosmetic or biological changes to any plants or seeds around you at any time, without rolling.</p>",
+    "chat": "",
+    "synopsis": "Become a plant",
+    "anomaly": "QeG4FEIg0thHuwYW",
+    "reference": "S12",
+    "quality": "professionalism",
+    "outcomes": {
+      "success": "you are now any plant or continuous group of plants (a row of planters, a lawn, a small forest). You look exactly like the plant, and will only appear unusual to things that can sense Anomalous Resonance. You retain your normal senses and can speak as if you were in your original form. You can hold this form for up to an hour.",
+      "eachplus3": "You can hold this form for another hour or produce an effect from <b>Green Thumb</b>’s <b>For each additional 3</b> list without rolling.",
+      "failure": "you embrace your plant self so wholeheartedly you forget you were a person. Your Growth Anomaly expands into the surrounding area, creating a region of vibrant plant life centered on you before fading away. You are considered dead and must be revived as normal."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!sKVLiPTHWLsoRLsk"
+}

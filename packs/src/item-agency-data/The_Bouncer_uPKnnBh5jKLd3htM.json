@@ -1,0 +1,36 @@
+{
+  "folder": "uOSN71vOFpYkPAsJ",
+  "name": "The Bouncer",
+  "type": "Requisition",
+  "_id": "uPKnnBh5jKLd3htM",
+  "img": "systems/triangleagency/assets/icons/requisition-icon.png",
+  "system": {
+    "reference": "D4",
+    "cost": 6,
+    "description": "<p>This unusually squishy action figure rebounds easily from damage. You may spend one Quality Assurance from <strong>Presence</strong> or <strong>Persistence</strong> and place this action figure in a doorway to designate the room behind it as Off Limits. The action figure grows to look believably like a muscular human in a suit and sunglasses who is just big enough to cover the doorway. They are immovable and will not respond to any attempts to talk to them. Any projectiles launched at them will bounce back in the direction they were launched at an identical speed. This effect lasts for up to one hour, but can be dismissed at any time.</p>",
+    "totalUses": 1,
+    "missionUses": 1,
+    "used": 0,
+    "notes": "",
+    "unlimited": false
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801408523,
+    "modifiedTime": 1725215115614,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!uPKnnBh5jKLd3htM"
+}

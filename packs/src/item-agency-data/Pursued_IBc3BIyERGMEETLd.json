@@ -1,0 +1,51 @@
+{
+  "folder": "GFOz4uUhD2fAbKL7",
+  "name": "Pursued",
+  "type": "Reality",
+  "_id": "IBc3BIyERGMEETLd",
+  "img": "systems/triangleagency/assets/icons/reality-icon.png",
+  "system": {
+    "description": "<p>You're hiding from your past. Innocent or guilty, noble or tragic, you live in constant fear of a history that refuses to let you go. Talk about commitment! Resourceful, tenacious, and creative, Pursued Agents are premier role models for creative problem-solving and a results-based approach. Living a life of constant vigilance teaches them to remain light on their feet, thoughtful of their words, and flexible in their morals. Perfect employees. The Agency often gives new lives to these Agents and hires them to Field Teams far from those that hunt them, but eliminating their origins entirely is impossible. Even without the potential for Loose Ends, they&rsquo;d lose the fear that keeps them so productive!</p>",
+    "burnoutRelease": {
+      "blurb": "Wasn't Me",
+      "description": "When you're doing something that will cover your tracks, ignore all Burnout."
+    },
+    "realityTrigger": {
+      "blurb": "On Your Trail",
+      "description": "Someone recognizes you. If you don't take time to put them off your scent, they go rooting around in your private life, and the Relationship who knows the least about you loses one Connection and will ask difficult questions during your next Scene with them. If you reveal your identity or location to those who would recognize you, mark the track. When it's full, your past catches up to you.",
+      "track": {
+        "id": "",
+        "name": "Caught",
+        "description": "",
+        "size": 5,
+        "milestones": {
+          "5": "<b>X</b>"
+        }
+      }
+    },
+    "relationships": {
+      "question1": "Who knows about your pursuer?",
+      "question2": "Who would be most hurt to find out the truth?",
+      "question3": "Who is obsessed with the new you?"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801382651,
+    "modifiedTime": 1722801382651,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!IBc3BIyERGMEETLd"
+}

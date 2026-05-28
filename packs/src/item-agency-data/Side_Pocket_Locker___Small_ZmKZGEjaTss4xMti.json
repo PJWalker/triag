@@ -1,0 +1,36 @@
+{
+  "folder": "Zr9K1uVNEI8SJMLf",
+  "name": "Side Pocket Locker - Small",
+  "type": "Requisition",
+  "img": "systems/triangleagency/assets/icons/requisition-icon.png",
+  "system": {
+    "reference": "",
+    "cost": 11,
+    "description": "<p>This small metal locker (about the size of an average backpack) is maintained by on-duty Manifolds. It can be accessed at any time during a Mission by reaching behind yourself with an object in your hand (to store the object) or reaching behind yourself with an empty hand (to retrieve an object). Objects age and deteriorate normally when in the Locker.</p>",
+    "totalUses": 1,
+    "missionUses": 1,
+    "used": 0,
+    "notes": "",
+    "unlimited": true
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "1.0.13",
+    "createdTime": 1725214962609,
+    "modifiedTime": 1725215129814,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "_id": "ZmKZGEjaTss4xMti",
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!ZmKZGEjaTss4xMti"
+}

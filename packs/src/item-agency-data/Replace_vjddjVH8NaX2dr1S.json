@@ -1,0 +1,84 @@
+{
+  "folder": "nMw5TZVUUcixbUMm",
+  "name": "Replace",
+  "type": "AnomalyAbility",
+  "_id": "vjddjVH8NaX2dr1S",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Building a relationship is hard, so take one that's already built. Think of someone in a target's life (Grace’s mother, Diego’s husband) even if you don't know them well. Say something they might say to the target and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Replace somebody else. ",
+    "anomaly": "olkslTZqenoaKhbD",
+    "reference": "R9",
+    "quality": "presence",
+    "outcomes": {
+      "success": "you have always been\nthat person, and all memories the target\nhad with that person now feature you,\ninstead. This effect lasts until the end of\nthe current Mission or until you choose\nto end it, whichever comes first. If the\ntarget interacts with the person you’ve\nReplaced during this time, they will\ntreat them as a complete stranger.",
+      "failure": "this replacement is permanent,\nand you lose someone in exchange. You\nmust immediately replace one of your\nRelationships with the target. The person\nyou replaced now remembers your old\nRelationship in place of the target.",
+      "every3rd3": "choose one:<ul>\n<li>You can also access the target’s\nmemories of you for the\nduration of the replacement.</li>\n<li>At the end of the effect, the target will\nremember all interactions with you as if\nyou had been the person you replaced.</li>\n<li>You can adopt one feature of the\nperson you’re Replacing, as in Borrow.</li>\n</ul>"
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "When my friends go on vacation, I'll...",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "Housesit for them.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "C7"
+        },
+        "answer2": {
+          "text": "Create the perfect schedule for their trip.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "S11"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!vjddjVH8NaX2dr1S"
+}

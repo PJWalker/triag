@@ -1,0 +1,85 @@
+{
+  "folder": "EUXv71E1Ef8t6s11",
+  "name": "Dramaturg",
+  "type": "AnomalyAbility",
+  "_id": "gcM9XAnTlY6zB5XR",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Dreams and stories come from the same place. The characters that haunt them live there too. You gain access to <strong>Masks</strong>, which act as anchors for the characters that live in dreams to interact with our world. Place a <strong>Mask</strong> on a sleeping target and roll [quality].</p><p><strong>Mask</strong> personalities regard you warmly and are predisposed to help you. However, their memories are persistent as yours: they will remember whether they are treated well, or poorly, and respond to you in kind each time they are summoned.</p><p>This effect ends, and the target wakes, if the mask is removed or you choose to end it.</p>",
+    "chat": "",
+    "synopsis": "Imbue a target with a stereotypical personality",
+    "anomaly": "CDsjaFFWPiSydrw2",
+    "reference": "D8",
+    "quality": "empathy",
+    "outcomes": {
+      "success": "the <b>Mask</b> attaches to the sleeper’s face. They are imbued with one of the following personalities, which pilot the sleeping target’s body:<ul>\n<li><b>Arlecchino</b> is creative and curious, but unserious. They are excellent at providing distractions, but awful at multitasking, and utterly lack self-awareness.</li>\n<li><b>Capitano</b> is stubborn, hearty, and intimidating, but is easily offended and often gets sidetracked if taunted.</li>\n<li><b>The Innamorati</b> are two masks who are in love. Alone they are charming and engaging, but very particular about who and what they interact with and prefer not to get their hands dirty. When they are both placed on different sleepers, they will begin recruiting everyone nearby to help them create the perfect wedding ceremony - an endless process.</li>\n<li><b>Dottore</b> can sound knowledgeable and believable about a wide variety of topics, even when speaking nonsense, but is difficult to peel away if they become invested in something.</li>\n</ul>",
+      "triscendence": "you may attach as many masks as you like to any nearby people, sleeping or not, and they will fall asleep and become imbued with one of the personalities.",
+      "every3rd3": "you may place a <b>Mask</b> on a sleeping target. It remains on them until the end of <b>Naptime</b>.",
+      "failure": "the target wakes. All your masks break, and the personalities are not available until you do something to restore them to your side:<ul>\n<li><b>Arlecchino</b>: Pull a prank on someone with power over you.</li>\n<li><b>Capitano</b>: Receive praise for something you did not do or a quality you do not have.</li>\n<li><b>The Innamorati</b>: Go on a date.</li>\n<li><b>Dottore</b>: Participate in a petty argument.</li>\n</ul>"
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "I believe, deep down, people are mostly the same.",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "True.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "P14"
+        },
+        "answer2": {
+          "text": "False.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "M5"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!gcM9XAnTlY6zB5XR"
+}

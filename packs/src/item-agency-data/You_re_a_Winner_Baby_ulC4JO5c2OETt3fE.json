@@ -1,0 +1,85 @@
+{
+  "folder": "EUXv71E1Ef8t6s11",
+  "name": "You're a Winner Baby",
+  "type": "AnomalyAbility",
+  "_id": "ulC4JO5c2OETt3fE",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Make their wildest dream come true. Take a selfie with someone and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Fulfill someone's dream",
+    "anomaly": "CDsjaFFWPiSydrw2",
+    "reference": "Y3",
+    "quality": "duplicity",
+    "outcomes": {
+      "success": "the target’s greatest goal becomes more than possible. In the speed of the camera’s flash, they know exactly the path they can take to achieve their goal. They know it will succeed, and they know you showed them the way. It’s up to them to complete it.\n<p>You can show the target a glimpse of this power before revealing the full truth to them. They will know what you can do for them, and know you can withhold it.</p>",
+      "failure": "someone else nearby attains the target’s goal. They know, for certain, that they themselves will never attain it. And  they know, with deep conviction, that it was your fault.",
+      "every3rd3": "choose one:<ul>\n<li>A delivery arrives for the target, carrying all of the tools necessary to complete their goal.</li>\n<li>One of the target’s heroes appears, eager to cheer them on.</li>\n<li>This effect also applies to one of the target’s lesser goals.</li>\n<li>This effect instead applies to the target’s greatest fear.</li>\n<li>They become destined to complete the goal, and all but the most egregious harm proves to be less than fatal until they do.</li>\n</ul>",
+      "triscendence": "their goal is achieved in that instant. Their artwork is complete, their fame skyrockets, their mountain is climbed, their wallet is full. They didn’t get to experience doing it, but it’s done."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!ulC4JO5c2OETt3fE"
+}

@@ -1,0 +1,84 @@
+{
+  "folder": "8vkjXfpy8MxHBcCF",
+  "name": "Mind Palace",
+  "type": "AnomalyAbility",
+  "_id": "bprPaYTpveOQ5eSE",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Your mind has changed permanently from continued reshaping. If you’ve spent at least ten minutes in a location, speaking to someone across any number of conversations, or manipulating an object, you can imagine it/them perfectly as part of an interconnected space you may mentally visit. Close your eyes and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Duplicate someone's mind",
+    "anomaly": "QeG4FEIg0thHuwYW",
+    "reference": "M8",
+    "quality": "duplicity",
+    "outcomes": {
+      "success": "you can access that place, person, or object in your mind safely, and manipulate, interrogate, or investigate it however you’d like. They behave genuinely as themselves, but are unconcerned with their location or current situation. They cannot be touched or interacted with physically. During this time, you are unaware of the physical space around your body",
+      "sixplus3s": "you can manipulate, interrogate, or investigate even beyond what you would logically know. The person you’ve imagined knows things they would know that you’ve never\nheard before. The lockbox can be opened to reveal its contents. The room’s doorways lead to places you’ve never been, but can see.",
+      "failure": "your eyes will not open. This is not your palace. This is not\nyour mind. You are just a visitor. The master of the house returns, and you must escape or die."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!bprPaYTpveOQ5eSE"
+}

@@ -1,0 +1,84 @@
+{
+  "folder": "8vkjXfpy8MxHBcCF",
+  "name": "I'll Cover You!",
+  "type": "AnomalyAbility",
+  "_id": "xjhUPWYSWu2FCADk",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>When a nearby target would be hurt by an external force, you may say <em>“I’ll cover you!”</em> and extend your flesh to protect them. Roll [quality].</p><p></p>",
+    "chat": "",
+    "synopsis": "Grow your body to protect something. ",
+    "anomaly": "QeG4FEIg0thHuwYW",
+    "reference": "",
+    "quality": "persistence",
+    "outcomes": {
+      "success": "you grow rapidly around them and take the attack for them. Any hurt, Harm, or death is dealt to you instead of them.",
+      "every3rd3": "you armor yourself in extra layers of protective flesh. This instance of Harm is reduced by one, and any extra is applied to future Harm. Higher numbers will create an obvious change in your physical body until it’s lost to absorb the Harm.",
+      "failure": "you and the target both take the original Harm. Your body grows beyond your intent and remains overgrown in an obvious way until you have at least an hour to rest and recuperate."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "I protect people because...",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "I want them to know who's tougher.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "F5"
+        },
+        "answer2": {
+          "text": "They cannot protect themselves.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "L6"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!xjhUPWYSWu2FCADk"
+}

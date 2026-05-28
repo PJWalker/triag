@@ -1,0 +1,84 @@
+{
+  "folder": "FbWHYEaYHPS7AP9Y",
+  "name": "Just Keep Walking...",
+  "type": "AnomalyAbility",
+  "_id": "T6I5l26RSfA6bI05",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>When you give someone directions, are fleeing from a pursuer, or know where someone is going, you may attempt to trap them in a maze or endless hallway. Tie a knot and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Trap someone in a labyrinth. ",
+    "anomaly": "QFZ908dwWMLydS1m",
+    "reference": "",
+    "quality": "persistence",
+    "outcomes": {
+      "success": "you trap them in a complex, repeating path of\nyour own design. They cannot exit until you make another roll.",
+      "eachplus3": "ou may trap\nan additional target or make the maze\nlast for additional rolls past the first.",
+      "failure": "you speed them\nimmediately along to their\ndestination—they reach their\ntarget, or catch you, immediately."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "I spend time with people...",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "I want to understand.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "A5"
+        },
+        "answer2": {
+          "text": "Who are already like me.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "M9"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!T6I5l26RSfA6bI05"
+}

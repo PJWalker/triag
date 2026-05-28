@@ -1,0 +1,37 @@
+{
+  "folder": "UL3HWyofCJWKnNuT",
+  "name": "R&D",
+  "type": "Competency",
+  "_id": "0T4EnC2oLO6mUnHe",
+  "img": "systems/triangleagency/assets/icons/competency-icon.png",
+  "system": {
+    "description": "<p>The Agency needs creative, fresh minds to design the future of the world. R&amp;D Agents are known for their ability to see what someone truly needs, not just what they&rsquo;re asking for. Creativity and innovation are what drive them, and they&rsquo;re expected to settle for nothing less than perfection. R&amp;D is tasked with creating new products for sale, but also with uncovering the secrets of the universe. Each employee is typically given a long-term project to that end: a personal experiment to carry out over the course of their career.</p>",
+    "primeDirectiveBlurb": "Out With the Old",
+    "primeDirective": "Each time you do the same thing twice, receive 1 Demerit.",
+    "sanctionedBehaviors": {
+      "act1": "Uncover what someone really needs.",
+      "act2": "Reinvent the wheel",
+      "act3": "Change someone's life. Permanently."
+    },
+    "initialRequisition": "0PFmCg9m4vX4QzBl"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801394109,
+    "modifiedTime": 1722801394109,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!0T4EnC2oLO6mUnHe"
+}

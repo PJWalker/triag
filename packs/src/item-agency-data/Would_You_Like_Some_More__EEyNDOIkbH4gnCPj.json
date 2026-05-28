@@ -1,0 +1,84 @@
+{
+  "folder": "nMw5TZVUUcixbUMm",
+  "name": "Would You Like Some More?",
+  "type": "AnomalyAbility",
+  "_id": "EEyNDOIkbH4gnCPj",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>To you, desire is a bucket. Poke a hole in it by saying <em>\"Would you like some more?\"</em> and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Duplicate stuff",
+    "anomaly": "olkslTZqenoaKhbD",
+    "reference": "",
+    "quality": "empathy",
+    "outcomes": {
+      "success": "the person you're speaking to becomes very interested in more of the last thing they enjoyed (attention, affection, ice cream, rest, etc.) as identified by you and the character's player. This doesn't create an addiction or a compulsion, but makes that thing, if it’s available, into leverage or distraction far beyond its worth.",
+      "eachplus3": "you may spread their desire to one other nearby target to similar effect.",
+      "failure": "the target develops a loathing for the last thing they enjoyed. Your suggestion of more is insulting to them, and even thinking about that thing is revolting to them from now on."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "I can lead a horse to water...",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "But who drinks water?",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "Y4"
+        },
+        "answer2": {
+          "text": "But I'm drinking first.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "C1"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!EEyNDOIkbH4gnCPj"
+}

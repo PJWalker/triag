@@ -1,0 +1,84 @@
+{
+  "folder": "KJ942AoNAzO30V2s",
+  "name": "What's That Over There?",
+  "type": "AnomalyAbility",
+  "_id": "gDXAv8dTl23JcXqv",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Point somewhere nearby, say <em>“What’s that over there?”</em> and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "",
+    "anomaly": "udMNsme6WENZjHUA",
+    "reference": "",
+    "quality": "attentiveness",
+    "outcomes": {
+      "success": "you create an object where you're pointing. It can be any mundane thing you imagine that fits comfortably and harmlessly inside the space, but can only feature details or information you would know.",
+      "eachplus3": "you may add another object nearby.",
+      "failure": "the GM will describe a different object that is now there, and it is either obviously out of place or extremely inconvenient."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "My friends would never hurt me, because...",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "They don't know how.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "Y1"
+        },
+        "answer2": {
+          "text": "I hired them",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "I5"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!gDXAv8dTl23JcXqv"
+}

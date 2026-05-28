@@ -1,0 +1,85 @@
+{
+  "folder": "fzChvOHarZUydEJB",
+  "name": "Slam Poetry",
+  "type": "AnomalyAbility",
+  "_id": "SSdiAzz8grjrVruB",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Who said words can’t hurt? Recite two lines of excruciatingly bad poetry that you've not already used for this Ability, and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Hurt someone with your words",
+    "anomaly": "qMpjg1WXwmnUly8O",
+    "reference": "S8",
+    "quality": "dynamism",
+    "outcomes": {
+      "success": "anyone who can hear your words takes 1 Harm.",
+      "failure": "your poem falls flat, and your tongue gets stuck in the bit. You may only speak in rhyming couplets. The first time you do not, you receive 3 Harm and this effect ends.",
+      "eachplus3": "add one line to the poem and choose one:<ul>\n<li>One target is exempt from the Harm.</li>\n<li>You cannot be recorded while using this ability.</li>\n<li>Your words pierce through plugs, earmuffs, or loud noises and are impossible to avoid.</li>\n<li>One target will drop whatever they’re holding and throw the contents of their pockets at you before receiving Harm.</li>\n<li>Your poem is immediately followed by five seconds of silence, punctuated with loud crickets that obscure nearby sound.</li>\n</ul>\nIf your poem is four or more lines and uses an ABAB rhyme scheme or every line rhymes, deal 2 additional Harm.",
+      "triscendence": "Your words take on a solid form. You create a Violent Minor Anomaly that follows your rhyming orders until it is destroyed."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "I want my story...",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "To add something new to the world.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "U1"
+        },
+        "answer2": {
+          "text": ".To make up for my past mistakes",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "R6"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!SSdiAzz8grjrVruB"
+}

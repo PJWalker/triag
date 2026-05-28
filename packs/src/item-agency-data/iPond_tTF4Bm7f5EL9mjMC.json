@@ -1,0 +1,36 @@
+{
+  "folder": "uOSN71vOFpYkPAsJ",
+  "name": "iPond",
+  "type": "Requisition",
+  "_id": "tTF4Bm7f5EL9mjMC",
+  "img": "systems/triangleagency/assets/icons/requisition-icon.png",
+  "system": {
+    "reference": "D4",
+    "cost": 9,
+    "description": "<p>This blank-slate Ripple looks like a goldfish in a bag of water. By spending one Quality Assurance from <strong>Subtlety</strong> or <strong>Empathy</strong>, you can create a quick full-sensory recording, up to five minutes in length, of a recent memory belonging to someone touching the bag. The Ripple will change appearance slightly to reflect the experience. Anyone can play back a full memory collected in the iPond by listening to headphones plugged into the Ripple. Recording a memory rewrites the previous one.</p>",
+    "totalUses": 1,
+    "missionUses": 1,
+    "used": 0,
+    "notes": "",
+    "unlimited": false
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801408523,
+    "modifiedTime": 1725215101697,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!tTF4Bm7f5EL9mjMC"
+}

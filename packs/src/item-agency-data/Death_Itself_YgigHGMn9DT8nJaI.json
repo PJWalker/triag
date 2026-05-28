@@ -1,0 +1,85 @@
+{
+  "folder": "nMw5TZVUUcixbUMm",
+  "name": "Death Itself",
+  "type": "AnomalyAbility",
+  "_id": "YgigHGMn9DT8nJaI",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>When you witness a death, you may return the person who died back to life, unharmed, by writing the cause on any piece of paper and rolling [quality].</p>",
+    "chat": "",
+    "synopsis": "Return someone to life",
+    "anomaly": "olkslTZqenoaKhbD",
+    "reference": "D3",
+    "quality": "professionalism",
+    "outcomes": {
+      "success": "the target returns to life, but the debt must be paid: within\n24 hours, you must write the name of somebody you interacted with today, or the original target will die once again. The person whose name you write down will then die within the following 24 hours.",
+      "eachplus3": "you may wait an additional 24 hours before writing the new name.",
+      "triscendence": "you may write an essay about how much the target means to you instead of paying the price listed in <b>On a success</b>.",
+      "failure": "you create a sudden epidemic of deaths in the manner described. GMs do not have to spend Chaos to use the <b>Kill</b> Chaos Effect for the remainder of the Mission, as long as the person dies in the manner you've written."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!YgigHGMn9DT8nJaI"
+}

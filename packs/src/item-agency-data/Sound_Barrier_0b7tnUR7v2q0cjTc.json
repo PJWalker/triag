@@ -1,0 +1,84 @@
+{
+  "folder": "fzChvOHarZUydEJB",
+  "name": "Sound Barrier",
+  "type": "AnomalyAbility",
+  "_id": "0b7tnUR7v2q0cjTc",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Your words can counteract pain. When you or someone you perceive would receive Harm or be targeted with the Chaos Effects Kill or Overwhelm, roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Protect someone with your words",
+    "anomaly": "qMpjg1WXwmnUly8O",
+    "reference": "S10",
+    "quality": "initiative",
+    "outcomes": {
+      "success": "you may blanket the target with a protective phrase or speech. Reduce the Harm being dealt to the target by 1. The effect is more powerful if what you said does one of the following:<ul>\n<li>Brings up an emotional memory</li>\n<li>Hurts their feelings with a harsh truth</li>\n<li>Reveals a betrayal or secret</li>\n<li>Creates a binding promise</li>\n</ul>\nIf your words do one thing from the list, reduce all Harm being dealt to the target to zero. If they do at least two things, you can can counteract the <b>Kill</b> Chaos Effect. If they do at least three things, you can counteract the <b>Overwhelm</b> Chaos Effect.",
+      "eachplus3": "you may add another target to this effect. You cannot say the same thing to multiple targets.",
+      "failure": "the Harm is dealt as normal and hurts your voice as well - you have Burnout on all Whisper abilities for the rest of the Mission."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "I consider situations under control...",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "If everyone is calm.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "H2"
+        },
+        "answer2": {
+          "text": "If everyone is listening to me.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "C2"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!0b7tnUR7v2q0cjTc"
+}

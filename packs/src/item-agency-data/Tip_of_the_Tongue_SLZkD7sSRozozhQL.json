@@ -1,0 +1,84 @@
+{
+  "folder": "fzChvOHarZUydEJB",
+  "name": "Tip of the Tongue",
+  "type": "AnomalyAbility",
+  "_id": "SLZkD7sSRozozhQL",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Open your mind to the thoughts of someone nearby. Let their words reach your voice and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Hear a target's thoughts",
+    "anomaly": "qMpjg1WXwmnUly8O",
+    "reference": "",
+    "quality": "empathy",
+    "outcomes": {
+      "success": "you say what the target wishes they were saying right now.",
+      "every3rd3": "you may ask a question about something currently relevant to the target and receive an answer from the GM.\nThe question and answer must be spoken out loud.",
+      "failure": "you admit something you don’t want anyone to know."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "When I need to fit in somewhere, I...",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "Jump in and act like I belong.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "A11"
+        },
+        "answer2": {
+          "text": "Infiltrate after a period of careful reconnaissance.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "B9"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!SLZkD7sSRozozhQL"
+}

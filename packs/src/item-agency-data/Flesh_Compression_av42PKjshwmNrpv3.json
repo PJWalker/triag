@@ -1,0 +1,84 @@
+{
+  "folder": "8vkjXfpy8MxHBcCF",
+  "name": "Flesh Compression",
+  "type": "AnomalyAbility",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>When a nearby target would be hurt by an external force, you may say <em>“I’ll cover you!”</em> and extend your flesh to protect them. Roll [quality].</p><p> Your body can change its density and design without changing shape, creating a layer of armor. You can't be Harmed by the following:</p><ul><li>Anything that would initially deal 1 Harm</li><li>Extreme heat</li><li>Extreme cold</li><li>Immobile sharp objects (like floor spikes)</li><li>Handheld blunt objects</li></ul>",
+    "chat": "",
+    "synopsis": "Grow your body to protect something. ",
+    "anomaly": "QeG4FEIg0thHuwYW",
+    "reference": "F5",
+    "quality": "persistence",
+    "outcomes": {
+      "success": "you grow rapidly around them and take the attack for them. Any hurt, Harm, or death is dealt to you instead of them.",
+      "failure": "you and the target both take the original harm. Your body grows beyond your intent and remains overgrown in an obvious way until you have at least an hour to rest and recuperate.",
+      "eachplus3": "you armor yourself in extra layers of protective flesh. This instance of Harm is reduced by one, and any extra is applied to future Harm. (Higher numbers will create an obvious change in your physical body until it’s lost to absorb the harm.)"
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "When I am gone...",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "Make me a statue.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "M2"
+        },
+        "answer2": {
+          "text": "Bury me with my belongings.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "F6"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "_id": "av42PKjshwmNrpv3",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!av42PKjshwmNrpv3"
+}

@@ -1,0 +1,84 @@
+{
+  "folder": "47B4BLgc3ZXiBRb2",
+  "name": "Free Real Estate",
+  "type": "AnomalyAbility",
+  "_id": "VjgP3xhECWkggHyI",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>If someone is dead, you can talk to them. If something is demolished, you can explore it. Visit the last place something or someone existed and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Interact with the absence of something",
+    "anomaly": "eS7KC5SIpaSgrhpn",
+    "reference": "F11",
+    "quality": "empathy",
+    "outcomes": {
+      "success": "choose one of the following:<ul>\n<li>If you’ve targeted a person, you can interview them. You can ask one question.</li>\n<li>You are in the place or building that used to be here. You can bring people with you when you do this. Time since its destruction does not matter. If something was only partially destroyed, only the destroyed portion can be visited using this ability. Nothing can be moved or taken from this place.</li>\n</ul>",
+      "eachplus3": "you may choose one:<ul>\n<li>Ask an additional question to a person.</li>\n<li>Bring one object back with you from the destroyed place when you leave.</li>\n</ul>",
+      "failure": "you instead invite the targeted person or object to take your place. A returning person will take over your body and reshape it to look like they did prior to death. An object or place will expand out to its full size, centered on your location. Either way, you are immediately killed and must be revived at the Agency"
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!VjgP3xhECWkggHyI"
+}

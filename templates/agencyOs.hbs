@@ -1,0 +1,58 @@
+<div {{#unless isGM}}inert{{/unless}}>
+  <div title="{{localize 'TA.chaos'}}">
+    <img src="systems/triangleagency/assets/icons/chaos.svg" />
+    <div class="agencyOsAdjust" data-type="chaos">
+      <input
+        type="number"
+        value="{{chaos}}"
+        min="0"
+        max="333"
+        maxlength="3"
+        {{#if isGM}}
+        oninput="this.value = this.value.slice(0, this.maxLength)"
+        {{/if}}
+        {{#unless isGM}}
+        disabled="disabled"
+        {{/unless}}
+      />
+    </div>
+  </div>
+
+  <div title="{{localize 'TA.ATALocationBurnout'}}">
+    <img src="systems/triangleagency/assets/icons/burnout-location.png" />
+    <div class="agencyOsAdjust" data-type="burnout">
+      <input
+        type="number"
+        value="{{burnout}}"
+        min="0"
+        max="5"
+        maxlength="1"
+        {{#if isGM}}
+        oninput="this.value = this.value.slice(0, this.maxLength)"
+        {{/if}}
+        {{#unless isGM}}
+        disabled="disabled"
+        {{/unless}}
+      />
+    </div>
+  </div>
+
+  <div title="{{localize 'TA.looseends'}}">
+    <img src="systems/triangleagency/assets/icons/looseend.png" />
+    <div class="agencyOsAdjust" data-type="looseends">
+      <input
+        type="number"
+        value="{{looseends}}"
+        min="0"
+        max="99"
+        maxlength="2"
+        {{#if isGM}}
+        oninput="this.value = this.value.slice(0, this.maxLength)"
+        {{/if}}
+        {{#unless isGM}}
+        disabled="disabled"
+        {{/unless}}
+      />
+    </div>
+  </div>
+</div>

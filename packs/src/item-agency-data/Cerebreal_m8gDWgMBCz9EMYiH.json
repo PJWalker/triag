@@ -1,0 +1,29 @@
+{
+  "folder": "sc2x6JoeNKuWB2Pe",
+  "name": "Cerebreal",
+  "type": "ConnectionBenefit",
+  "_id": "m8gDWgMBCz9EMYiH",
+  "img": "systems/triangleagency/assets/icons/connection-icon.png",
+  "system": {
+    "description": "<p>They're always a few steps ahead. At any point you may call them to get a warning of danger or potential major harm before it happens.</p>"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801382651,
+    "modifiedTime": 1722801382651,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!m8gDWgMBCz9EMYiH"
+}

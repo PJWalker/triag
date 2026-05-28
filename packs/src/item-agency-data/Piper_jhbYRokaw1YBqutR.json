@@ -1,0 +1,85 @@
+{
+  "folder": "EUXv71E1Ef8t6s11",
+  "name": "Piper",
+  "type": "AnomalyAbility",
+  "_id": "jhbYRokaw1YBqutR",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Invite a character or item out of a piece of art or fiction you’re interacting with by rolling [quality].</p>",
+    "chat": "",
+    "synopsis": "Bring a fictional character or item into reality",
+    "anomaly": "CDsjaFFWPiSydrw2",
+    "reference": "P8",
+    "quality": "presence",
+    "outcomes": {
+      "success": "the target exits with you into the real world. They understand what you have done for them and tend to be unconcerned about their fictional status. They will act in accordance with their skills and morals, but will look to you as an advisor and leader. They will remain in Reality for one hour.",
+      "every3rd3": "you may bring an additional target out of the same piece of art or fiction or keep the target out for an additional hour.",
+      "triscendence": "the target does not ever have to return.",
+      "failure": "another instance of this piece of art, somewhere, becomes a permanent portal to and from its world. You do not know which instance. It is possible the instance is a replication, in the case of singular works. Unless you or someone else destroys it, it will cause bleed back and forth between both worlds."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "I think the best characters...",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "Are impossible to find in the real world.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "W1"
+        },
+        "answer2": {
+          "text": "Feel like the people I see every day.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "L1"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!jhbYRokaw1YBqutR"
+}

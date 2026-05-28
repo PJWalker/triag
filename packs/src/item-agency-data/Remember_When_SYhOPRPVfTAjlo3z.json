@@ -1,0 +1,84 @@
+{
+  "folder": "kE8ZnYG6BZpNJHMx",
+  "name": "Remember When",
+  "type": "AnomalyAbility",
+  "_id": "SYhOPRPVfTAjlo3z",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Make someone feel an overwhelming rush of nostalgia for the time they let slip away. Hum a tune and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Cause a target intense nostalgia",
+    "anomaly": "pERhmmz8N0cKYUe3",
+    "reference": "",
+    "quality": "empathy",
+    "outcomes": {
+      "success": "all past events, even recent ones, feel wistfully far away. The target is desperate to talk about their past and easily led toward subjects you’re interested in - even typically secret or classified ones.",
+      "every3rd3": "you may request a particular memory or sequence be described in perfect detail - the GM will paint the entire scene, and it will not suffer the natural decay of memory. This effect can reveal information behind even Anomalous memory blockages or wipes.",
+      "failure": "the target becomes lost in their memories. They're overcome with emotion, and are useless for gathering information. Returning to the present will take time and care. Their condition generates at least one Loose End."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "I'm more likely to ask...",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "Where are they now?",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "O6"
+        },
+        "answer2": {
+          "text": "Where are they going?",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "F3"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!SYhOPRPVfTAjlo3z"
+}

@@ -1,0 +1,85 @@
+{
+  "folder": "nMw5TZVUUcixbUMm",
+  "name": "But It's My Birthday!",
+  "type": "AnomalyAbility",
+  "_id": "n2taOQKFTyEwrB9h",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>When a mundane target is upset, angry, or hostile toward you, tell them <em>“It’s my birthday!”</em> and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Calm an aggressor. ",
+    "anomaly": "olkslTZqenoaKhbD",
+    "reference": "B11",
+    "quality": "empathy",
+    "outcomes": {
+      "success": "the target instantly\nrelaxes and develops a neutral or mildly\npositive opinion toward you, regardless\nof their previous opinion. They don’t\nview you as a threat, or as a source of\nany kind of trouble…until tomorrow.",
+      "every3rd3": "you can say “It’s\ntheir birthday, too!” and gesture\nat someone nearby. They are also\ndiscounted as a threat by the target.",
+      "triscendence": "it is everyone’s birthday.\nThe target is unable to be hostile or\naggressive toward anyone at all, anywhere.",
+      "failure": "the target is even more\ncertain you’re a threat. Even worse, it is\ntheir birthday and they are extremely\nlucky. Harm or inconvenience directed\ntowards them will tend to miss or fail to\nfind purchase. Observers and passers-\nby will go out of their way to assist\nthem and intervene on their behalf.\nThis effect lasts until the next day."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "At my party...",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "Everyone's welcome.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "L3"
+        },
+        "answer2": {
+          "text": "Presents are required",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "G2"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!n2taOQKFTyEwrB9h"
+}

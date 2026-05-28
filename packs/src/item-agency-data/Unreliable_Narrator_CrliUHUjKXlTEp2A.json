@@ -1,0 +1,84 @@
+{
+  "folder": "fzChvOHarZUydEJB",
+  "name": "Unreliable Narrator",
+  "type": "AnomalyAbility",
+  "_id": "CrliUHUjKXlTEp2A",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Evoke an experience, memory, or sensation by speaking it into being. Narrate a sentence about a target in the third person and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Impose a narrative on a target",
+    "anomaly": "qMpjg1WXwmnUly8O",
+    "reference": "U1",
+    "quality": "presence",
+    "outcomes": {
+      "success": "your words narrate an impression into being. This narration will be true for them, and visible to you, but not true for anyone else. Choose a category for what you’ve said.<ul>\n<li><b>Boon</b>: “Morgan has a hammer” means Morgan has a hammer that no one else can see, but that functions, for Morgan, like a bat. It can deal Harm to other targets, so long as Morgan is wielding it. “Morgan’s wounds are healed” allows Morgan to act as if they are not hurt, but the wounds are not truly gone. Boons can be taken away any time, and can be denied or ignored by the target.</li>\n<li><b>Threat</b>: “Eva is below a falling piano” means a piano is falling on Eva that no one else can see, but that functions, for Eva, like a falling piano. Threats can deal Harm, but only after the target has had a chance to make a choice about their narrative situation. They must always have an option to escape the threat, but the option can be undesirable or difficult.</li>\n<li><b>Note</b>: “Seyi turns right at the crosswalk.” If something doesn’t directly help or hinder someone, just changes their behavior, it’s a note. Notes don’t work on Anomalous targets.</li>\n</ul>",
+      "triscendence": "the narration becomes literally physically true for everyone, no matter how extreme.",
+      "failure": "a nearby target (or the Mission’s target Anomaly) gains the ability to use the <b>On a success</b> effect of this ability on you, and understands this fact immediately."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!CrliUHUjKXlTEp2A"
+}

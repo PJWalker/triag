@@ -1,0 +1,84 @@
+{
+  "folder": "16yAQdlvCXM40LTi",
+  "name": "Open Carry",
+  "type": "AnomalyAbility",
+  "_id": "MJYgFjwspphGjNwW",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>The threat of your Gun is so great that even the mundane can sense it. Make your options clear and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Threaten someone with your Gun.",
+    "anomaly": "CVBKoAdfkebKDAtW",
+    "reference": "",
+    "quality": "presence",
+    "outcomes": {
+      "success": "a target you are focusing on is intimidated enough to do what you want. However, the GM chooses one consequence from the following. The target will:<ul>\n<li>Remember your face</li>\n<li>Contact the authorities</li>\n<li>React with extreme fear</li>\n<li>Seek retribution</li>\n</ul>",
+      "eachplus3": "you may either remove\nan option from the possible consequences or\nadd an additional target. For example, six 3s\ncould mean no consequences and 2 targets, or\n5 targets and all potential consequences.",
+      "failure": "the target is unafraid. They become\nimmune to all effects of your Gun, and will likely\nretaliate in immediate and dangerous ways."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "Friends are..",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "Everywhere, if you know how to look.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "D6"
+        },
+        "answer2": {
+          "text": "Enemies I haven't made yet.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "W11"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!MJYgFjwspphGjNwW"
+}

@@ -1,0 +1,85 @@
+{
+  "folder": "EUXv71E1Ef8t6s11",
+  "name": "Wake-Up Call",
+  "type": "AnomalyAbility",
+  "_id": "8Xcm9zK50nklq985",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>There are only two states of being: sleeping, and awake. Touch an inanimate object, say <em>“wakey-wakey,”</em> and roll [quality].</p><p>If Wake-Up Call is used on an unconscious but already living target, they awaken from any kind of illusory or magical sleep fully refreshed.</p>",
+    "chat": "",
+    "synopsis": "Wake an object or person up",
+    "anomaly": "CDsjaFFWPiSydrw2",
+    "reference": "W1",
+    "quality": "empathy",
+    "outcomes": {
+      "success": "the object awakens. Awakened objects can speak, move\n(using an unusual flexibility in their original shape or with a gentle floating), perceive the world around them, plan, and feel. Their personality is informed by their history: whether they were formed accidentally, or created with purpose; whether they were a tool of creation or destruction; whether or not they were once a living thing.\n<p>Unless you and your teammates have given it reason to feel otherwise, the awakened object treats you with courtesy and respect. This effect ends after 1 hour, or when you dismiss it by saying <i>“night-night”</i> to the target.</p>",
+      "eachplus3": "you may extend this effect by 1 hour or wake an additional object.",
+      "triscendence": "the targets remain awake forever.",
+      "failure": "you and the object swap consciousnesses. You are trapped as an Awoken Object, and the object now controls your body, Anomaly Abilities and all."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!8Xcm9zK50nklq985"
+}

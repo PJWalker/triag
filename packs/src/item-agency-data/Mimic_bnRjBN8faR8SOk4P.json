@@ -1,0 +1,84 @@
+{
+  "folder": "fzChvOHarZUydEJB",
+  "name": "Mimic",
+  "type": "AnomalyAbility",
+  "_id": "bnRjBN8faR8SOk4P",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Your mastery of your own voice extends to mastery over all voices. When you gain this ability, note the following key phrases:</p><div style=\"display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0 10px\"><p><strong>You can’t sit there</strong></p><p><strong>Actually so funny</strong></p><p><strong>Pocket full of sunshine</strong></p><p><strong>I’ve never been</strong></p><p><strong>My morning routine</strong></p><p><strong>Archaeology</strong></p><p><strong>Either one is fine</strong></p><p><strong>I don’t work here</strong></p><p><strong>I’m requesting a refund</strong></p><p><strong>A pile of marbles</strong></p><p><strong>Toyotathon</strong></p><p><strong>Funny you should ask</strong></p></div><p>Once you have heard any being speak 3 of these key phrases, you may forever emulate that being’s voice perfectly when you speak or use your Anomaly Abilities.</p><p>If you’re in a hurry, after hearing somebody speak a single key phrase, you can roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Mimic someone's voice",
+    "anomaly": "qMpjg1WXwmnUly8O",
+    "reference": "M7",
+    "quality": "attentiveness",
+    "outcomes": {
+      "success": "you may emulate the target as described above, but only until the end of the current Mission.",
+      "triscendence": "you may add a Key Phrase to your list. It must be at least three words long.",
+      "failure": "they’re just not in your range. You can never Mimic this target."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!bnRjBN8faR8SOk4P"
+}

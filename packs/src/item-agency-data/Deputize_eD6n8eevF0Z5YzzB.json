@@ -1,0 +1,80 @@
+{
+  "folder": "16yAQdlvCXM40LTi",
+  "name": "Deputize",
+  "type": "AnomalyAbility",
+  "_id": "eD6n8eevF0Z5YzzB",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>When you use <strong>Open Carry</strong>, you may replace the listed Consequences with the following ones. If any of these Consequences are selected by the GM, their effects last until the next time one of these Consequences is selected.</p><ul><li>The target(s) will rally allies to your cause.</li><li>The target(s) will do everything it can to cover your tracks.</li><li>The target immediately becomes a 1 Connection Relationship and, for the rest of this Mission, with a Benefit chosen by the GM based on their talents and personality. When this effect ends, they lose 1 Connection. If this drops them to 0, you lose them as a Relationship.</li><li>The target will ask you for a long-term mission they can take on to support you and will dedicate their life to accomplishing that mission.</li></ul>",
+    "chat": "",
+    "synopsis": "Expend the Open Carry options",
+    "anomaly": "CVBKoAdfkebKDAtW",
+    "reference": "D6",
+    "quality": "attentiveness",
+    "outcomes": {},
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "I help my friends by...",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "Sharing my skills.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "P3"
+        },
+        "answer2": {
+          "text": "Cleaning up their mistakes.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "B10"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!eD6n8eevF0Z5YzzB"
+}

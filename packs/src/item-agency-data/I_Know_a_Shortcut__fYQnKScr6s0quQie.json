@@ -1,0 +1,84 @@
+{
+  "folder": "FbWHYEaYHPS7AP9Y",
+  "name": "I Know a Shortcut!",
+  "type": "AnomalyAbility",
+  "_id": "fYQnKScr6s0quQie",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>When you want to get somewhere in a hurry, say the phrase “I know a shortcut!” and then describe a short path to the discussed location. Roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Get somewhere quickly. ",
+    "anomaly": "QFZ908dwWMLydS1m",
+    "reference": "",
+    "quality": "initiative",
+    "outcomes": {
+      "success": "your directions are correct,\nno matter how impossible, for yourself. This\nshortcut disappears once it has been used.",
+      "eachplus3": "an additional person\nmay use your shortcut before it disappears.",
+      "failure": "your shortcut leads\nsomewhere very inconvenient instead of\nthe desired location, and it is persistent\nand visible to everyone on both ends."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "The world is...",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "As I see it.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "F9"
+        },
+        "answer2": {
+          "text": "As I make it.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "S16"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!fYQnKScr6s0quQie"
+}

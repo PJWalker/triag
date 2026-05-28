@@ -1,0 +1,80 @@
+{
+  "folder": "KJ942AoNAzO30V2s",
+  "name": "Family Business",
+  "type": "AnomalyAbility",
+  "_id": "AbRnYPFbJhzfrQgM",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>You have identified two versions of yourself that are similar enough to you as to effectively share a psychic connection. Create two versions of yourself (as in <strong>Your Best Self</strong>) who can now stay in this Reality, similar to <strong>Permanent Transfer</strong>. They don’t create Loose Ends for staying and you retain control of them.</p><p>Whenever you are on a Mission, you may act as all three versions. There might be minor differences between you, but you're similar enough to typically be thinking the same thing, and making complementary choices. All three of you share Quality Assurances.</p><p>Any time you talk to yourself at the table, you generate 1 Chaos.</p>",
+    "chat": "",
+    "synopsis": "Create a permanent duplicate of yourself",
+    "anomaly": "udMNsme6WENZjHUA",
+    "reference": "F2",
+    "quality": "attentiveness",
+    "outcomes": {},
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!AbRnYPFbJhzfrQgM"
+}

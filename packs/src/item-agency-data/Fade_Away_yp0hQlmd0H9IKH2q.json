@@ -1,0 +1,84 @@
+{
+  "folder": "47B4BLgc3ZXiBRb2",
+  "name": "Fade Away",
+  "type": "AnomalyAbility",
+  "_id": "yp0hQlmd0H9IKH2q",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>You can now produce an instant film camera at any time. Any time you use it to take a photo of an object or structure, roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Trap an object or person in a photo",
+    "anomaly": "eS7KC5SIpaSgrhpn",
+    "reference": "F1",
+    "quality": "subtlety",
+    "outcomes": {
+      "success": "the subject of your photo disappears gradually as they appear on the instant film. It does not experience the passage of time until you return it to the spot it left by ripping the picture in half. The empty space may be conspicuous and create Loose Ends",
+      "triscendence": "you may also target a living being in the photo with this ability.",
+      "failure": "you are instead trapped in the photograph. Unlike other targets, you can speak and observe the world from the image, and use your Anomaly Abilities. You will be retrieved from the photo with some assistance from the office at the end of the mission."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!yp0hQlmd0H9IKH2q"
+}

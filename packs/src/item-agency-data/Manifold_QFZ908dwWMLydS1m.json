@@ -1,0 +1,30 @@
+{
+  "folder": "yO4nEJ41LORK5Bca",
+  "name": "Manifold",
+  "type": "Anomaly",
+  "_id": "QFZ908dwWMLydS1m",
+  "img": "systems/triangleagency/assets/icons/anomaly-icon.png",
+  "system": {
+    "description": "<p>Labyrinths with no solution. Road trips finished in a blink. Weightless sleepers, waking at their fall. Manifold Anomalies consider space a suggestion, and physics one of space’s boring friends. Particular and controlling, Manifolds delight in connecting dots and making “improvements.” They tangle roads into impenetrable knots, turn pleasant journeys to torture as they drag out forever, and crash planes from airspace they’d prefer to keep clear. When worlds collide, it’s often because these Anomalies decided they should. Agents with these abilities gain an aptitude for making deliveries and avoiding distractions. If you notice your commute lengthening or your stapler floating out of reach, however, immediately request a mediation session with any Manifold employees you may have upset.</p>",
+    "abilities": []
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!QFZ908dwWMLydS1m"
+}

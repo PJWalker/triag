@@ -1,0 +1,22 @@
+{
+  "name": "Requisitions",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "YhS2O0rkebiR5VsY",
+  "description": "",
+  "sort": 275000,
+  "color": "#8c4089",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.328",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801225770,
+    "modifiedTime": 1722801322041,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I"
+  },
+  "_key": "!folders!YhS2O0rkebiR5VsY"
+}

@@ -1,0 +1,84 @@
+{
+  "folder": "nMw5TZVUUcixbUMm",
+  "name": "I Made This",
+  "type": "AnomalyAbility",
+  "_id": "Zsj0nvZQSYNpshkG",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Touch a work, trophy, or other sign of another person’s accomplishment while making eye contact with them, and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Take credit for another's accomplishment",
+    "anomaly": "olkslTZqenoaKhbD",
+    "reference": "I1",
+    "quality": "duplicity",
+    "outcomes": {
+      "success": "you are actually the one who achieved it, and everyone knows it. You made the art, or climbed the mountain, or negotiated the peace treaty, but you do not receive the memory of having done it. The target forgets their accomplishment, but not their plans to achieve it.",
+      "sixplus3s": "you also gain all of the target’s memories relevant to the achievement of this accomplishment.",
+      "failure": "the accomplishment was achieved by no one. It becomes widely considered a miracle, or act of god - the painting drew itself, the flag has always existed on the mountain, or the peace treaty was dropped in the hands of the warring parties from the sky. Humanity’s belief that no one made this is very resilient."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!Zsj0nvZQSYNpshkG"
+}

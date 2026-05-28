@@ -1,0 +1,84 @@
+{
+  "folder": "FbWHYEaYHPS7AP9Y",
+  "name": "Habit Forming",
+  "type": "AnomalyAbility",
+  "_id": "CqoOrTmhkudKkMtK",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Create a new neural pathway. Reach into a brain and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Create a logical connection in a target's mind",
+    "anomaly": "QFZ908dwWMLydS1m",
+    "reference": "H1",
+    "quality": "professionalism",
+    "outcomes": {
+      "success": "you create a connection between any two things in the target’s mind. Connections are typically \"if, then\" statements. (“If I feel cold, then I cook linguine,” “If someone punches left, then I dodge left, into the punch.” etc.)",
+      "every3rd3": "choose one:<ul>\n<li>Create an additional connection</li>\n<li>Add the same connection in another target’s mind</li>\n</ul>",
+      "failure": "an assortment of random things in their mind become highly associated with you. This can have unpredictable effects; their opinion of you and the associations might mean they become obsessed, or hateful, or scared. It is permanent."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!CqoOrTmhkudKkMtK"
+}

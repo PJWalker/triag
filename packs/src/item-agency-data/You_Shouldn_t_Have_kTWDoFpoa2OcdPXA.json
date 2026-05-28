@@ -1,0 +1,84 @@
+{
+  "folder": "KJ942AoNAzO30V2s",
+  "name": "You Shouldn't Have",
+  "type": "AnomalyAbility",
+  "_id": "kTWDoFpoa2OcdPXA",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>When an object is used to hurt or embarrass you (<em>a bullet, a bucket of paint, a sticky note, etc.</em>) roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Make a threat an object",
+    "anomaly": "udMNsme6WENZjHUA",
+    "reference": "Y1",
+    "quality": "dynamism",
+    "outcomes": {
+      "success": "the object changes to\nsomething harmless or flattering instead\n(<i>the bullet becomes a foam dart, the paint\nbecomes water and you look amazing\nin a wet t-shirt, the message on the\nsticky note advertises an impressive fact\nabout you, etc.</i>) Any Harm that would\nbe dealt is negated, and any intended\nembarrassment backfires on the wielder.",
+      "sixplus3s": "you keep the\noriginal object or intended effect\nwithin you, and can release it at\nany time. Write down what you\ntransformed and erase it later\nto turn something harmless or\nflattering back into what you kept.\n(<i>A bottle of juice is suddenly full\nof paint, a flicked straw becomes\na fired bullet in the air, etc.</i>)",
+      "spend3s": "the object remains in\nits original hurt- or embarrassment-\ncausing form, and your hands transform\ninto something gentle, imprecise,\nand useless for violence. They’ll\nreturn to normal after about a day."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "If I want something too expensive...",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "I play the lottery.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "S5"
+        },
+        "answer2": {
+          "text": "I find something I already have that's close enough.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "P7"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!kTWDoFpoa2OcdPXA"
+}

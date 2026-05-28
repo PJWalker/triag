@@ -1,0 +1,84 @@
+{
+  "folder": "8vkjXfpy8MxHBcCF",
+  "name": "Eyes",
+  "type": "AnomalyAbility",
+  "_id": "itBOgNRxhnmbFns1",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Roll [quality] and open a few more eyes.</p>",
+    "chat": "",
+    "synopsis": "Grow extra eyes. ",
+    "anomaly": "QeG4FEIg0thHuwYW",
+    "reference": "",
+    "quality": "professionalism",
+    "outcomes": {
+      "success": "you sprout new eyes on your body, with potent new abilities.",
+      "spend3s": "the following types of vision, which last for 1 hour:<ul>\n<li>1: Heat, Night, or Telescopic</li>\n<li>2: Fingerprint or X-Ray</li>\n<li>3: Reality (Cuts through illusions and obfuscations)</li>\n<li>4: Plant Sign Language, Anomaly Tracking</li>\n<li>6: Weakness</li>\n<li>7: Future Sight</li>\n</ul>",
+      "failure": "you see <b>A Vision of the End</b>. You receive a piece of forbidden knowledge about the end of all things, too big for your mind to comprehend. You suffer from an additional Burnout on all rolls until the end of the mission."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "Have you seen a Vision of the End?",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "No. Also, I like plants!",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "G6"
+        },
+        "answer2": {
+          "text": "Yes.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 1,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "R7"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!itBOgNRxhnmbFns1"
+}

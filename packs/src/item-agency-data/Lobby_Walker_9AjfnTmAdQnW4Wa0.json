@@ -1,0 +1,84 @@
+{
+  "folder": "47B4BLgc3ZXiBRb2",
+  "name": "Lobby Walker",
+  "type": "AnomalyAbility",
+  "_id": "9AjfnTmAdQnW4Wa0",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>There is a space parallel to our Reality, one the Agency calls the <strong>Lobby</strong>. You're closer to it than most. Take a step into this parallel realm and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Step into the Lobby",
+    "anomaly": "eS7KC5SIpaSgrhpn",
+    "reference": "L7",
+    "quality": "professionalism",
+    "outcomes": {
+      "success": "you enter the place where thoughts congeal, eventually, into Anomalies. The Lobby as you experience it is physically 1:1 with Reality, but devoid of mundane life and filled with endless, unlimited color. You can move through this space exactly like it’s Reality, and when the effect ends you return to Reality in your new position.\n<p>In addition, you can affect physical things in the Lobby (break objects, open doors, unplug cords, etc.) and they will be similarly affected in Reality. You can remain in the Lobby for seven minutes before anything notices you.</p>\n<p>Any time you pass through a doorway or return to the place you entered the Lobby, you may return to Reality. Otherwise, you may only leave by using this Ability again.</p>",
+      "every3rd3": "choose one:<ul>\n<li>Another target can come with you into the Lobby.</li>\n<li>You can stay undetected an additional 7 minutes.</li>\n<li>A target you brought with you will stay behind when you leave.</li>\n</ul>",
+      "failure": "or if you remain in the Lobby beyond the allotted time, you and anyone you brought are targeted by Ripples, thoughts that have not yet combined with enough others to break through into reality. They are small, chaotic, and dangerous. They tend to appear as simple amalgams of the kinds of things people in the area are thinking about (Crabs + beer bottles, stock tickers + rats, radios + dumplings, etc.) Hungry for Resonance, they will target you aggressively in swarms."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!9AjfnTmAdQnW4Wa0"
+}

@@ -1,0 +1,30 @@
+{
+  "folder": "yO4nEJ41LORK5Bca",
+  "name": "Drain",
+  "type": "Anomaly",
+  "_id": "olkslTZqenoaKhbD",
+  "img": "systems/triangleagency/assets/icons/anomaly-icon.png",
+  "system": {
+    "description": "<p>Thirst that never quenches. Kind words that leave you empty. Interest. Drain Anomalies feed on desire, decay, and gradual loss. Like the scorpion on the frog, these Anomalies take because it&rsquo;s how they live. It&rsquo;s what they do. Drains thrive wherever expectation negotiates with reality: when money leaps from wallets, loyalty dwindles to disgust, or an audience cackles at pain, a Drain is there to collect their share. Drain-bonded Agents are adept at lifting team morale and filling in wherever they&rsquo;re needed, so long as they have someone to model their work after. Keep in mind that their powers can be hard to resist. Should you find yourself becoming less energetic or interesting while your Drain teammate receives escalating acclaim in your field, thank them for putting your skills to good use!</p>",
+    "abilities": []
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!olkslTZqenoaKhbD"
+}

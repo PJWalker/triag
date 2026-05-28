@@ -1,0 +1,51 @@
+{
+  "folder": "GFOz4uUhD2fAbKL7",
+  "name": "Creature",
+  "type": "Reality",
+  "_id": "xQvZXh2nnsZrn4Lr",
+  "img": "systems/triangleagency/assets/icons/reality-icon.png",
+  "system": {
+    "description": "<p>Tired of living on the fringes of society, you left your home to join the modern world. Whether vampire, robot, or mutated turtle, you now live among normal people under an assumed identity and are perpetually one misstep away from being discovered. Though you have an innate or artificial means to blend in seamlessly with humanity, your self-restraint is often no match for your inhuman desires. Whether you crave sunlight, salt water, or blood, you're more likely than any other to pursue objectives not covered in the briefings. Your Relationships tend to confuse your loyalties, and your customs tend to confuse your witnesses.</p>",
+    "burnoutRelease": {
+      "blurb": "Crushing It",
+      "description": "When you're doing something that'll make you seem less interesting, ignore all Burnout."
+    },
+    "realityTrigger": {
+      "blurb": "Yes Right Now",
+      "description": "Your true self has needs that others may understand but don't share. One of these urges has bubbled to the surface. If you ignore it, the willpower used causes you to struggle to communicate with others: the Relationship who most believes your disguise loses one Connection. If the truth about yourself is revealed to someone, mark the track. When it's full, you're revealed.",
+      "track": {
+        "id": "",
+        "name": "Revealed",
+        "description": "",
+        "size": 5,
+        "milestones": {
+          "5": "<b>X</b>"
+        }
+      }
+    },
+    "relationships": {
+      "question1": "Who came from the same place you did?",
+      "question2": "Who taught you how to hide among regular people?",
+      "question3": "Who do you wish to teach more about your first life?"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801382651,
+    "modifiedTime": 1722801382651,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!xQvZXh2nnsZrn4Lr"
+}

@@ -1,0 +1,36 @@
+{
+  "folder": "qbhkM4exggvPcUMP",
+  "name": "Printing Press Release",
+  "type": "Requisition",
+  "_id": "XxImdUIrkgKmqnbW",
+  "img": "systems/triangleagency/assets/icons/requisition-icon.png",
+  "system": {
+    "reference": "",
+    "cost": 0,
+    "description": "<p>This ancient, unwieldy printing press is kept in an old recreation room on an unused floor in your Agency headquarters. Once each mission, you may use the press to print a story which is then immediately published across all major local publications. If you're on the go, you can send your story to the others in your department to run it through the press.</p>",
+    "totalUses": 1,
+    "missionUses": 1,
+    "used": 0,
+    "notes": "",
+    "unlimited": false
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801408523,
+    "modifiedTime": 1725215180399,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!XxImdUIrkgKmqnbW"
+}

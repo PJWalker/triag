@@ -1,0 +1,21 @@
+<div class="track {{trackClass}}" data-type="{{trackType}}" data-canstrike="{{canstrike}}">
+  {{#each rows}}
+
+  {{#each this.columns}}
+  <div
+    class="{{../../boxClass}} track-box {{#if this.canaction}}track-action{{/if}} {{#if this.isMilestone}}{{#if ../../highlightMilestones}}track-milestone{{/if}}{{/if}} {{#if this.checked}}track-checked{{/if}} {{#if this.struck}}track-struck{{/if}}"
+    data-value="{{this.value}}"
+    data-id="{{this.id}}"
+    data-name="{{this.name}}"
+  >
+    {{~#if this.isMilestone}}<span style="color: white; vertical-align: middle">{{{this.milestone}}}</span>
+    {{else}}
+    &nbsp;
+    {{/if}}
+  </div>
+  {{/each}}
+  {{/each}}
+  {{#if trackEnd}}
+  <span>{{{endIcon}}}</span>
+  {{/if}}
+</div>

@@ -1,0 +1,84 @@
+{
+  "folder": "FbWHYEaYHPS7AP9Y",
+  "name": "All The Difference",
+  "type": "AnomalyAbility",
+  "_id": "QEXNyX3epcxvxk2L",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>When presented with two paths, roll [quality] and take both.</p>",
+    "chat": "",
+    "synopsis": "Experience both options",
+    "anomaly": "QFZ908dwWMLydS1m",
+    "reference": "A8",
+    "quality": "duplicity",
+    "outcomes": {
+      "success": "you experience reality down both paths simultaneously. The GM and other Agents will describe their next responses to both options up to one minute in the future, or until after one other roll is made and resolved, whichever comes first. Then, you will select which path you actually choose. Any Chaos generated while following either path remains after a path is chosen.",
+      "eachplus3": "you can harness this effect again in quick succession, such as in multiple moments of a single fight, turns of the same maze, or parts of the same conversation. When you move on from your current task, this effect ends.",
+      "failure": "you take the most dangerous of all possible options - which may not even be one you realized was available -chosen by the GM. Everyone must deal with the consequences."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!QEXNyX3epcxvxk2L"
+}

@@ -1,0 +1,84 @@
+{
+  "folder": "16yAQdlvCXM40LTi",
+  "name": "Save a Horse",
+  "type": "AnomalyAbility",
+  "_id": "jggRz2NoWijO69vX",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Aim your Gun towards any destination and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Transform into a bullet",
+    "anomaly": "CVBKoAdfkebKDAtW",
+    "reference": "S2",
+    "quality": "initiative",
+    "outcomes": {
+      "success": "you become a bullet. You travel to that destination in a straight line and at constant speed, ignoring the effects of gravity, drag, and friction. You may end this effect at any point in your journey. If you hit anything, you hit it as a bullet before emerging in your normal form, unharmed, Gun in hand.",
+      "eachplus3": "you may:<ul>\n<li>Strike a target in your path without stopping.</li>\n<li>Harmlessly bypass an obstacle.</li>\n<li>Turn at a 90 degree angle once.</li>\n</ul>",
+      "failure": "everything within three meters joins you on your journey, but they are not transformed and do not ignore drag and friction."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!jggRz2NoWijO69vX"
+}

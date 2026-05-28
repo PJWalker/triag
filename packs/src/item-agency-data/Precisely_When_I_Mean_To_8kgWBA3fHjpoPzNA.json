@@ -1,0 +1,85 @@
+{
+  "folder": "kE8ZnYG6BZpNJHMx",
+  "name": "Precisely When I Mean To",
+  "type": "AnomalyAbility",
+  "_id": "8kgWBA3fHjpoPzNA",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Any time you and your allies travel a significant distance to a new location, you may choose to all arrive at that location tomorrow or yesterday. The time (as in, 12:15pm) must be the same time as you would have arrived normally. This time becomes your new present until you use this ability again.</p><p>If you would like to bring a mundane target with you, roll [quality].</p><p>In addition, <strong>When It Was Written</strong> gains a new effect.</p>",
+    "chat": "",
+    "synopsis": "Arrive in the past or future",
+    "anomaly": "pERhmmz8N0cKYUe3",
+    "reference": "P11",
+    "quality": "initiative",
+    "outcomes": {
+      "success": "you may bring one person with you.",
+      "eachplus3": "you can bring one additional person with you.",
+      "triscendence": "your use of this ability is not limited by the clock at all. You can arrive at your destination at any time, past or future. You can end the effect and return to the present whenever you wish.",
+      "failure": "everyone you hoped to bring arrives at a different time from each other. The GM describes how far apart."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!8kgWBA3fHjpoPzNA"
+}

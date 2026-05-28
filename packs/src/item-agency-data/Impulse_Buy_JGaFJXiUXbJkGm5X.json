@@ -1,0 +1,85 @@
+{
+  "folder": "KJ942AoNAzO30V2s",
+  "name": "Impulse Buy",
+  "type": "AnomalyAbility",
+  "_id": "JGaFJXiUXbJkGm5X",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>You gain the ability to create <strong>Minor Anomalies</strong> (ask the GM to share the page with you). Place any coin or bill on the ground and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Create a Minor Anomaly",
+    "anomaly": "udMNsme6WENZjHUA",
+    "reference": "I5",
+    "quality": "presence",
+    "outcomes": {
+      "success": "the money turns into a <b>Minor Anomaly</b> of any type. It follows your instructions intelligently, and won’t act against you. If you die or use this Ability while a previous instance is still active, you lose control of the <b>Minor Anomaly</b>. What it does with its freedom depends on how it has been treated, but typically it will leave you behind to find another Anomaly to attach to.\n<p>These <b>Minor Anomalies</b> must share some cosmetic resemblance to you or your personal Anomaly. Disruptive <b>Minor Anomalies</b> only affect rolls you make, and they add one 3 to your rolls rather than one Chaos. These 3s are added after Triscendence is determined.</p>",
+      "sixplus3s": "you may add an additional category to the <b>Minor\nAnomaly</b>, combining its Stability, Harm, and skills into one form. You cannot select the same category twice.",
+      "triscendence": "you may use the <b>Triple</b> Chaos Effect instead, creating three <b>Minor Anomalies</b>. They follow all the same rules.",
+      "failure": "another Anomaly seizes control over your process. Three hostile <b>Minor Anomalies</b> are immediately created."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "Which do I use most to reach my goals?",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "Passion.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "L4"
+        },
+        "answer2": {
+          "text": "Planning.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "M12"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!JGaFJXiUXbJkGm5X"
+}

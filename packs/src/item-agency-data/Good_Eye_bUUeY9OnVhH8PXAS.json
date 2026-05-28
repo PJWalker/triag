@@ -1,0 +1,80 @@
+{
+  "folder": "16yAQdlvCXM40LTi",
+  "name": "Good Eye",
+  "type": "AnomalyAbility",
+  "_id": "bUUeY9OnVhH8PXAS",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>You may use <strong>Quick Draw</strong> to protect anyone nearby, as long as you can perceive both them and whatever is attempting to Harm them. When used in this way, roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Use Quick Draw to protect others",
+    "anomaly": "CVBKoAdfkebKDAtW",
+    "reference": "G4",
+    "quality": "attentiveness",
+    "outcomes": {},
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "I can't be everywhere at once...",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "But it's important to me to try.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "S2"
+        },
+        "answer2": {
+          "text": "If these losers keep killing me.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "R12"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!bUUeY9OnVhH8PXAS"
+}

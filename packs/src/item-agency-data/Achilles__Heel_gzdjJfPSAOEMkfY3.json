@@ -1,0 +1,80 @@
+{
+  "folder": "nMw5TZVUUcixbUMm",
+  "name": "Achilles' Heel",
+  "type": "AnomalyAbility",
+  "_id": "gzdjJfPSAOEMkfY3",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>You have become impervious to all forms of Harm except for one thing. Every player in the game, Agent and GM alike, secretly writes one of the following options down on a piece of paper (or any other option, approved by your GM.)</p><ul><li>Sunlight</li><li>Water</li><li>Iron</li><li>Paper</li><li>A notable phrase from a popular piece of fiction [write the phrase]</li><li>Prolonged eye contact</li><li>Being intentionally ignored</li></ul><p>Select one of the papers randomly. The selected option is your <strong>Heel</strong>, and it is now deadly to you.</p><p>Any interaction with your Heel immediately deals 3 Harm. It cannot be redistributed with <strong>Universal Recipient</strong> or defended against in any way except the use of QAs.</p><p>You may use <strong>Sympathetic Pain</strong> on your Heel. When you inflict the effect on another target, they experience the effect normally (in most cases, it is at worst uncomfortable) and not its unique effect on you.</p><p>Once between each mission you may repeat this process to select a new Heel.</p>",
+    "chat": "",
+    "synopsis": "Become invulnerable, except for one weakness",
+    "anomaly": "olkslTZqenoaKhbD",
+    "reference": "A6",
+    "quality": "attentiveness",
+    "outcomes": {},
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!gzdjJfPSAOEMkfY3"
+}

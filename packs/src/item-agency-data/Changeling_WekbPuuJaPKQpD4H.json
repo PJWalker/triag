@@ -1,0 +1,84 @@
+{
+  "folder": "nMw5TZVUUcixbUMm",
+  "name": "Changeling",
+  "type": "AnomalyAbility",
+  "_id": "WekbPuuJaPKQpD4H",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>They were barely using their life anyway. Roll [quality] to either send a mundane target away by pushing them across a threshold, or to bring a previously disappeared target back.</p>",
+    "chat": "",
+    "synopsis": "Banish someone and take their place",
+    "anomaly": "olkslTZqenoaKhbD",
+    "reference": "C7",
+    "quality": "duplicity",
+    "outcomes": {
+      "success": "the target is sent Elsewhere, and you receive the ability to transform into that person at any time and make use of their appearance and physical attributes.\n<p>If returning a target, they return to exactly where you took them, and you lose the ability to transform into them. They have will have aged and are aware that they were Elsewhere.</p>",
+      "sixplus3s": "you have complete control over where the target was sent. Their attributes are available to you as separate pieces. When you use this Ability in the future to transform into another target, you may also add parts of this target’s physical attributes, becoming an amalgam of the two targets according to your specifications.",
+      "failure": "the target can never return, if you are sending them Elsewhere, and the version of them you can transform into has something unsettlingly off about it.\n<p>If attempting to retrieve a target, something else returns from Elsewhere instead.</p>"
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!WekbPuuJaPKQpD4H"
+}

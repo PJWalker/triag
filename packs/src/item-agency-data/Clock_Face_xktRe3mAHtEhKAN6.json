@@ -1,0 +1,85 @@
+{
+  "folder": "kE8ZnYG6BZpNJHMx",
+  "name": "Clock Face",
+  "type": "AnomalyAbility",
+  "_id": "xktRe3mAHtEhKAN6",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>You create and can now wield a powerful artifact: <strong>Clock Face</strong>. Clock Face is a large, circular shield that can be comfortably strapped to an appendage. When using Clock Face to defend against something that would harm or hurt you or an ally, roll [quality].</p><p>When you have <strong>B4</strong>, <strong>L5</strong>, and <strong>C8</strong>, receive <strong>R15</strong>.</p>",
+    "chat": "",
+    "synopsis": "Protect yourself with time",
+    "anomaly": "pERhmmz8N0cKYUe3",
+    "reference": "C8",
+    "quality": "persistence",
+    "outcomes": {
+      "success": "the attack reflects back upon the attacker, and its original target is unharmed.",
+      "triscendence": "you take time from the target: they age by one year, and you become one year younger.",
+      "failure": "you fail to stop the attack. Instead of receiving the normal effects of this Harm, you cease to exist for one hour per Harm dealt by the attack. When you return, you're in the same spot.",
+      "every3rd3": "you may choose one of the following: <ul>\n<li><b>Writers' Block</b>: It becomes 3am, and the attacker loses track of whatever plan they had that led to the attack in the first place.</li>\n<li><b>Morning Brew</b>: It becomes 7:45am, and any number of nearby targets you choose are filled with energy and focus, becoming able to execute complex, coordinated maneuvers with relatively little practice.</li>\n<li><b>High Noon</b>: It becomes 12pm. Anyone nearby who isn’t you or the attacker pauses to watch the two of you duel until one emerges victorious.</li>\n<li><b>Five O’Clock Here</b>: It becomes 5pm. Your attacker is hit with a wave of lethargy and calm. Even if they are still motivated to fight, the lethargy weakens and slows them.</li>\n</ul>"
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!xktRe3mAHtEhKAN6"
+}

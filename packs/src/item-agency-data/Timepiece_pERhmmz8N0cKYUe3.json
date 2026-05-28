@@ -1,0 +1,30 @@
+{
+  "folder": "yO4nEJ41LORK5Bca",
+  "name": "Timepiece",
+  "type": "Anomaly",
+  "_id": "pERhmmz8N0cKYUe3",
+  "img": "systems/triangleagency/assets/icons/anomaly-icon.png",
+  "system": {
+    "description": "<p>Never-ending school days. Memories vivid and unforgettable. Death, moments after escape. Timepiece Anomalies set the world&rsquo;s schedule and don&rsquo;t bother with a calendar. The powers of a Timepiece invite a uniquely casual selfishness. The mundane world is shackled to time&rsquo;s passage, and so everyone bends to the Timepiece&rsquo;s will. While patience and thoughtfulness could make this an unparalleled force for good, these Anomalies more often grow bored and careless, protected as they are from the consequences of waste. Agents bonded with Timepiece Anomalies are highly prized for their ability to ensure every meeting has time for one more question and every pay period fits neatly within the budget.</p>",
+    "abilities": []
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!pERhmmz8N0cKYUe3"
+}

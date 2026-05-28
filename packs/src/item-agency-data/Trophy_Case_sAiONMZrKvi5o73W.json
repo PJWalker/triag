@@ -1,0 +1,84 @@
+{
+  "folder": "16yAQdlvCXM40LTi",
+  "name": "Trophy Case",
+  "type": "AnomalyAbility",
+  "_id": "sAiONMZrKvi5o73W",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>The tree is dead, but the axe remembers. Clean out the memories and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Gain a trophy when you eliminate a target",
+    "anomaly": "CVBKoAdfkebKDAtW",
+    "reference": "T5",
+    "quality": "persistence",
+    "outcomes": {
+      "success": "your gun expels a trophy of the most recently Eliminated target: something they were holding, a piece of their skeleton, something they said. You choose what the trophy is, how fast it is expelled, and where it is aimed.",
+      "eachplus3": "your Gun may expel an additional trophy from the most recent target or a trophy from the target immediately prior. Additional 3s can continue to move backwards through the Gun’s history of Eliminated targets.",
+      "failure": "your Gun expels an unrecognizable mass that is extremely difficult to clean up and the next 3 rolls you make suffer from Burnout."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "Only you answer this question: Will you mourn them all?",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "No.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "D5"
+        },
+        "answer2": {
+          "text": "Yes.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "W4"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!sAiONMZrKvi5o73W"
+}

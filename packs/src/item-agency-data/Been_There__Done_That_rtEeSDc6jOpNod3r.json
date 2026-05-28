@@ -1,0 +1,80 @@
+{
+  "folder": "kE8ZnYG6BZpNJHMx",
+  "name": "Been There, Done That",
+  "type": "AnomalyAbility",
+  "_id": "rtEeSDc6jOpNod3r",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Smooth over the problems of today with a little extra work later. You begin each mission with 3 <strong>Time Beacons</strong>, and may place them at any time while in the field.</p><p>Placing a Time Beacon allows you to mark a spot for your future self to return and interfere. After the mission, you’ll return to these spots to help out – which means whenever you place one, the future version of you appears shortly afterwards/prior to change something in a simple way that doesn’t cause a serious paradox.</p><p>Choose one of the following effects each time you activate a Time Beacon:</p><ul><li>An object that would take time to find is found immediately.</li><li>An object that would be useful for an adversary to have has conveniently disappeared the moment they attempt to produce it.</li><li>A distraction occurs just out of sight.</li><li>One of your Anomaly Abilities is activated somewhere nearby without you having to do it. This still requires rolls, costs QAs, and creates Chaos as normal. In the event of a failure or other consequences, your future self will have to deal with it.</li><li>An instance of Harm is taken by your future self, instead of somebody present (added back at the end of the mission. May cause Death).</li><li>Someone was prepared for your arrival with information, intimidation, or charm.</li><li>Somebody or something that intended to surprise you is, instead, themselves surprised.</li></ul><p>You cannot place a Time Beacon if you are dead or otherwise incapacitated.</p><p>If you are unable to return to a placed Time Beacon for some reason, the resulting paradox causes severe damage to Reality: immediately add 11 Loose Ends to your Branch’s total.</p>",
+    "chat": "",
+    "synopsis": "",
+    "anomaly": "pERhmmz8N0cKYUe3",
+    "reference": "B2",
+    "quality": "attentiveness",
+    "outcomes": {},
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!rtEeSDc6jOpNod3r"
+}

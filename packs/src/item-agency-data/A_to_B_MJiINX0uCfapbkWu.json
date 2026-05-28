@@ -1,0 +1,85 @@
+{
+  "folder": "FbWHYEaYHPS7AP9Y",
+  "name": "A to B",
+  "type": "AnomalyAbility",
+  "_id": "MJiINX0uCfapbkWu",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>You can see the shortest distance between one idea and another. State the desired thought you want a target to have (<em>”I like this person,” “I should take a break,” “Tomorrow isn’t coming”</em>) and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "See the path from one idea to the next",
+    "anomaly": "QFZ908dwWMLydS1m",
+    "reference": "A5",
+    "quality": "empathy",
+    "outcomes": {
+      "success": "you know how they’ll arrive at that thought. The player portraying your target will tell you what steps need to be taken to get them there.",
+      "every3rd3": "you can name an additional thought and receive a path to that thought as well.",
+      "triscendence": "there’s only one step to get them to any thought, and you can decide what it is.",
+      "failure": "the target’s mind becomes condensed, sharpened, and begins making connections it never could before. Their suspicions, especially about you, find evidence easily. You’ve created a genius, and they’re smart enough to know you did. This person is 10 Loose Ends on their own, and are already way ahead of you."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "I wish people would...",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "Just do what I say.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "H1"
+        },
+        "answer2": {
+          "text": "Try to understand me.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "S4"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!MJiINX0uCfapbkWu"
+}

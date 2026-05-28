@@ -1,0 +1,84 @@
+{
+  "folder": "47B4BLgc3ZXiBRb2",
+  "name": "Unbound",
+  "type": "AnomalyAbility",
+  "_id": "50lWoiJtOPxKfwLF",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>If something is in your way or holding you back, relax your body and roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Become unbown by physical restraints.",
+    "anomaly": "eS7KC5SIpaSgrhpn",
+    "reference": "",
+    "quality": "subtlety",
+    "outcomes": {
+      "success": "you pass directly through it. You become intangible and can\nmove easily through walls, chains, and other obstructions for one hour.",
+      "every3rd3": "choose one:<ul>\n<li>You become invisible</li>\n<li>You become inaudible</li>\n<li>You become unmemorable to one observer</li>\n<li>You bring one person with you any time you\npass through an obstacle while using this ability.</li></ul>",
+      "failure": "you lose control of your physical\nform and become unstable. You are unable to\nfeel, hold, or interact with physical objects, but\ncan still be Harmed for the remainder of the\nmission or until you die, whichever comes first."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "I'd rather be...",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "The distraction.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "U3"
+        },
+        "answer2": {
+          "text": "Undercover.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "O3"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!50lWoiJtOPxKfwLF"
+}

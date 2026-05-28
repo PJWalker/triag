@@ -1,0 +1,80 @@
+{
+  "folder": "FbWHYEaYHPS7AP9Y",
+  "name": "Iron Stomach",
+  "type": "AnomalyAbility",
+  "_id": "5p7JX0xR3QURrWtd",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p><strong>Personal Space</strong> now requires no breath and no roll. You may activate or end its <strong>On a success</strong> effect whenever you like.</p><p>You may choose to roll for <strong>Personal Space</strong>. If you do, it affects a target of your choice using the original restrictions (the effect ends when they let out their breath).</p><p>In addition, removing targets from the effect of <strong>Gyre the Gimbal</strong> no longer requires 3s.</p>",
+    "chat": "",
+    "synopsis": "Enhance Personal Space and Gyre the Gimbal",
+    "anomaly": "QFZ908dwWMLydS1m",
+    "reference": "I9",
+    "quality": "attentiveness",
+    "outcomes": {},
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!5p7JX0xR3QURrWtd"
+}

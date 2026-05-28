@@ -1,0 +1,84 @@
+{
+  "folder": "nMw5TZVUUcixbUMm",
+  "name": "Doormat",
+  "type": "AnomalyAbility",
+  "_id": "SB0krjJXDcyxew8V",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>After a successful use of any of your Drain abilities on a mundane target, you can declare them to be your new Doormat. Roll [empathy], [presence] or [dynamism], depending on the nature of your relationship.</p>",
+    "chat": "",
+    "synopsis": "Make someone your minion",
+    "anomaly": "olkslTZqenoaKhbD",
+    "reference": "D7",
+    "quality": "empathy",
+    "outcomes": {
+      "success": "the target becomes your Doormat or replaces your previous Doormat. Your Doormat is dedicated to attending to your needs, creating situations in which you are comfortable, and assisting you with only the slightest commands needed. If they aren’t requested, they’ll fade into the background and not listen unless they’re expected to. While they remain your Doormat, they do not create a Loose End.<ul>\n<li>A Doormat gained with <b>Empathy</b> believes you are helping them through this arrangement. If you treat them cruelly or obviously break this illusion, the effect ends.</li>\n<li>A Doormat gained with <b>Presence</b> considers you a leader with a commanding energy or level of expertise/genius they’re happy to follow. If you lead them into a foolhardy or stupid situation, the effect ends.</li>\n<li>A Doormat gained with <b>Dynamism</b> is afraid of you and what will happen if they do not act in your service. If you are lenient with them, the effect ends.</li>\n</ul>\n<p>If they are replaced and the situation was heavily outside their typical personality or comfort level, they will become Loose Ends.</p>",
+      "triscendence": "you can activate this ability on any number of mundane people who can see you. They all become Doormats. The next time you select a Doormat, any remaining Doormats from this group are released.",
+      "failure": "fulfilling the target’s desires become extremely appealing to you. For the rest of the day, whenever you act in a way that isn’t directly in service to the target’s wishes, you suffer from one Burnout."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        },
+        "answer2": {
+          "text": "",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": ""
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!SB0krjJXDcyxew8V"
+}

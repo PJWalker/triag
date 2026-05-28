@@ -1,0 +1,36 @@
+{
+  "folder": "YhS2O0rkebiR5VsY",
+  "name": "The Ripple Gun",
+  "type": "Requisition",
+  "_id": "xPehXF6xi18VncnU",
+  "img": "systems/triangleagency/assets/icons/requisition-icon.png",
+  "system": {
+    "reference": "",
+    "cost": 0,
+    "description": "<p>This weapon was originally a prop from an American science fiction television show in the 1970s. It is the only device known to be able to directly disrupt Anomalous Resonance. As long as the Ripple Gun can be aimed directly at an unobstructed target Anomaly, it can be discharged to neutralize it permanently. It can expend only a single charge before it must be replenished at the Agency.</p>\n<p>Discharging the Ripple Gun for any purpose other than neutralizing the mission&rsquo;s target earns an Agent <span style=\"color: red;\">3</span> <strong>Demerits</strong>.</p>\n<p>The Ripple Gun has a built-in safety that prevents it from discharging at Resonants. Please ensure you are never standing between the Ripple Gun and its intended target.</p>",
+    "totalUses": 1,
+    "missionUses": 1,
+    "used": 0,
+    "notes": "",
+    "unlimited": false
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801408523,
+    "modifiedTime": 1725215054459,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 1700000,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!xPehXF6xi18VncnU"
+}

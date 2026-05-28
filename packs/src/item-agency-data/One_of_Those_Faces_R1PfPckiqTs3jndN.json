@@ -1,0 +1,84 @@
+{
+  "folder": "47B4BLgc3ZXiBRb2",
+  "name": "One of Those Faces",
+  "type": "AnomalyAbility",
+  "_id": "R1PfPckiqTs3jndN",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>When talking to someone, flatten your expression and roll [quality]. </p>",
+    "chat": "",
+    "synopsis": "Become unrecognized. ",
+    "anomaly": "eS7KC5SIpaSgrhpn",
+    "reference": "O3",
+    "quality": "duplicity",
+    "outcomes": {
+      "success": "you can easily make a\ntarget who has seen you before believe\nyou’ve never met, or make a target\nwho has never seen you before believe\nyou’ve met, and be able to describe\nthe place. As long as it’s a reasonable\nplace to have met one another,\nthey’ll believe it, even if it implies you\nhave a specific title, vocation, or life\nexperience that you don’t have.",
+      "every3rd3": "choose one:<ul>\n<li>The person easily believes you’ve met\nan additional time, increasing their\nconfidence and/or embarrassment.</li>\n<li>The person won’t remember\nmeeting you this time.</li>\n<li>After your conversation, the person\nwill vividly remember your face\nand voice differently. You decide\nwhat they remember, but if you\nchoose somebody they know they\nwill likely become a Loose End.</li>\n</ul>",
+      "failure": "you accidentally\ntake on their face. They see it\nclearly. You cannot remove this\nface until you succeed at this\nability with another target."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "Which do I prefer?",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "Concerts.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "L9"
+        },
+        "answer2": {
+          "text": "Cats.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "S3"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!R1PfPckiqTs3jndN"
+}

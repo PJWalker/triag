@@ -1,0 +1,84 @@
+{
+  "folder": "KJ942AoNAzO30V2s",
+  "name": "Just What You Wanted",
+  "type": "AnomalyAbility",
+  "_id": "FTNKMIZTAq6Js1Yd",
+  "img": "systems/triangleagency/assets/icons/anomalyability-icon.png",
+  "system": {
+    "description": "<p>Grab something on Reality’s prop table with someone else’s hand. Ask someone to close their eyes and reach out while you roll [quality].</p>",
+    "chat": "",
+    "synopsis": "Give somebody what they want.",
+    "anomaly": "udMNsme6WENZjHUA",
+    "reference": "J1",
+    "quality": "empathy",
+    "outcomes": {
+      "success": "they retrieve the single object\nthat they want most right now. If the target\nis a Resonant or <span class=\"color-blue\">Anomaly</span>, their Resonance\nwill attract a hostile Minor <span class=\"color-blue\">Anomaly</span> along\nwith the object (created by the GM). There\nare no restrictions to the size or specificity of\nthe object. The target must genuinely want\nit more than anything else in the world. This\nability cannot retrieve living things, but may\nretrieve their byproducts like fruit or eggs.",
+      "every3rd3": "they retrieve an\nadditional object related to their desires.",
+      "failure": "they retrieve the object\nmost likely to hurt them, and they\nsee it before it can be hidden."
+    },
+    "track": {
+      "id": "",
+      "reference": "",
+      "name": "",
+      "description": "",
+      "size": 0,
+      "value": 0,
+      "strikes": 0,
+      "milestones": {}
+    },
+    "improvement": {
+      "question": "I figure out what I need...",
+      "practiced": false,
+      "visible": false,
+      "answers": {
+        "answer1": {
+          "text": "By trying everything and seeing what sticks.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "S7"
+        },
+        "answer2": {
+          "text": "Through deep introspection.",
+          "track": {
+            "id": "",
+            "reference": "",
+            "name": "",
+            "description": "",
+            "size": 3,
+            "value": 0,
+            "strikes": 0,
+            "milestones": {}
+          },
+          "nextStage": "I3"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": 1722801363624,
+    "modifiedTime": 1722801363624,
+    "lastModifiedBy": "R4XmZNX71mcOlC2I",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "R4XmZNX71mcOlC2I": 3
+  },
+  "_key": "!items!FTNKMIZTAq6Js1Yd"
+}

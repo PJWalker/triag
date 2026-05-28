@@ -1,0 +1,22 @@
+{
+  "name": "Agent Anomalies",
+  "sorting": "a",
+  "folder": "I4JnBwIiyBFBeiI6",
+  "type": "Item",
+  "_id": "yO4nEJ41LORK5Bca",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.328",
+    "systemId": "triangleagency",
+    "systemVersion": "0.0.1",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!yO4nEJ41LORK5Bca"
+}
