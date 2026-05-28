@@ -19,15 +19,12 @@
     { "name": "pjwalker",
       "discord": "pjwalker"}
   ],
-  "url": "https://www.twincitiesrpg.com/mystyldyne/triangleagency",
-  "license": "https://www.twincitiesrpg.com/mystyldyne/triangleagency",
-  "readme": "https://www.twincitiesrpg.com/mystyldyne/triangleagency",
   "bugs": "",
   "changelog": "https://www.twincitiesrpg.com/mystyldyne/triangleagency/updates.html",
   "version": "2.2.04",
   "compatibility": {
     "minimum": "13",
-    "verified": "13.348"
+    "verified": "14.1"
   },
   "scripts": [],
   "esmodules": [
